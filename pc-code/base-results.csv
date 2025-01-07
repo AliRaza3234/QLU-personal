@@ -1,0 +1,64 @@
+,Query,Ground Truth (GT),Prediction (Pred),Exact Match
+0,"From the latest report of Genentech, tell me the key highlights of the company.","{'management_level': [], 'title': []}","{'management_level': [], 'title': ['Chief Executive Officer']}",No
+1,Director of Human-AI Collaboration,"{'management_level': [], 'title': ['Director of Human-AI Collaboration']}","{'management_level': ['Director'], 'title': ['Human-AI Collaboration']}",No
+2,Identify junior roles in cloud services.,"{'management_level': ['Junior'], 'title': []}","{'management_level': ['Junior'], 'title': ['Cloud Services']}",No
+3,List all senior engineers in robotics innovation labs.,"{'management_level': ['Senior (Individual Contributor)'], 'title': []}","{'management_level': ['Senior (Individual Contributor)'], 'title': ['Senior Engineer']}",No
+4,Director Mental Health Programs,"{'management_level': [], 'title': ['Director of Mental Health Programs']}","{'management_level': ['Director'], 'title': ['Director of Mental Health Programs']}",No
+5,Leaders of top energy companies in the US.,"{'management_level': ['CSuite and President'], 'title': []}","{'management_level': ['CSuite and President'], 'title': ['Founder']}",No
+6,VP Planetary Science,"{'management_level': [], 'title': ['VP of Planetary Science', 'Vice President of Planetary Science']}","{'management_level': ['VP'], 'title': ['VP of Planetary Science']}",No
+7,VP Construction Innovation,"{'management_level': [], 'title': ['VP of Construction Innovation', 'Vice President of Construction Innovation']}","{'management_level': ['VP'], 'title': ['VP of Construction Innovation']}",No
+8,Directors or managers leading innovation projects in IT.,"{'management_level': ['Director', 'Manager'], 'title': ['Director of Innovation', 'Manager of Innovation']}","{'management_level': ['Director'], 'title': ['Manager']}",No
+9,Chief Archaeologist,"{'management_level': [], 'title': ['Chief Archaeologist']}","{'management_level': ['Senior'], 'title': ['Chief Archaeologist']}",No
+10,VP Marine Innovation,"{'management_level': [], 'title': ['VP of Marine Innovation', 'Vice President of Marine Innovation']}","{'management_level': ['VP'], 'title': ['VP of Marine Innovation']}",No
+11,Heads of marketing for social media platforms.,"{'management_level': [], 'title': ['Head of Marketing']}","{'management_level': ['Manager'], 'title': ['Head of Marketing']}",No
+12,Chief Data Ethics Officer,"{'management_level': [], 'title': ['Chief Data Ethics Officer', 'CDEO']}","{'management_level': ['CSuite and President'], 'title': ['Chief Data Ethics Officer', 'CDEO']}",No
+13,VPs of development or executives in real estate?,"{'management_level': ['Executive and Sr. VP'], 'title': ['VP of Development', 'Vice President of Development']}","{'management_level': ['VP'], 'title': ['VP of Development']}",No
+14,Leaders of government tech initiatives in Asia.,"{'management_level': ['CSuite and President'], 'title': []}","{'management_level': ['CSuite and President'], 'title': ['Founder']}",No
+15,VP Cultural Communications,"{'management_level': [], 'title': ['VP of Cultural Communications', 'Vice President of Cultural Communications']}","{'management_level': ['VP'], 'title': ['VP of Cultural Communications']}",No
+16,Director Neural Implants,"{'management_level': [], 'title': ['Director of Neural Implants']}","{'management_level': ['Director'], 'title': ['Neural Implants']}",No
+17,VP CRISPR Applications,"{'management_level': [], 'title': ['VP of CRISPR Applications', 'Vice President of CRISPR Applications']}","{'management_level': ['VP'], 'title': ['VP of CRISPR Applications']}",No
+18,"Find all CTOs, CFOs, and CMOs in AI startups.","{'management_level': [], 'title': ['Chief Technology Officer', 'CTO', 'Chief Financial Officer', 'CFO', 'Chief Marketing Officer', 'CMO']}","{'management_level': ['Senior (Individual Contributor)'], 'title': ['Chief Technology Officer']}",No
+19,Chief Human Potential Officer,"{'management_level': [], 'title': ['Chief Human Potential Officer', 'CHPO']}","{'management_level': ['Senior (Individual Contributor)'], 'title': ['Chief Human Potential Officer']}",No
+20,Division chiefs in government,"{'management_level': [], 'title': ['Chief']}","{'management_level': ['Manager'], 'title': ['Division Chief']}",No
+21,Executives in pharma and leaders in biotech.,"{'management_level': ['Executive and Sr. VP', 'CSuite and President'], 'title': []}","{'management_level': ['Leaders'], 'title': ['Executive']}",No
+22,List board members of top banks in Europe.,"{'management_level': ['Board of Directors'], 'title': []}","{'management_level': ['Board of Directors'], 'title': []}",Yes
+23,Chief Digital Transformation Officer,"{'management_level': [], 'title': ['Chief Digital Transformation Officer', 'CDTO']}","{'management_level': ['Senior (Individual Contributor)'], 'title': ['Chief Digital Transformation Officer']}",No
+24,Director Climate Studies,"{'management_level': [], 'title': ['Director of Climate Studies']}","{'management_level': ['Manager'], 'title': ['Director of Climate Studies']}",No
+25,VP Engineering & Architecture positions,"{'management_level': [], 'title': ['VP of Engineering and Architecture', 'Vice President of Engineering and Architecture']}","{'management_level': ['VP'], 'title': ['Vice President of Engineering', 'VP of Engineering']}",No
+26,Find senior strategists in public policy organizations.,"{'management_level': ['Senior (Individual Contributor)'], 'title': ['Public Policy Strategist']}","{'management_level': ['Manager', 'Senior (Individual Contributor)'], 'title': ['Strategist']}",No
+27,Director of Quantum Initiatives,"{'management_level': [], 'title': ['Director of Quantum Initiatives']}","{'management_level': [], 'title': ['Director']}",No
+28,Find research assistants specializing in quantum computing.,"{'management_level': [], 'title': ['Research Assistant']}","{'management_level': [], 'title': ['Research Assistant']}",Yes
+29,Head of AI/ML Research,"{'management_level': [], 'title': ['Head of AI/ML Research']}","{'management_level': ['Manager'], 'title': ['Head of AI/ML Research']}",No
+30,List all leaders in the construction sector.,"{'management_level': ['CSuite and President'], 'title': []}","{'management_level': ['CSuite and President'], 'title': []}",Yes
+31,Leaders responsible for diversity and inclusion initiatives.,"{'management_level': ['CSuite and President', 'Executive and Sr. VP'], 'title': ['Head of Diversity and Inclusion']}","{'management_level': ['CSuite and President'], 'title': ['Chief Diversity and Inclusion Officer']}",No
+32,List interns contributing to social media campaigns.,"{'management_level': ['Intern'], 'title': []}","{'management_level': ['Junior'], 'title': ['Social Media Intern']}",No
+33,Chief Mindfulness Officer,"{'management_level': [], 'title': ['Chief Mindfulness Officer', 'CMO']}","{'management_level': ['Senior (Individual Contributor)'], 'title': ['Chief Mindfulness Officer', 'CMIO']}",No
+34,Chief Future Officer,"{'management_level': [], 'title': ['Chief Future Officer', 'CFO']}","{'management_level': ['Senior (Individual Contributor)'], 'title': ['Chief Future Officer']}",No
+35,Who leads the logistics team in FMCG companies?,"{'management_level': ['Director'], 'title': ['Director of Logistics']}","{'management_level': ['Senior (Individual Contributor)'], 'title': ['Logistics Manager']}",No
+36,Director Infrastructure Planning,"{'management_level': [], 'title': ['Director of Infrastructure Planning']}","{'management_level': ['Manager'], 'title': ['Director of Infrastructure Planning']}",No
+37,VP Ancient Studies,"{'management_level': [], 'title': ['VP of Ancient Studies', 'Vice President of Ancient Studies']}","{'management_level': ['VP'], 'title': ['VP of Ancient Studies']}",No
+38,Chief Marketing & Growth Officer,"{'management_level': [], 'title': ['Chief Marketing and Growth Officer']}","{'management_level': ['Senior (Individual Contributor)', 'Chief Marketing and Growth Officer'], 'title': ['Chief Marketing and Growth Officer']}",No
+39,Find assistant professors specializing in data science.,"{'management_level': [], 'title': ['Assistant Professor']}","{'management_level': ['Assistant Professor'], 'title': ['Data Science']}",No
+40,Find senior managers in manufacturing.,"{'management_level': ['Senior (Individual Contributor)', 'Manager'], 'title': []}","{'management_level': ['Senior (Individual Contributor)'], 'title': ['Manager']}",No
+41,Executives in renewable energy,"{'management_level': ['Executive and Sr. VP'], 'title': []}","{'management_level': ['Executive and Sr. VP'], 'title': ['VP']}",No
+42,Regional Director and Territory Manager positions,"{'management_level': ['Director', 'Manager'], 'title': []}","{'management_level': ['Manager'], 'title': ['Regional Director', 'Territory Manager']}",No
+43,mid-level managers and senior managers in retail,"{'management_level': ['Mid (Individual Contributor)', 'Manager'], 'title': []}","{'management_level': ['Manager', 'Senior (Individual Contributor)'], 'title': []}",No
+44,List the interns involved in environmental policy research.,"{'management_level': ['Intern'], 'title': []}","{'management_level': ['Junior'], 'title': ['Intern']}",No
+45,Head of Growth & VP Growth positions,"{'management_level': [], 'title': ['Head of Growth', 'VP of Growth', 'Vice President of Growth']}","{'management_level': ['VP'], 'title': ['Head of Growth', 'VP of Growth']}",No
+46,Chief Experience Officer positions,"{'management_level': [], 'title': ['Chief Experience Officer', 'CXO']}","{'management_level': ['Senior Individual Contributor'], 'title': ['Chief Experience Officer', 'CXO']}",No
+47,Who leads the product innovation teams in tech startups?,"{'management_level': ['Director'], 'title': ['Director of Product Innovation']}","{'management_level': ['Senior (Individual Contributor)'], 'title': ['Product Manager']}",No
+48,Executives at global pharma companies.,"{'management_level': ['Executive and Sr. VP'], 'title': []}","{'management_level': ['Executive and Sr. VP'], 'title': []}",Yes
+49,Chief Marketing Officer or VP Marketing roles in FAANG,"{'management_level': [], 'title': ['Chief Marketing Officer', 'CMO', 'VP of Marketing', 'Vice President of Marketing']}","{'management_level': ['VP'], 'title': ['Chief Marketing Officer', 'VP of Marketing']}",No
+50,VP Augmented Intelligence,"{'management_level': [], 'title': ['VP of Augmented Intelligence', 'Vice President of Augmented Intelligence']}","{'management_level': ['VP'], 'title': ['VP of Augmented Intelligence', 'Vice President of Augmented Intelligence']}",No
+51,University President and Provost,"{'management_level': ['CSuite and President'], 'title': ['Provost']}","{'management_level': ['CSuite and President'], 'title': []}",No
+52,List junior associates in investment banking teams.,"{'management_level': ['Junior'], 'title': ['Associate']}","{'management_level': ['Junior'], 'title': ['Associate']}",Yes
+53,Chief Epidemiologist,"{'management_level': [], 'title': ['Chief Epidemiologist']}","{'management_level': ['Senior (Individual Contributor)'], 'title': ['Chief Epidemiologist']}",No
+54,sr. vp global operations,"{'management_level': ['Executive and Sr. VP'], 'title': []}","{'management_level': ['Executive and Sr. VP'], 'title': ['Senior Vice President']}",No
+55,Find mid-level contributors in healthcare.,"{'management_level': ['Mid (Individual Contributor)'], 'title': []}","{'management_level': ['Mid (Individual Contributor)'], 'title': ['Nurse', 'Nursing']}",No
+56,List leaders or directors in environmental projects.,"{'management_level': ['CSuite and President', 'Director'], 'title': []}","{'management_level': ['CSuite and President'], 'title': ['Director']}",No
+57,Identify senior executives in fintech.,"{'management_level': ['Executive and Sr. VP'], 'title': []}","{'management_level': ['Executive', 'Sr. VP'], 'title': ['Senior (Individual Contributor)']}",No
+58,Executives in fintech startups focusing on compliance.,"{'management_level': ['Executive and Sr. VP'], 'title': ['Chief Compliance Officer']}","{'management_level': ['Executive and Sr. VP'], 'title': ['Compliance Officer', 'Compliance Executive']}",No
+59,Chief Alternative Energy Officer,"{'management_level': [], 'title': ['Chief Alternative Energy Officer', 'CAEO']}",N/A,No
+60,List board members in the banking sector.,"{'management_level': ['Board of Directors'], 'title': []}","{'management_level': ['Board of Directors'], 'title': []}",Yes
+61,VP People Operations & Culture,"{'management_level': [], 'title': ['VP of People Operations and Culture', 'Vice President of People Operations and Culture']}","{'management_level': ['VP'], 'title': ['VP of People Operations and Culture']}",No
+62,Director Quantum Biology,"{'management_level': [], 'title': ['Director of Quantum Biology']}","{'management_level': ['Manager'], 'title': ['Director of Quantum Biology']}",No
