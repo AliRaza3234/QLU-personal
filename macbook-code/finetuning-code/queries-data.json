@@ -1,0 +1,67 @@
+{
+    "use_case_1" : [
+        "Looking for a ceo for our startup in Silicon Valley.",
+        "Hiring a vp of sales with experience in tech companies.",
+        "Need a cto at XYZ Corp who is graduated in CS from harvard.",
+        "Searching for a COO based in Los Angeles with prior experience in business strategy.",
+        "Seeking a vp of tech with Agile certification for our team.",
+        "Looking for an architect specializing in commercial buildings.",
+        "We need a ciso for our security firm with a strong background in encryption and networking domains.",
+        "Hiring a cfo for financial department in our firm.",
+        "Looking for a cmo at ABC Agency who has prior proven experience in marketing for large tech companies",
+        "Searching a CSO to lead our strategy team with expertise in project planning and educational background from stanford business school."
+      ],
+      
+    "use_case_2" : [
+        "Looking for a Chief Executive Officer (CEO) in the tech sector, preferably with experience at a startup.",
+        "Searching for a VP of Engineering at Google who has led large teams.",
+        "Need a Director of Marketing with a strong background in digital strategies for a healthcare company.",
+        "Seeking a Senior Software Engineer with expertise in Python and experience at Amazon.",
+        "Looking for a Head of Product Development at a leading automotive firm, must be currently employed.",
+        "Searching for a current CTO with a proven track record in cybersecurity.",
+        "Need a VP of Sales in the pharmaceutical industry with at least 10 years of experience.",
+        "Looking for a Project Manager who has worked in both Agile and Waterfall methodologies.",
+        "Seeking a Regional Manager for a retail chain located in the Midwest, must have experience in retail management.",
+        "Searching for a Chief Financial Officer (CFO) with experience in mergers and acquisitions."
+      ],
+
+    "use_case_3" : [
+        "Find executives in Innovations Corp in San Francisco",
+        "Looking for a Senior Managers based in New York",
+        "Searching for Vice Presidents for a public sector companies",
+        "Hiring executives a leading e-commerce company",
+        "Need a Manager for our Chicago office",
+        "Seeking Director of Operations in the manufacturing industry",
+        "Recruiting for fresh graduate engineering roles at Startup Inc.",
+        "Wanted: Experienced Senior Directors for corporates in Seattle",
+        "Searching for Middle Management positions in various industries",
+        "Looking for senior managers with expertise in Agile methodologies"
+    ],
+    "use_case_4" : [
+        "Looking for a Senior Manager in New York City for our tech startup.",
+        "Need a Project Manager with Agile experience at XYZ Corporation.",
+        "Searching for Operations Manager candidates in the Los Angeles area.",
+        "Hiring a Product Manager to lead our marketing team in Chicago.",
+        "Seeking a Senior Project Manager familiar with construction management.",
+        "In need of a Marketing Manager, but not a generic Manager role.",
+        "Looking for a Supply Chain Manager with 10+ years of experience.",
+        "Want to hire an IT Manager for a remote position at ABC Inc.",
+        "Searching for an Assistant Manager for our retail outlet in Miami.",
+        "Looking for a Senior Operations Manager with a background in logistics."
+      ],
+    "use_case_5" : [
+        "Looking for a top-tier project leader in San Francisco to spearhead our new initiatives.",
+        "Need a data guru with expertise in machine learning for a consulting role at Tech Innovations.",
+        "Seeking a marketing head who has experience in digital strategies and can work in New York.",
+        "Searching for an analytics whiz to join our team as a data science expert in Los Angeles.",
+        "I want to connect with a seasoned program manager who can lead our operations in Chicago.",
+        "Looking for a chief strategy officer with a strong background in financial services for a role at Big Bank Corp.",
+        "Need a senior UX designer with leadership experience for our startup based in Austin.",
+        "Seeking an experienced sales executive to drive growth in the Southeast region for our company.",
+        "Searching for a compliance specialist with expertise in healthcare regulations in the Washington D.C. area.",
+        "Looking for a product owner who has a strong understanding of agile methodologies for a remote position."
+      ]
+
+   
+
+}

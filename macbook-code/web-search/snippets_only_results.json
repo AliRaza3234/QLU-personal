@@ -1,0 +1,82 @@
+[
+  {
+    "query": "Does Meta produce wearable devices?",
+    "answer": "<answer>\nYes, Meta produces wearable devices. The context mentions that Meta unveiled its first true AR glasses, dubbed Orion, during a keynote speech by Mark Zuckerberg at Meta Connect 2024. Additionally, it discusses Meta's focus on wearable technology and the creation of a dedicated \"Wearables\" department, indicating a commitment to developing wearable devices. Furthermore, it highlights that Meta's wearables, such as the Ray-Bans, are performing well in the market.\n</answer>"
+  },
+  {
+    "query": "List companies that are involved in wearable technology.",
+    "answer": "<answer>\nThe companies involved in wearable technology mentioned in the context include:\n\n1. Tapestry\n2. Doodle Labs\n3. Jabra Hearing\n4. SanMar\n5. Princess Polly\n6. FIT:MATCH.ai\n7. Walking Tree\n8. Cala Health\n9. StrongArm Technologies, Inc.\n10. Hinge Health\n11. Petkit\n12. Whoop\n13. Neosensory\n14. Silvertree\n15. COROS\n16. Apollo\n17. Apple\n18. Epson\n19. Fujitsu\n20. Google\n21. Microsoft\n22. Vuzix\n23. ASUS\n24. Fitbit\n25. Garmin\n26. Honeywell\n27. WHOOP\n28. Neurable\n29. SAMSUNG\n\nThese companies are involved in various aspects of wearable technology, including health, fitness, and industrial applications.\n</answer>"
+  },
+  {
+    "query": "Does Apple manufacture wearable gadgets like smartwatches or fitness bands?",
+    "answer": "<answer>\nYes, Apple manufactures wearable gadgets such as smartwatches, specifically the Apple Watch, which has made smartwatches the wearable of choice. The context also mentions the possibility of Apple releasing a purpose-built fitness tracker, indicating their involvement in fitness bands as well. Additionally, wearable technology includes both smartwatches and fitness trackers, which are part of Apple's product offerings.\n</answer>"
+  },
+  {
+    "query": "Is Samsung a leader in the wearable device market?",
+    "answer": "<answer>\nSamsung is not a leader in the wearable device market. According to the context, while Samsung shipped 11.5 million fitness bands and smartwatches in the first three quarters of 2024, it held a market share of only 8.3%. In comparison, Huawei was the largest smartwatch vendor during the same period with 23.6 million units shipped and a 16.9% market share, while Apple ranked second with 22.5 million shipments and a 16.2% market share. Therefore, Samsung ranks behind both Huawei and Apple in the wearable device market.\n</answer>"
+  },
+  {
+    "query": "Identify companies producing wearable healthcare devices.",
+    "answer": "<answer>\nThe companies producing wearable healthcare devices mentioned in the context include:\n\n1. Apple Inc.\n2. Medtronic\n3. Fitbit\n4. Omron Corporation\n5. Withings\n6. MINTTIHEALTH\n7. imec\n8. Intelesens Ltd\n9. AIQ Smart Clothing\n10. Hinge Health\n11. Petkit\n12. Whoop\n13. Neosensory\n14. Silvertree\n15. COROS\n16. Apollo Neuroscience\n17. Ultrahuman\n18. Huawei Technologies Co.\n19. Xiaomi Corporation\n20. Abbott Laboratories\n21. BioIntelliSense\n22. Philips\n\nThese companies are noted for their contributions to the development of wearable medical devices that monitor, diagnose, and track health. \n</answer>"
+  },
+  {
+    "query": "Give me companies with revenue greater than 100 million USD.",
+    "answer": "<answer>\nThe context indicates that there are over 6,000 companies in the world that have annual revenues of $100 million or more. Additionally, in the United States, 87% of firms with revenue greater than $100 million are private. Specific examples of companies with revenue greater than $100 million include Walmart, which has a revenue of $673.81 billion, and Amazon, with a revenue of $620.12 billion. The context also mentions that the largest 50 companies have annual revenues exceeding $130 billion, with Walmart and Amazon being among them.\n</answer>"
+  },
+  {
+    "query": "List all companies with annual revenue exceeding $1 billion.",
+    "answer": "<answer>\nThe context provides information about companies with annual revenues exceeding $1 billion, but it does not list specific companies. It mentions that there are \"top 10000 companies and startups in United States with more than $1b in revenue\" and that \"the largest 50 companies\" have revenues exceeding $130 billion. Additionally, it states that \"there are 1922 publicly traded companies in the world with sales of $1 billion or more.\" However, no specific names of companies are provided in the context. Therefore, I cannot provide a list of companies with annual revenue exceeding $1 billion based on the given information.\n</answer>"
+  },
+  {
+    "query": "Verify whether Tesla's revenue is greater than $500 million.",
+    "answer": "<answer>\nYes, Tesla's revenue is greater than $500 million. The context states that Tesla's service and other revenue for the quarter was $2.79 billion, which is significantly higher than $500 million. Additionally, Tesla earned $53.8 billion in sales revenue in 2021, further confirming that their revenue exceeds $500 million.\n</answer>"
+  },
+  {
+    "query": "Do startups with revenue over $10 million exist in the fintech sector?",
+    "answer": "<answer>\nYes, startups with revenue over $10 million exist in the fintech sector. For example, Falcon, a fintech infrastructure company, has acquired over 40 enterprise customers and is earning more than $10 million in annual revenue.\n</answer>"
+  },
+  {
+    "query": "Check whether Amazon's revenue surpasses $100 billion.",
+    "answer": "<answer>\nYes, Amazon's revenue is on track to surpass $100 billion. Specifically, Amazon Web Services (AWS) is projected to surpass $100 billion in annual sales by the end of 2024, as noted in the context. Additionally, in Q4 2024, consensus estimates project Amazon's quarterly revenues to reach $186 billion, which also indicates that Amazon's overall revenue exceeds $100 billion.\n</answer>"
+  },
+  {
+    "query": "Does IBM belong to the technology industry?",
+    "answer": "<answer>\nYes, IBM belongs to the technology industry. It is described as a multinational technology company that provides integrated solutions leveraging information technology. Additionally, it is noted that IBM is the largest industrial research organization in the world, indicating its significant role in the technology sector.\n</answer>"
+  },
+  {
+    "query": "Verify if ExxonMobil operates in the oil and gas industry.",
+    "answer": "<answer>\nYes, ExxonMobil operates in the oil and gas industry. It is described as a \"global crude oil and natural gas exploration and production company\" and is one of the world's largest oil and gas companies, formed through the merger of Exxon Corporation and Mobil Corporation in 1999. Additionally, it is noted as one of the world's top three oil and energy concerns, with investments and operations in petroleum and natural gas, among other sectors.\n</answer>"
+  },
+  {
+    "query": "Is Google classified under the advertising and media sector?",
+    "answer": "<answer>\nYes, Google is classified under the advertising and media sector. The context indicates that Google has a dominant position in the advertising market, controlling a significant share of search ads, and it is described as \"an advertising agency disguised as a search engine.\" Additionally, there are references to Google's involvement in digital advertising and its competition with legacy media, which further supports its classification in this sector.\n</answer>"
+  },
+  {
+    "query": "Identify whether companies like Pfizer belong to the pharmaceutical industry.",
+    "answer": "<answer>\nYes, companies like Pfizer belong to the pharmaceutical industry. The context explicitly identifies Pfizer as a major player in the global pharmaceutical industry, listing it among its biggest competitors and noting its significant market share in the pharmaceutical drug market. Additionally, Pfizer develops and produces medicines and vaccines, which are key components of the pharmaceutical sector.\n</answer>"
+  },
+  {
+    "query": "Check if SpaceX is part of the aerospace and defense industry.",
+    "answer": "<answer>\nYes, SpaceX is part of the aerospace and defense industry. It is described as a private aerospace company and is noted for its significant valuation within the aerospace and defense sector, surpassing companies like Boeing and Raytheon Technologies. Additionally, the context mentions that the aerospace, aviation, and defense industry in Texas, where SpaceX is headquartered, offers a rich supply chain and skilled workforce, further indicating SpaceX's involvement in this industry.\n</answer>"
+  },
+  {
+    "query": "Does Microsoft operate in the cloud computing sector?",
+    "answer": "<answer>\nYes, Microsoft operates in the cloud computing sector. It is described as a \"leading global provider of cloud computing services for businesses of all sizes\" and offers an integrated and open cloud platform known as Microsoft Cloud, which includes Microsoft Azure, its public cloud computing platform. Azure provides a broad range of cloud services and solutions tailored for various industries, indicating Microsoft's significant role in the cloud computing market.\n</answer>"
+  },
+  {
+    "query": "Which companies are involved in the green energy industry?",
+    "answer": "<answer>\nThe companies involved in the green energy industry in India, as mentioned in the context, include:\n\n1. Adani Green Energy Ltd\n2. Tata Power\n3. ReNew\n4. Suzlon Energy\n5. Sterling and Wilson\n6. Azure Power\n7. JSW Energy\n8. Inox Wind\n\nAdditionally, other companies listed as green energy stocks include Reliance Industries, L&T, and Indian Oil Corporation (IOC). These companies are associated with the renewable energy sector, focusing on solar and wind energy production among other green energy initiatives.\n</answer>"
+  },
+  {
+    "query": "Verify if Facebook is categorized under social media platforms.",
+    "answer": "<answer>\nYes, Facebook is categorized under social media platforms. The context mentions that \"the most popular social media platforms include Facebook, YouTube, WhatsApp, and Instagram,\" indicating that Facebook is indeed classified as a social media platform. Additionally, it refers to Facebook as a social networking site, which is a type of social media platform.\n</answer>"
+  },
+  {
+    "query": "Who are the competitors of Nvidia in the GPU market?",
+    "answer": "<answer>\nNvidia's competitors in the GPU market include Advanced Micro Devices (AMD), which competes with Nvidia's GeForce series through its Radeon series. Additionally, Intel is mentioned as a leading manufacturer in the semiconductor space, although it primarily focuses on CPUs. Cerebras Systems is also noted for differentiating itself from Nvidia with its unique chip architecture. Overall, AMD is highlighted as Nvidia's closest competitor in the GPU market. \n</answer>"
+  },
+  {
+    "query": "List companies that dominate the e-commerce industry.",
+    "answer": "<answer>\nThe companies that dominate the e-commerce industry include:\n\n1. Amazon\n2. Alibaba\n3. Shopify\n4. eBay\n5. Walmart\n6. Target\n7. Best Buy\n8. Jingdong (JD.com)\n\nThese companies are highlighted in various context chunks as leading players in the e-commerce market based on market cap and sales. Amazon is consistently noted as the largest e-commerce company globally. Alibaba is also recognized as a significant player, particularly in China. Shopify, eBay, and others are mentioned as top e-commerce companies as well. \n</answer>"
+  }
+]

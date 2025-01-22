@@ -1,0 +1,1050 @@
+,Results,,,,Comments ,,,,Question
+Show customer service representatives.,Job title(current),,,,,,,,
+Find sales executives.,Job title(current),,,,,,,,
+Show network engineers.,Job title(current),,,,,,,,
+Show HR managers.,Job title(current),,,,,,,,
+Find marketing specialists.,Job title(current),,,,,,,,
+find project managers,"Job title(current) 
+Keyword/Skill(current)",,,,,,,,
+"Find senior software engineers or data scientists with at least 10 years of experience, who have worked at Google, Microsoft, or Facebook in the past, but are currently employed at a technology company like Tesla or Apple. They should have skills in Python, AI, or cloud computing, hold a master's degree in computer science from universities like Stanford or MIT, and be located in New York, San Francisco, or London. The candidates should have experience in both the finance and healthcare industries.","Job Title(Current)
+Company(Current)
+Keyword.Skill(Current)
+Location(Current)
+Education(Masters)
+School/University",,,,"Issue01: Company event should be ""Current AND Past""
+
+Issue02: Experience is not selecting
+
+Issue03: Inconsistency in Job Title, Sometimes Senior Software Engineer is works and sometimes didn't work.",,,,
+"Find me data analysts who are experts in Excel, Tableau, SQL, data visualization, and statistical analysis, based in London, UK, and not from the telecommunications or vehicle transportation industry.","Job Title(Current)
+Company(Current) Excluded
+Keyword/Skills (Current or Past)
+",,,,"Issue01: ""Not from this industry"" is being sent to company generation and it isnt excluding, rather it has generated the companies and all are selected
+
+Issue02: Location filter mapping issue",,,,Question: Should those industries be even get sent to Comp gen?
+"Find someone who is currently a Senior Software Engineer at Facebook, previously worked at Google, has 5-10 years of experience in software development, holds a Bachelor's degree in Computer Science from Stanford University, and is based in San Francisco","Job Title(Current)
+Company (Current facebook, Past Google)
+Experience (5-10)
+Keyword/Skill (Current or Past)
+Education (Bachelor)
+School/University",,,,Issue01: Location is not getting mapped correctly,,,,
+Looking for presidents who have also worked as a General Manager or SVP who have led a P&L in a relevant/ adjacent industrial tech company for at least five years of $500M+.,"Management Level(Past)
+Company (Current or Past)
+Keyword/Skill(Current or Past)
+",,,,"Issue: Current and Past has been selected and companies are getting assigned on both time frames evenly on a shorten prompt that shouldnt do that, ""Industrial tech companies with a revenue of $500M+.""",,,,
+President of the Intelligent Operating Solutions business group of Fortive Corporation based in the united states from similar industrial technology companies with P&L experience,"Management(Past)
+Company(Current And Past)
+Keyword/Skill(Current or Past)",,,,,,,,
+,"Management Level(Current)
+Company (Current or Past)
+Location (Current)",,,,Issue:  Finland based grocery companies should get generated but shorten prompt sometimes misses finland,,,,
+"GM or VP for grocery companies in finland, make sure they have relevant experience","Management Level(Current)
+Company (Current)",,,,,,,,
+Mexican human resources directors who have experience in the financial services industry,"Job Title(Current)
+Company(Current or past)
+Location(Current)",,,,,,,,
+Senior associate with 3 years of digital infrastructure investing experience at a private equity fund in the US.,"Job Title(Current)
+Company(Current)
+Experience
+Location(Current)",,,,,,,,Question: Should Shorten prompt add digital infra investing companies as well or is that an issue.
+"find General managers with P&L management experience of at least $200 million USD at companies in Wisconsin, Minnesota and Illinois at the top companies in MedTech. Only show people with experiences in spaces like or similar to assistive devices, rehab, home care, mobility, patient handling, ostomy care, urology, renal. do this as an expert financial analyst in the MedTech space.","Management Title
+Company(Current)
+Keyword(Current or Past)
+Location(Current)
+",,,,"Issue: more relevent skills should get selected with ""P&L management""",,,,
+VP of Engineering at Semiconductor companies based in Europe and MENA,"Job Title(Current)
+Company(Current)
+Location(Current)                ",,,,,,,,
+Sales Executives at Startups that have raised between Series A and Series D in the last 2 years,"Job Title(Current)
+Company(Current)",,,,"Issue: This prompt generates similar titles wrongly which effect the results. ""Sales Executive"" should be apply for the job title",,,,
+"The Chief People Officer (“CPO”) will be a key member of the Senior Executive Team at Restaurant Technologies, responsible for developing and executing the human capital strategy that supports the company’s ambitious growth trajectory. This role is integral to fostering a high-performance culture, driving employee engagement, and ensuring operational excellence across all HR functions. The CPO will act as a strategic advisor to the CEO and senior leadership team, while maintaining relationships with the board and other key stakeholders. The ideal candidate will be a forward-thinking leader with a proven track record in high-growth environments, capable of aligning the HR function with the company’s strategic objectives and ensuring that RT remains an employer of choice in the industry. As with any employee at Restaurant Technologies, this role will embody and uphold their core organizational values: Customer, Character, Commitment, Community, and Courage, in all aspects of leadership, decision making, and interactions within and beyond the organization. These values define our culture, drive our actions, and shape our reputation as an ethical and responsible organization, on the foundation of diversity, equity and inclusion.","Job Title (Current)
+Company(Current)
+Keyword/Skills(Current)",,,,"Issue: Inconsistent behavior everytime this prompt is entered each time the results are different. 
+
+WRONGLY GENERATING THE SIMILAR TITLES FOR ""CPO"", CPO IS A EXECUTIVE POST FOR WHICH THEIR IS NO NEED TO GENERATE SIMILAR TITLES",,,,
+"find me the next ceo for udemy, previous experience needs to include digital marketplace or e-learning experience","Job Title (Current)
+Company(Current & Past)",,,,Issue: Udemy is the hiring company yet it got selected. The rest worked fine.,,,,
+I want to find all the senior executives (c-suite executives and heads of North America and Europe) who are no longer at FTI Consulting and have left the firm within the last 5 years,"Management level(past)
+Company(past)
+Location(past)",,,,Issue: More locations based on north america should be generated.,,,,
+owners of ketamine psychiatry clinic in the US,"Management level(Current)
+Company(Current)
+Location(Current)",,,,Issue: Lesser companies since most that are generated cant be mapped,,,,
+Tell me all CEOs who are also physicians (MD or DO) who lead health care organizations that are backed by private equity,"Job Title(Current)
+Company(Current)",,,,,,,,
+"Looking for a Marketing Manager with 7+ years of experience in Digital Marketing, SEO, and Content Strategy, with a Master's in Marketing, currently or previously employed at HubSpot, in the Marketing and Advertising industry, based in Boston, MA","Job Title(Current)
+Company(Current OR Past)
+Keyword/Skills(Current OR Past)
+Location(Current)
+Education",,,,,,,,
+Chemical engineers at companies with Downstream refining with 20+ years of experience based in Texas,"Job Title(Current)
+Company(Current)
+Experience
+Location(Current)",,,,,,,,
+I am looking for a magento developer that ideally has experience in e-commerce. We are an ecommerce fashion platform and would love to see developers from that space.,"Job Title(Current)
+Company(Current)
+Keyword/Skills(Current OR Past)",,,,,,,,
+"find me a Machine Learning Engineer who has a strong background and Wants to work in a startup. Has an understanding and excitement of the dynamics of an early-stage startup. Has a mix of practical product building/engineering experience with AI research, is passionate about mental health and wants to do work that is impactful for people's lives. Someone who wants to win. Not just smart but also have a relentless drive in the work they do. Must have worked on challenging ML at its core problems.Knows how to tweak models and has experience fine-tuning or training small models, making actual adaptations to models. Has a deep familiarity with LLMs and has built things with them before - even in an experimental environment. Has experience and abilities to rapidly prototype new models (via supervised fine-tuning or similar methodologies) and validate them. Advantage: Experience with RLHF and other feedback methodologies as well as managing red-teaming efforts.The mentality and ability to roll up their sleeves and work with other engineers/departments.","Job tilte (Current)
+Keywords/Skills(Current OR Past)",,,,Issue: Shorten prompt is only startups,,,,
+junior powerbi user at private equity firm,"Job Title(Current)
+Company(Current)
+Keyword/Skills(Current OR Past)",,,,,,,,
+systematic credit portfolio manager,"Job Title(Current)
+Company(Current)
+Keyword/Skills(Current OR Past)",,,,Issue: It is a managing post and similar titles should not be generated for it.,,,,its not a executive position it should generate similar titles 
+data analysts that use powerbi at a private equity firm,"Job Title(Current)
+Company(Current)
+Keyword/Skills(Current OR Past)",,,,,,,,
+"find robotics engineer in the united states, who has experience in machine learning, reinforcement learning, computer vision, infrastructure, LLM, from companies that are related to Defense and Space Manufacturing","Job Title(Current)
+Company(Current)
+Keyword/Skills(Current OR Past)(OR)
+Location(Current)",,,,,,,,
+"sourced best candidates that have experience in machine learning and llm, have 3-10 years of work experience and are located in California","Experience(Current)
+Keyword/Skills(Current OR Past)(OR)
+Location(Current)",,,,Issue: Chose shorten prompt as california companies.,,,,
+"Source CEO, Vice President and Director of Manufacturing in Big Software Automotive companies, and located in California","Job Title(Current)
+Management(Current)
+Company(Current)
+Location(Current )",,,,,,,,
+"CPA, Big 4 Accounting firms, manufacturing companies, West Coast of the USA, $5B segment of a $7B global agricultural company, looking for a Segment Controller","Job Title(Current)
+Management(Current)
+Company(Current)
+Location(Current )",,,,Issue: CPA Certification not being included in the fillers of skills/education,,,,
+Vice President of IT and Technology at logistics and distribution companies base din the United States with a revenue of over $25B and pretend you are a financial analyst and technical,"Job Title(Current)
+Company(Current)
+Location(Current )",,,,,,,,
+"All firms that are target companies for Central Garden & Pet in their search for a CFO of their pet segment business.""","Job Title(Current)
+Company(Current)",,,,,,,,"Question: I dont even know what the shorten prompt should be but here is what got formed: ""Companies within the pet industry or related sectors."""
+Find me marketing leaders in fintech startups focused on customer acquisition in Southeast Asia.,"Job Title(Current)
+Company(Current)
+Skills(Current OR Past)
+Location(Current)",,,,,,,,
+I need product managers in e-commerce platforms with experience in scaling marketplaces in the U.S.,"Job Title(Current)
+Company(Current)
+Skills(Current OR Past)
+Location(Current)",,,,,,,,
+Identify UX/UI designers who specialize in mobile app design for fintech applications in Europe.,"Job Title(Current)
+Company(Current)
+Skills(Current OR Past)
+Location(Current)",,,,,,,,
+I'm looking for CTOs at blockchain companies with expertise in Web3 and DeFi in Singapore.,"Job Title(Current)
+Company(Current)
+Skills(Current OR Past)
+Location(Current)",,,,,,,,
+Find senior data scientists in healthcare AI startups based in Canada.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+I need sales directors at SaaS companies focused on B2B enterprise sales in the U.K.,"Job Title(Current)
+Company(Current)
+Location(Current )",,,,Issue: B2B sales not being selected in the Skills Filter ,,,,
+Find CPOs (Chief Product Officers) in cybersecurity startups with experience in building B2C products in the U.S.,"Job Title(Current)
+Company(Current)
+Location
+Keywords/Skills(Current OR Past)",,,,Location event is not consistent,,,,
+Identify head of customer success roles in SaaS-based companies with a focus on AI/ML products in California.,"Job Title(Current)
+Keyword/Skill(Current OR Past)
+Company(Current)",,,,,,,,
+Find growth marketing leaders at edtech platforms targeting emerging markets like India or Brazil.,"Job Title(Current)
+Company(Current)
+Keywords/Skills(Current OR Past)
+Location(Current)",,,,,,,,
+I'm looking for CFOs with fundraising experience in climate tech startups based in Europe.,"Job Title(Current)
+Company(Current)
+Keywords/Skills(Current OR Past)
+Location(Current)",,,,,,,,
+Identify VPs of Engineering in telemedicine startups in the Asia-Pacific region.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+I need blockchain developers who have worked on decentralized finance (DeFi) projects in Africa.,"Job Title(Current)
+Company(Current OR Past)
+Keyword(Current OR Past)
+Location(Current)	",,,,Issue: Sometimes companies are not generated (3 out of 10 times),,,,
+Find machine learning engineers working on computer vision in autonomous vehicle companies in the U.S.,"Job Title(Current)
+Company(Current)
+Keyword(Current OR Past)
+Location(Current)        ",,,,,,,,
+Identify HR leaders in SaaS companies who have experience scaling remote teams in Europe.,"Job Title(Current)
+Company(Current)
+Keyword(Current OR Past)
+Location(Past)        ",,,,,,,,
+I need C-suite executives with expertise in scaling SaaS platforms in Latin America.,"Management Level(Current)
+Company(Current)
+Keywords/Skills(Current OR Past)
+Location(Current)",,,,,,,,
+Find operations managers at logistics startups using AI for route optimization in Southeast Asia.,"Job Title(Current)
+Company(Current)
+Keyword/Skill(Current OR Past)
+Location(Current)",,,,Low priority: Ran this prompt 10 times and 1 time similar titles were not genarated,,,,
+I'm looking for business development leaders in AI/ML SaaS companies that focus on healthcare in Canada.,"Job Title(Current)
+Company(Current)
+Keyword/Skills(Current OR Past)
+Location(Current)",,,,Critical: Results are not consistant for Job Title.,,,,
+Identify CTOs with experience in developing AR/VR platforms for retail companies in Europe.,"Job Title(Current)
+Company(Current)
+Keyword/Skills(Current OR Past)
+Location(Past)",,,,Issue: Location should not apply in past,,,,
+Find CEOs with experience in growing SaaS startups from Series A to IPO in the U.S.,"Job Title(Current OR Past)
+Company(Current OR PAst)
+Keyword/Skills(Current OR Past)
+Location(Current AND Past)",,,,,,,,
+I need heads of sales in financial services companies focusing on AI/ML solutions in New York.,"Job Title(Current OR Past)
+Company(Current OR PAst)
+Keyword/Skills(Current OR Past)
+Location(Current AND Past)",,,,"Issue: Similar titles are not getting generated. Inconsistent behavior.
+
+""head of sales in finance"" prompt shows similar titles but for this prompt similar titles are not getting generated.",,,,
+Find people for the COO role at deep tech AI companies based in Japan.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+Identify marketing heads at wellness tech startups with experience in D2C channels in California.,"Job Title(Current)
+Company(Current OR Past)
+Location(Current OR Past)",,,,,,,,
+I'm looking for chief legal officers in cybersecurity firms in Israel.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+Find engineering leaders at mobility-as-a-service (MaaS) companies in Europe.,"Job Title(Current)
+Company(Current)
+Keyword/Skill(Current OR Past)
+Location(Current)",,,,,,,,
+Identify experts in digital transformation for energy sector SaaS platforms in the Nordics.,"Company(Current OR Past)
+Keyword/Skill(Current)
+Location(Current)",,,,"Issue: ""Job Title"" filter should applying and similar titles should also be generated",,,,
+I need people for the VP of Operations role in B2B SaaS companies based in Singapore.,"Job Title(Current OR Past)
+Company(Current)
+Location(Current)",,,,"Issue: Executive role ""VP of Operations"" is mentioned in the prompt so there is no need to generate similar titles for it.",,,,
+Find product marketing managers in medtech startups in the U.S.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,"Issue: ""Product marketing manager"" is a managing role so similar titles should not be generated for it.",,,,
+Identify heads of corporate strategy at AI-driven SaaS companies focused on fintech in Europe.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,"Issue: ""Heads of corporate strategy"" is more of a general executive statement than a specific title. It broadly refers to senior roles responsible for corporate strategy. Similar titles should be generated for it.",,,,
+I'm looking for CROs (Chief Revenue Officers) at climate tech startups based in Australia.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+Find data scientists specializing in NLP at SaaS startups focused on the legal sector in the U.S.,"Job Title(Current)
+Company(Current)
+Keyword/Skill(Current OR Past)
+Location(Current)                ",,,,,,,,
+Identify growth hackers for edtech startups with a focus on K-12 in India.,"Job Title(Current)
+Company(Current)
+Keyword/Skill(Current OR Past)
+Location(Current)""		",,,,"Issue: Somtimes shorten prompt is selected as ""edtech companies"", it should be ""ed tech startup companies""",,,,
+I need people for the CFO role at sustainability-focused startups in Scandinavia.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,Issue: 2 out of 10 Company filter failed to apply.,,,,
+Find technical recruiters with experience in scaling AI/ML teams in the U.S.,"Job Title(Current)
+Company(Current OR Past)
+Location(Current OR Past)",,,,,,,,
+I'm looking for legal advisors with experience in intellectual property for SaaS startups in Germany.,"Job Title(Current)
+Company(Current)
+Keyword/Skill(Current OR Past)
+Location(Current OR Past)",,,,,,,,
+Identify customer support leaders in e-commerce platforms in South America.,"Job Title(Current)
+Company(Current)
+Keyword/Skill(Current OR Past)
+Location(Current)",,,,,,,,
+Find VPs of Product Management in AI-powered fintech platforms in the U.K.,"Job Title(Current)
+Company(Current)
+Keyword/Skill(Current OR Past)
+Location(Current)",,,,"Issue: The prompt explicitly mentions the title ""VP of Product Management,"" which is a specific executive role. According to the requirements, when a specific executive title is mentioned, only that title should be generated, without adding similar titles unless explicitly requested by the user.",,,,
+I need content marketing experts in SaaS platforms focused on B2B in Asia.,"Company(Current)
+Keyword/skill(Current OR Past)
+Location(Current)",,,,Issue: Job Tittle Filter is not applying (ai services issue),,,,
+Find sales executives in healthtech startups focusing on insurance tech in Europe.,"Job Title(Current)
+Company(Current)
+Location(Current)			",,,,,,,,
+Identify design leaders in AR/VR startups in the U.S.,"Job Title(Current)
+Company(Current)
+Keyword/Skill(Current OR Past)
+Location(Current)			",,,,Issue: Shorten prompt should also include location for better results.,,,,
+I'm looking for people in the COO role at logistics SaaS platforms focused on last-mile delivery in Africa.,"Job Title(Current)
+Company(Current)
+Location(Current)			",,,,,,,,
+Find backend engineers specializing in API development for fintech companies in North America.,"Job Title(Current)
+Company(Current)
+Keyword/Skill(Current OR Past)
+Location(Current)			",,,,,,,,
+Identify HR managers with experience in diversity and inclusion at SaaS companies in Europe.,"Job Title(Current)
+Company(Current OR Past)
+Keyword/Skill(Current OR Past)
+Location(Current OR Past)                        ",,,,Issue: Company events are not consistent for this prompt,,,,
+I need growth marketing experts for AI-driven SaaS platforms in the Middle East.,"Company(Current OR Past)
+Keyword/Skill(Current OR Past)
+Location(Current)",,,,"Issue: Job Title & Similar Titles related to ""Growth marketing experts"" are not applying",,,,
+Identify design leaders in AR/VR startups in the U.S.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,"Issue: 3 out of 10 prompt is returning ""Design Leader"" it should generate similar titles for it.",,,,
+Identify product leaders at telemedicine platforms in Latin America.,"Job Title(Current)
+Company(Current)
+Keyword/Skill(Current OR Past)
+Location(Current)",,,,"Issue: Job Title is showing ""Product leader"" it should generate similar titles with Product leader",,,,
+I'm looking for heads of engineering at data privacy-focused SaaS startups in Germany.,"Job Title(Current)
+Company(Current)
+Location(Germany)",,,,,,,,
+Find sales leaders at medtech startups focused on diagnostics in the U.S.,"Job Title(Current)
+Company(Current)
+Keyword/Skill(Current OR Past)
+Location(Current)",,,,,,,,
+Identify CTOs with experience in SaaS platforms that provide HR solutions in Southeast Asia.,"Job Title(Current)
+Company(Current)
+Location(Current OR Past)",,,,,,,,
+I need heads of growth for proptech startups in the U.K.,,,,,,,,,
+Find cloud architects in fintech platforms focused on blockchain in the U.S.,"Job Title(Current)
+Company(Current)
+Keyword/Skill(Current OR Past)
+Location(Current)",,,,,,,,
+I'm looking for product managers in cybersecurity startups in Europe.,"Job Title(Current)
+Company(Current)
+Keyword/Skill(Current OR Past)
+Location(Current)",,,,,,,,
+Identify business analysts with experience in fintech SaaS startups based in Asia.,"Job Title(Current)
+Company(Current OR Past)
+Keyword/Skill(Current OR Past)
+Location(Current OR Past)",,,,,,,,
+Find general counsels in AI-driven platforms in the U.S.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+I need marketing directors at healthtech startups with a focus on consumer healthcare in Canada.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+Find engineering directors at SaaS platforms focusing on AI/ML in South America.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+Identify heads of customer experience in B2B SaaS companies in Africa.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,"Issue: Job title response is not consistent, Sometimes similar titles get generated and sometimes dont.",,,,
+I'm looking for CFOs at startups in the renewable energy sector in Scandinavia.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+Find talent acquisition heads for AI/ML startups based in Europe.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,Issue: Company Shorten prompt should include the country names mentioned in the prompt for better results. ,,,,
+I need growth marketing managers in proptech platforms focused on residential markets in the U.S.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+Find blockchain engineers in fintech startups based in the Middle East.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+Identify heads of sales at AI-powered SaaS platforms in Germany.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+I'm looking for people in the head of operations role at logistics startups using AI in Southeast Asia.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+Find design leaders at mobility startups focusing on electric vehicles in California.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,"Issue01: Similar titles are not getting generated
+
+Issue02:  Company Shorten prompt should include the country names mentioned in the prompt for better results. ",,,,
+Identify CFOs in climate tech startups with a focus on sustainability in Europe.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,Issue: Company Shorten prompt should include the region name mentioned in the prompt for better results. ,,,,
+I need product marketing experts in AI/ML-driven fintech startups based in Asia.,"Job Title(Current)
+Company(Current)
+Keyword/Skills
+Location(Current)",,,,,,,,
+Find engineers specializing in NLP for legal tech companies in the U.S.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,Issue: Crash on extractAiSearchFilter(Skills) 500 Internal Server Error,,,,
+I'm looking for heads of business development in SaaS platforms focused on financial services in Australia.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+Identify HR leaders at AI-powered healthcare companies in Canada.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+Find CTOs at medtech companies focusing on wearables in Europe.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,Issue: Company Shorten prompt should include the region name mentioned in the prompt for better results. ,,,,
+I need people for the CEO role in renewable energy startups based in the Nordics.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+Find data analysts with experience in blockchain for fintech platforms in the U.S.,"Job Title(Current)
+Company(Current OR Past)
+Keyword/Skill(Current OR Past)
+Location(Current OR Past)",,,,,,,,
+I'm looking for sales leaders at cybersecurity startups focused on enterprise markets in Southeast Asia.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+Identify engineering heads in SaaS companies focused on the education sector in the U.K.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,"Issue: Sometimes very less companies are generated which result in very less profiles.
+
+",,,,
+I need finance directors at AI/ML startups based in Israel.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,Issue: Company Shorten prompt should include the Country name mentioned in the prompt for better results. ,,,,
+Find senior operations managers at logistics platforms in Africa.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+I'm looking for chief innovation officers at SaaS companies in the travel sector in the U.S.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+Identify growth marketing experts in fintech startups in Latin America.,"Job Title(Current)
+Company(Current)
+Keyword/Skill(Current OR Past)
+Location(Current OR Past)",,,,Issue: Company Shorten prompt should include the region name mentioned in the prompt for better results. ,,,,
+Find customer success leaders at B2B SaaS companies based in Canada.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+Show me project managers located in Texas or Pennsylvania who previously held a mid-senior management level position at Microsoft or Coursera and are currently working at a senior management level at Google.,"Job Title(Current)
+Location(Current)",,,,"Issue01: user mentioned the management level in the prompt it is not applied
+Issue02: Issues in events of management level",,,,
+I need people for the CTO role in AR/VR platforms focused on retail in the U.S.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+Find cloud engineers at SaaS companies working in cybersecurity in Europe.,"Job Title(Current)
+Company(Current)
+Keyword/Skill(Current OR Past)
+Location(Current)",,,,,,,,
+Identify heads of growth at climate tech startups in Australia.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+I'm looking for COOs in telemedicine startups with a focus on remote healthcare in Asia.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+show me only python back-end developers who have 5 years of experience and currently located in new york.,"Job Title(Current)
+Experience
+Skills/Keyword(Current OR Past)
+Location(Current)",,,,,,,,
+Seeking a Chief Technology Officer with a background in AI and machine learning for health tech startups in the U.S.,"Job Title(Current)
+Company(Current OR Past)
+Location(Current OR Past)",,,,,,,,
+"Need a Director of Product with experience in SaaS platforms, focused on B2B solutions in North America.","Job Title(Current)
+Company(Current OR Past)
+Location(Current OR Past)",,,,Issue: If the prompt is a hiring prompt then the similar titles should be generated for executives too.,,,,
+Find product leaders in e-commerce platforms targeting emerging markets in Africa.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+Identify CFOs with experience in financial management at AI-powered SaaS platforms in Europe.,"Job Title(Current)
+Company(Current OR Past)
+Location(Current OR Past)",,,,Issue: Skills are returned Null from ai service,,,,
+"Show profiles of people who are currently in the google at cross platform development position as junior flutter developer, or junior react developer and have previously worked at Microsoft as intern or junior software developer, should have bachelors degree of Stanford in IT related fields, located in Texas or nearby areas.","Job Title(Current OR Past)
+Company(Current AND Past)
+Skills/Keywords(Current OR Past)
+Location(Current)
+Education
+University",,,,Issue: Skill include and exclude is working very bad. Skill which needs to be included are getting excluded from the results.,,,,
+"Show candidates who previously worked as Business Analysts for prestigious companies like PwC or Deloitte and who now serve as Product Managers or Transformation Leads at leading tech firms like Google or Microsoft. Ideal expertise includes data analytics, product development, and change management, targeting those in the US, Canada, or Western Europe.","Job title(Current AND Past)
+Company(Current AND Past)
+Location(Current OR Past)",,,,"Issue: Inconsistency in similar titles
+
+Issue: Location mapping issue",,,,
+show senior level individual contributors currently working in Microsoft or have previous work experience of the mid level management in google.,Management level(Current OR Past),,,,,,,,
+show senior level individual contributors currently working in Microsoft but have previous work experience of the mid level management in google.,Management level(Current AND Past),,,,,,,,
+I need people for the VP of Engineering role at blockchain startups in the U.S.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+Find HR managers at AI/ML companies with a focus on scaling teams in Canada.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+I'm looking for legal experts in cybersecurity companies in Israel.,"Job Title(Current)
+Skills/Keywords(Current OR Past)
+Location(Current)",,,,,,,,
+Identify product designers in SaaS platforms for fintech services in Southeast Asia.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+Find sales directors in healthcare AI companies based in Germany.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+I need sales directors in healthcare AI companies based in Germany.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,Issue: similar titles are not getting generated,,,,
+I need people for the CEO role at startups in the logistics and supply chain sector in Europe.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+Find marketing heads at B2B SaaS companies in North America.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+Identify engineering leaders in AI/ML-focused startups in Asia.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+I'm looking for people in the VP of Sales role at blockchain startups in South America.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+Find product managers in telemedicine platforms based in Africa.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+I need data scientists in fintech startups with expertise in AI and machine learning in the U.S.,"Job Title(Current)
+Company(Current)
+Skills/Keywords(Current OR Past)
+Location(Current)",,,,,,,,
+"I need data scientists in fintech startups with expertise in AI and machine learning and had previous working experience with react, java and django in the U.S.","Job Title(Current)
+Company(Current OR Past)
+Skills/Keywords(Current OR Past)
+Location(Current)",,,,Issue: Skill include and exclude is working very bad. Skill which needs to be included are getting excluded from the results.,,,,
+Identify chief product officers in cybersecurity companies based in Europe.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+I'm looking for operations leaders at SaaS platforms focused on logistics in Southeast Asia.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+Find marketing directors at healthtech platforms targeting consumers in Canada.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+Identify HR directors in AI/ML startups focused on scaling engineering teams in the U.K.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+I need customer success leaders in edtech startups focusing on higher education in Latin America.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+"""Hiring a Regional Vice President based in Western Europe to lead market expansion and operational strategies across the region.""","Job Title(Current)
+Location(Current)",,,,"Issue: Company filter failed to apply (FS Side ""dual agent"" integration issue)",,,,
+"""I am search for a Head of Operations in Eastern Europe to drive business growth and oversee regional operations.""","Job Title(Current)
+Location(Current)",,,,Issue: Location mapping issue,,,,
+"""Looking for a Chief Financial Officer based in Northern Europe with expertise in optimizing financial operations across the region.""","Job Title(Current)
+Location(Current)",,,,Issue: Skills filter is not applying,,,,
+"""Seeking a Head of Marketing for Southern Europe, responsible for driving strategic campaigns and brand growth.""","Job Title(Current)
+Location(Current)",,,,"Issue: Company filter failed to apply (FS Side ""dual agent"" integration issue)",,,,
+"""Searching for a Business Development Director in Central Europe to spearhead growth initiatives and develop new markets.""","Job Title(Current)
+Location(Current)",,,,,,,,
+I am doing executive recruitment for a Chief Strategy Officer with expertise in Southeastern Europe to guide expansion and regional partnerships.,"Job Title(Current)
+Location(Current)",,,,"Issue: Company filter failed to apply (FS Side ""dual agent"" integration issue)",,,,
+"""Hiring a General Manager in Northern Africa to oversee operations and strengthen regional business development.""","Management Level
+Location(Current)",,,,Issue: Management level events are not consistent for this prompt.,,,,
+"""Looking for a Regional HR Director based in Sub-Saharan Africa to implement HR strategies across diverse markets.""","Job Title(Current)
+Location(Current)",,,,Issue: similar titles are not getting generated,,,,
+"""Seeking a Chief Information Officer in the Middle East to lead digital transformation and IT strategy across the region.""","Job Title(Current)
+Location(Current)",,,,,,,,
+Executive Vice President of Sales in Eastern Asia to drive revenue growth and lead the regional sales team.,"Job Title(Current)
+Location(Current)",,,,,,,,
+"""Hiring a Senior VP of Operations in Southeast Asia to manage market entry and expansion efforts across the region.""","Job Title(Current)
+Location(Current)",,,,Issue: wrongly applied current or past in job title (occurance 1 out of 10 times),,,,
+"""Looking for a Head of Corporate Affairs in South Asia to oversee stakeholder relations and regulatory compliance.""","Job Title(Current)
+Location(Current)",,,,,,,,
+"""Searching for a Regional Development Director in Central Asia to lead strategic initiatives and support economic growth.""","Job Title(Current OR Past)
+Location(Current)",,,,"Issue: ""Current or Past"" event is applying in job title it should be ""Current""",,,,
+"""Hiring a Chief Commercial Officer in Oceania to drive market growth and build partnerships across the region.""","Job Title(Current OR Past)
+Location(Current)",,,,"Issue: Company filter failed to apply (FS Side ""dual agent"" integration issue)
+
+Issue: Location mapping issue                        (FS)",,,,
+"""search for a Regional Managing Director in the Caribbean to oversee business operations and strengthen regional presence.""","Job Title(Current)
+Location(Current)",,,,"Issue: Job title event should be current but sometimes it give ""Current OR Past""",,,,
+"""Seeking a Regional Sales Executive in Latin America to expand business and manage key accounts across the region.""","Job Title(Current)
+Location(Current)",,,,,,,,
+"""Executive recruitment for a Chief Product Officer in North America, responsible for product development and innovation.""","Job Title(Current)
+Location(Current)",,,,,,,,
+"""Hiring a Head of Finance in the Nordic Countries to streamline financial processes and ensure regional compliance.""","Job Title(Current)
+Location(Current)",,,,,,,,
+"""Looking for a Regional Director of Marketing in Scandinavia to enhance brand visibility and drive regional campaigns.""","Job Title(Current)
+Location(Current)",,,,,,,,
+"""Executive search for a Business Development Executive in the Benelux region to lead market expansion efforts.""","Job Title(Current)
+Location(Current)",,,,,,,,
+"""Seeking a Chief Executive Officer in the Baltic States to oversee business operations and drive regional growth.""","Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+"""Hiring a Country Manager in the Iberian Peninsula to lead market development and grow brand presence.""","Job Title(Current)
+Location(Current)",,,,,,,,
+"""Searching for a Regional VP of Strategy in the Caucasus, responsible for overseeing regional projects and business goals.""","Job Title(Current)
+Location(Current)",,,,,,,,
+"""Executive recruitment for an Operations Director in the Maghreb to lead production and manage regional operations.""","Job Title(Current)
+Location(Current)",,,,Issue: Management level director applied (1 out of 10 times),,,,
+"""Looking for a Regional Marketing Executive in the Levant to develop brand strategy and foster customer engagement.""","Job Title(Current)
+Location(Current)",,,,,,,,
+"""Hiring a Chief Compliance Officer in the GCC to manage regulatory standards and compliance across the region.""","Job Title(Current)
+Location(Current)",,,,Issue: Location mapping issue                        (FS),,,,
+"""Seeking an Executive VP of Operations in Indochina to drive operational excellence and regional expansion.""","Job Title(Current)
+Location(Current)",,,,,,,,
+"""Executive search for a Regional Director of Development in the Pacific Islands to support economic growth initiatives.""","Job Title(Current)
+Location(Current)",,,,Issue: Inconsistent behavior of Job Title,,,,
+"""Hiring a Country Manager in the Greater Antilles to drive market expansion and strengthen brand recognition.""","Job Title(Event Inconsistent)
+Location(Current)",,,,,,,,
+"""Searching for a Regional General Manager in the Lesser Antilles to oversee business operations and growth strategies.""","Management Level(Current)
+Location(Current)",,,,"Issue: ""Regional General Manager"" is a job title, not a management level.",,,,
+"""Hiring a Chief of Regional Partnerships in ASEAN to manage cross-border projects and partnership initiatives.""","Job Title(Current)
+Location(Current)",,,,Issue: Location mapping issue                        (FS),,,,
+"""Executive search for a Business Development Director in the Visegrád Group to drive growth and strategic market entry.""","Job Title(Current)
+Location(Current)",,,,Issue: Location mapping issue                        (FS),,,,
+"""Seeking a Regional Head of Corporate Strategy in the CIS to guide business development and regional strategy.""","Job Title(Current)
+Location(Current)",,,,,,,,
+Find me a Head of Product at a fintech company with experience in building scalable B2B solutions. Preferably based in London.,"Job Title(Current)
+Location(Current)",,,,,,,,
+I need a VP of Engineering with a strong background in distributed systems for a SaaS platform. Candidates in New York or Boston are ideal.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,Issue: Location event is not consistent. ,,,,
+Looking for a Chief Marketing Officer with experience in scaling D2C brands in the healthtech industry. Preferably based in California.,"Job Title(Current)
+Company(Current)
+Location(Current OR Past)",,,,Issue: Location event is not consistent. ,,,,
+"Find me a Director of Sales with expertise in enterprise SaaS sales, specifically in the cybersecurity space. Candidates in the U.S. are preferred.","Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+"I need a Head of Talent Acquisition for a fast-growing AI/ML startup. Ideally, they have experience scaling teams in Europe.","Job Title(Current)
+Company(Current)
+Location(Current OR Past)",,,,Issue: Similar titles are not getting generated.,,,,
+"I’m looking for a VP of Operations with a background in logistics tech startups, particularly in the last-mile delivery sector. Based in Singapore is a plus.","Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+Find me a Chief Financial Officer with experience raising Series B funding for fintech companies. Candidates in the U.S. are preferred.,"Job Title(Current)
+Company(Current)
+Location(Current OR Past)",,,,,,,,
+I need a Chief Technology Officer with deep experience in AI/ML for a healthtech startup. Ideally based in Berlin.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+Looking for a VP of Growth with expertise in scaling SaaS businesses in emerging markets. Candidates based in Asia are preferred.,"Job Title(Current)
+Company(Past)
+Location(Current)",,,,,,,,
+Find me a Head of Customer Success with experience managing enterprise clients in the legal tech space. Preferably based in New York.,"Job Title(Current)
+Company(Current)
+Location(Current OR Past)",,,,Issue: Similar Titles are not getting generated,,,,
+I need a Chief Information Officer with a background in managing cybersecurity risks for financial institutions. Ideally based in Europe.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,Issue: Similar Titles are not getting generated,,,,
+Looking for a VP of Product Marketing with experience in AI-driven SaaS platforms. Candidates in the U.S. are preferred.,"Job Title(Current)
+Company(Current)
+Location(Current OR Past)",,,,"Issue: In this context location event should be ""Current""",,,,
+"Find me a Chief Data Officer with expertise in big data and cloud infrastructure, preferably with experience in the healthcare sector. Based in California or Texas.","Job Title(Current)
+Company(Current)
+Location(Current)",,,,Issue: Similar Titles are not getting generated,,,,
+"I need a VP of Product Management with a focus on building AI-powered fintech products. Ideally, the person is based in London.","Job Title(Current)
+Location(Current)",,,,,,,,
+Looking for a Chief Revenue Officer with expertise in B2B SaaS sales in the European market. Candidates based in the U.K. are ideal.,"Job Title(Current)
+Location(Current OR Past)",,,,"Issue: In this context location event should be ""Current""
+
+Prompt is ambigious in terms of location",,,,
+Find me a Chief Human Resources Officer with experience scaling teams in the renewable energy sector. Preferably based in Germany.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,"Issue: Similar Titles are not getting generated
+
+Issue: Mentioned skill is applying for executive post",,,,
+I need a Head of Engineering with strong experience in microservices architecture for a fintech company. Ideally based in New York.,"Job Title(Current)
+Location(Current)",,,,"Issue: Similar Titles are not getting generated
+
+",,,,
+Looking for a VP of Corporate Development with M&A experience in the tech sector. Preferably based in California.,"Job Title(Current)
+Company(Current OR Past)
+Location(Current)",,,,,,,,
+"Find me a Chief Compliance Officer with experience in financial regulation, ideally with a background in fintech startups. Candidates based in the U.S. are preferred.","Job Title(Current)
+Location(Current)",,,,Issue: Similar Titles are not getting generated,,,,
+I need a VP of Sales with experience leading global sales teams in SaaS companies. Preferably based in Asia.,"Job Title(Current)
+Company(Current OR Past)
+Location(Current)",,,,,,,,
+Looking for a Chief Legal Officer with experience in intellectual property law for a healthtech startup. Ideally based in the U.S.,"Job Title(Current)
+Location(Current)",,,,,,,,
+Find me a Head of Customer Experience with expertise in scaling support teams for e-commerce companies. Candidates in Europe are preferred.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,Issue: Similar Titles are not getting generated,,,,
+I need a VP of Business Development with strong experience in partnerships for blockchain startups. Ideally based in Singapore.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,Issue: Similar Titles are not getting generated,,,,
+Looking for a Chief Technology Officer with experience in scaling AI platforms in the cybersecurity industry. Preferably based in Israel.,"Job Title(Current)
+Company(Current OR Past)
+Location(Current)",,,,Issue: Inconsistent behavior in similar titles,,,,
+Find me a Director of Engineering with a strong background in cloud infrastructure for a SaaS company. Candidates in Canada are ideal.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,Issue: Similar Titles are not getting generated,,,,
+I need a Head of Marketing with expertise in digital marketing for D2C brands in the wellness industry. Ideally based in California.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+Looking for a Chief Financial Officer with experience in public company reporting and IPO preparation for a tech startup. Preferably based in New York.,"Job Title(Current)
+Company(Current)
+Location(Current OR Past)",,,,"Issue: Wrongly applying ""Current OR Past"" on location",,,,
+Find me a VP of Product with a strong background in AI/ML for a medtech company. Ideally based in Europe.,"Job Title(Current)
+Company(Current)
+Location(Current OR Past)",,,,Issue: Similar Titles are not getting generated,,,,
+I need a Head of Talent with experience recruiting for AI/ML startups. Preferably based in the U.S.,"Job Title(Current)
+Company(Past)
+Location(Current)",,,,Issue: Similar Titles are not getting generated,,,,
+Looking for a Chief Technology Officer with a focus on mobile app development for a fintech startup. Ideally based in Latin America.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+Find me a Head of Sales with expertise in enterprise software sales for a B2B SaaS company. Candidates based in the U.K. are preferred.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,Issue: Similar Titles are not getting generated,,,,
+I need a Chief Operating Officer with a background in logistics and supply chain management. Ideally based in the U.S.,"Job Title(Current)
+Location(Current)",,,,"Issue: Similar Titles are not getting generated
+
+Issue: Shorten prompt should be ""logistics and supply chain management companies in us""",,,,
+Looking for a VP of Finance with experience in the renewable energy sector. Preferably based in Scandinavia.,"Job Title(Current)
+Company(Current)
+Location(Current OR Past)",,,,"Issue: Location should be ""Current""",,,,
+Find me a Chief Marketing Officer with a strong track record in scaling AI-driven SaaS platforms. Preferably based in the U.S.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,Issue: Similar Titles are not getting generated,,,,
+I need a Head of Growth with expertise in digital marketing for fintech startups. Ideally based in Singapore.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,Issue: Similar Titles are not getting generated,,,,
+Looking for a VP of Product Design with experience in building AI/ML platforms for healthcare. Preferably based in Europe.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+Find me a Head of Engineering with expertise in cloud computing for a SaaS company. Ideally based in North America.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,Issue: Similar Titles are not getting generated,,,,
+I need a VP of Business Development with a focus on partnerships in the fintech space. Preferably based in London.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,Issue: Similar Titles are not getting generated,,,,
+Looking for a Chief Human Resources Officer with experience scaling remote-first teams for tech startups. Ideally based in the U.S.,"Job Title(Current)
+Company(Current)
+Location(Current OR Past)",,,,"Issue: Similar Titles are not getting generated
+
+Issue: Location should be ""Current""                        
+
+Issue: Inconsistency in Job Title events",,,,
+Find me a VP of Corporate Strategy with M&A experience in the software industry. Preferably based in California.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,"Issue: Similar Titles are not getting generated
+
+Issue: Location mapping issue                        (FS)			",,,,
+"software engineers specialized in flutter or react who used to worked at the big companies like apple, google, microsoft, dell, samsung electronics or those who are now working in the tesla, nvadia, johnson and johnson or amazon, should have past experience of more than 13 years, and located in usa or any nearby countries.","Job Title(Current)
+Company(Current AND Past)
+Keywords/Skills(Current OR Past)
+Location(Current)",,,,"Issue: Location failed to map (FS)
+Issue: Nearby locations are not getting selected
+Issue: Current AND Past is getting selected in Comapny Filter",,,,
+I need a Chief Technology Officer with expertise in blockchain for fintech startups. Ideally based in Asia.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,Issue: Similar Titles are not getting generated,,,,
+Looking for a VP of Sales with experience in SaaS companies focused on AI-driven platforms. Preferably based in Europe.,"Job Title(Current)
+Company(Past)
+Location(Current OR Past)",,,,"Issue: Location should be ""Current""                        
+Issue: Company event should be current or Past",,,,
+Find me a Head of Marketing with expertise in scaling consumer tech brands. Preferably based in the U.S. 44,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,Issue: Similar Titles are not getting generated,,,,
+Find me people for the CFO role at Stripe. The person must have experience in global financial operations and IPO preparation. Ideally based in New York or London.,"Job Title(Current)
+Location(Current OR Past)",,,,Issue: Current event should be applied in location filter,,,,
+Find me people for the VP of Product role at Shopify. The person must have strong expertise in e-commerce platforms and mobile product development. Ideally based in Canada.,"Job Title(Current OR Past)
+Keywords/Skills(Current OR Past)
+Location(Current)",,,,"Issue: Skills should not get selected for executive role, and if they have to then all the skills mentioned in the prompt should be selected. 
+",,,,
+Find me people for the Head of Engineering role at Robinhood. The person must have experience with large-scale trading platforms and cloud architecture. Ideally based in San Francisco or Seattle.,"Job Title(Current)
+Location(Current OR Past)",,,,"Issue: ""Current"" event should be applied in location
+
+Issue: shorten prompt should be generated for company.",,,,
+Find me people for the Chief Marketing Officer role at Zoom. The person should have experience in driving growth for B2B SaaS companies. Ideally based in California.,"Job Title(Current OR Past)
+Company(Current)
+Location(Current OR Past)",,,,"Issue: ""Current"" event should be applied in location
+",,,,
+Find me people for the CTO role at Coinbase. The person must have deep expertise in blockchain and cryptocurrency technology. Ideally based in California or Texas.,"Job Tilte(Current OR Past)
+Location(Current)",,,,,,,,
+Find me people for the Head of AI role at Microsoft. The person must have experience in developing large-scale AI platforms and machine learning. Ideally based in Washington or California.,"Job Tilte(Current)
+Location(Current OR Past)",,,,"Issue: Location should be ""current""",,,,
+Find me people for the VP of Engineering role at SpaceX. The person must have strong experience in aerospace engineering and satellite systems. Ideally based in California or Texas.,"Job Title(Current)
+Company(Current)
+Location(Current OR Past)",,,,"Issue: Location should be ""current""",,,,
+Find me people for the CFO role at Tesla. The person should have extensive experience in financial management for automotive companies. Ideally based in California or Texas.,"Job Title(Current OR Past)
+Company(Past)
+Location(Current OR Past)",,,,"Issue: Location should be ""current""
+
+Issue: Past event is getting applied in company",,,,
+Find me people for the VP of Growth role at Airbnb. The person must have experience scaling B2C platforms with a focus on global markets. Ideally based in California or New York.,"Job Title(Current OR Past)
+Company(Current)
+Location(Current OR Past)",,,,"Issue: Location should be ""current""
+
+Issue: ""Current OR Past"" event should apply in company",,,,
+Find me people for the Chief Product Officer role at Netflix. The person should have deep expertise in content streaming platforms and personalization algorithms. Ideally based in California.,"Job Tilte(Current)
+Location(Current)",,,,,,,,
+Find me people for the CTO role at Lyft. The person must have experience in scaling AI-powered transportation platforms. Ideally based in San Francisco or Austin.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+Find me people for the Chief Legal Officer role at Google. The person should have expertise in global legal regulations and privacy laws. Ideally based in California.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+Find me people for the Chief Technology Officer role at Meta. The person must have expertise in AR/VR and metaverse technologies. Ideally based in California or Washington.,"Job Title(Current)
+Location(Current)",,,,,,,,
+Find me people for the Head of Engineering role at Twilio. The person must have experience with cloud-based communication platforms. Ideally based in San Francisco.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,Issue: Company filter events are completely inconsistent,,,,
+Find me people for the VP of Product role at Slack. The person must have experience in collaboration software and enterprise SaaS platforms. Ideally based in California.,"Job Title(Current)
+Company(Current)
+Location(Current OR Past)",,,,"Issue: Location should be ""current""",,,,
+Find me people for the VP of Sales role at Salesforce. The person must have strong experience in enterprise software sales. Ideally based in California or New York.,"Job Title(Current)
+Company(Current)
+Keywords/Skills(Current OR Past)
+Location(Current OR Past)",,,,"Issue: Location should be ""current""
+Issue: Company event should be current or Past
+Issue: Skills should not get selected for executive role, and if they have to then all the skills mentioned in the prompt should be selected.",,,,
+Find me people for the Chief Data Officer role at Uber. The person must have experience in large-scale data infrastructure and real-time analytics. Ideally based in California or Texas.,"Job Title(Current)
+Company(Current)
+Location(Current OR Past)",,,,"Issue: Company event should be current or Past
+
+Issue: Location should be ""current""",,,,
+Find me people for the CFO role at Spotify. The person must have expertise in financial operations and subscription-based business models. Ideally based in New York or London.,"Job Title(Current OR Past)
+Company(Current)
+Location(Current)",,,,"Issue: Company should be ""current or past"" and the company events are completely inconsistent.",,,,
+Find me people for the CTO role at Square. The person must have expertise in fintech platforms and payment systems. Ideally based in California or Texas.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,Issue: Sometimes very few companies get generated from shorten prompt,,,,
+Find me people for the Chief Strategy Officer role at Amazon. The person should have experience in global business expansion and M&A. Ideally based in Seattle or New York.,"Job Title(Current)
+Location(Current)",,,,,,,,
+Find me people for the VP of Engineering role at Palantir. The person must have deep expertise in data analytics platforms and cloud computing. Ideally based in Colorado or California.,"Job Title(Current)
+Company(Current)
+Location(Current)",,,,,,,,
+Find me people for the Chief Operating Officer role at Stripe. The person must have experience scaling fintech companies globally. Ideally based in California or New York.,"Job Title(Current)
+Company(Current)
+Location(Current OR Past)",,,,Issue: Location should be Current,,,,
+Find me people for the Head of Product role at TikTok. The person should have strong experience in social media platforms and content personalization. Ideally based in California or Singapore.,"Job Title(Current OR Past)
+Company(Current)
+Location(Current OR Past)",,,,"Issue: Location should be Current.
+
+Issue: Job title should be Current.",,,,
+Find me people for the VP of Engineering role at Reddit. The person must have experience with large-scale community platforms and cloud infrastructure. Ideally based in California.,"Job Title(Current OR Past)
+Location(Current OR Past)",,,,"Issue: Location should be Current.
+
+Issue: Job title should be Current.",,,,
+Find me people for the Chief Marketing Officer role at Snap. The person must have experience in driving user growth for consumer tech products. Ideally based in California.,"Job Title(Current OR Past)
+Company(Current)
+Location(Current OR Past)",,,,"Issue: Job Title should be ""Current OR Past""
+
+Issue: Location should be ""Current""",,,,
+Find me people for the Head of AI Research role at OpenAI. The person must have experience in cutting-edge AI techniques and neural networks. Ideally based in California or New York.,"Job Title(Current OR Past)
+Company(Current)
+Location(Current OR Past)",,,,"Issue: Job Title should be ""Current OR Past""
+
+Issue: Location should be ""Current""",,,,
+Find me people for the VP of Sales role at Asana. The person must have experience in selling enterprise SaaS solutions. Ideally based in California.,"Job Title(Current OR Past)
+Company(Current)
+Location(Current OR Past)                        ",,,,"Issue: Job Title should be ""Current OR Past""
+
+Issue: Location should be ""Current""",,,,
+Find me people for the CTO role at DoorDash. The person must have expertise in logistics platforms and route optimization. Ideally based in California or Texas.,"Job Title(Current)
+Company(Current)
+Location(Current)                        ",,,,,,,,
+Find me people for the VP of People role at Tesla. The person should have experience in scaling global teams in tech companies. Ideally based in California or Nevada.,"Job Title(Current)
+Company(Current)
+Location(Current OR Past)                        ",,,,"Issue: Location should be ""Current""",,,,
+Find me people for the Chief Financial Officer role at PayPal. The person must have expertise in global payment systems and fintech. Ideally based in California or New York.,"Job Title(Current)
+Company(Current)
+Location(Current)                        ",,,,,,,,
+Find me people for the VP of Engineering role at Instacart. The person must have strong experience in grocery delivery platforms and mobile app development. Ideally based in California or Texas.,"Job Title(Current)
+Company(Current)
+Location(Current OR Past)                        ",,,,Issue: Location should be Current,,,,
+Find me people for the Head of Product role at Pinterest. The person should have experience in consumer tech platforms and visual discovery tools. Ideally based in California.,"Job Title(Current OR Past)
+Company(Current)
+Location(Current OR Past)                        ",,,,Issue: Location should be Current,,,,
+Find me people for the CTO role at Etsy. The person must have experience in building scalable e-commerce platforms. Ideally based in New York or California.,"Job Title(Current)
+Company(Current)
+Location(Current OR Past)                        ",,,,Issue: Location should be Current,,,,
+Find me people for the Head of Data Science role at Zoom. The person should have experience in video conferencing platforms and real-time analytics. Ideally based in California or Texas.,"Job Title(Current)
+Company(Current)
+Location(Current OR Past)                        ",,,,Issue: Location should be Current,,,,
+Find me people for the Chief Privacy Officer role at Microsoft. The person must have experience in data privacy regulations and compliance. Ideally based in Washington or California.,"Job Title(Current)
+Company(Current)
+Location(Current OR Past)                        ",,,,Issue: Location should be Current,,,,
+Find me people for the VP of Engineering role at Bumble. The person must have experience in mobile app development and social platforms. Ideally based in Texas or New York.,"Job Title(Current)
+Location(Current)                        ",,,,,,,,
+Find me people for the Chief Technology Officer role at Stripe. The person must have expertise in payments infrastructure and API development. Ideally based in California or Texas.,"Job Title(Current)
+Company(Current)
+Location(Current)                        ",,,,,,,,
+Find me people for the Head of Growth role at Robinhood. The person must have experience in user acquisition for fintech platforms. Ideally based in California or New York.,"Job Title(Current)
+Company(Current)
+Location(Current OR Past)                        ",,,,"Missing Skill: User acquisition 
+
+Location event should be ""Current""",,,,
+Find me people for the VP of Product role at Hulu. The person must have strong experience in content streaming platforms and recommendation engines. Ideally based in California.,"Job Title(Current OR Past)
+Company(Current)
+Location(Current)                        ",,,,"Job Title event should be ""Current""
+
+Skills which are mentioned in prompt should be shown for executive role.
+
+Location event should be ""Current""",,,,
+Find me people for the Chief Risk Officer role at Coinbase. The person must have experience in managing financial risks in cryptocurrency. Ideally based in California or Texas.,"Job Title(Current OR Past)
+Company(Current)
+Location(Current OR Past)                        ",,,,"Job Title event should be ""Current""
+
+Skills which are mentioned in prompt should be shown for executive role.
+
+Location event should be ""Current""",,,,
+Find me people for the VP of Engineering role at Peloton. The person must have experience in connected fitness platforms and hardware integration. Ideally based in New York or California.,"Job Title(Current)
+Company(Current)
+Location(Current OR Past)                        ",,,,"Skills which are mentioned in prompt should be shown for executive role.
+
+Location event should be ""Current""",,,,
+Find me people for the Chief Innovation Officer role at Nike. The person should have expertise in product innovation and digital transformation. Ideally based in Oregon or California.,"Job Title(Current)
+Company(Current)
+Location(Current)        ",,,,Skills which are mentioned in prompt should be shown for executive role,,,,
+Find me people for the CTO role at Stripe. The person must have strong experience in fintech infrastructure and API development. Ideally based in San Francisco.,"Job Title(Current)
+Company(Current)
+Location(Current)        ",,,,Skills which are mentioned in prompt should be shown for executive role,,,,
+Find me people for the VP of Operations role at WeWork. The person must have expertise in scaling operations for flexible office space platforms. Ideally based in New York or California.,"Job Title(Current OR Past)
+Location(Current)        ",,,,"Job Title event should be ""Current""
+
+Skills which are mentioned in prompt should be shown for executive role			",,,,
+Find me people for the Chief Product Officer role at Robinhood. The person must have experience in building user-friendly fintech platforms. Ideally based in California.,"Job Title(Current OR Past)
+Company(Current)
+Location(Current OR Past)                        ",,,,"Job Title event should be ""Current""
+
+Skills which are mentioned in prompt should be shown for executive role.
+
+Location event should be ""Current""",,,,
+Find me people for the CTO role at Klarna. The person must have strong experience in payment systems and fintech platforms. Ideally based in Europe or California.,"Job Title(Current OR Past)
+Company(Current)
+Location(Current)",,,,"Job Title event should be ""Current""
+
+Skills which are mentioned in prompt should be shown for executive role.",,,,
+Show profiles of software engineers based in Germany with 0–1 years of experience who know Python and JavaScript.,"Job Title(Current)
+Company(Current)
+Keyword/Skills(Current OR Past)
+Location(Current)",,,,,,,,
+Find CTOs from the United States with 20–25 years of experience in tech leadership roles at current companies.,"Job Title(Current)
+Company(Current)
+Experience
+Keyword/Skills(Current OR Past)
+Location(Current)",,,,,,,,
+Display profiles of senior project managers with exactly 10 years of experience working in Europe who specialize in Agile methodologies.,"Job Title(Current)
+Company(Current OR Past)
+Experience
+Keyword/Skills(Current OR Past)
+Location(Past)",,,,,,,,
+Display profiles of senior project managers with exactly 10 years of experience working in Europe who specialize in Agile methodologies.,"Job Title(Current)
+Company(Current)
+Experience
+Keyword/Skills(Current OR Past)
+Location(inconsistent)",,,,Location Events are completely inconsisten.,,,,
+Show candidates named Sarah Johnson with 5–6 years of experience in marketing roles in New York.,"Experience
+Location(Current OR Past)
+Name",,,,,,,,
+Find VP-level leaders from companies in Western Europe with over 30 years of experience and expertise in corporate finance.,"Management Level(Current)
+Company(Current)
+Experience
+Keyword/Skills(Curent OR Past)
+Location(Current)",,,,,,,,
+"List profiles of individual contributors with 2–3 years of experience in data analytics roles, currently in Australia.","Experience
+Keyword/Skills(Curent OR Past)
+Location(Current)",,,,"Issue: When only ""individual contributors"" is mentioned in prompt all the possible individual contributors should apply in management level.",,,,
+Show candidates with a bachelor's degree from Stanford and 0–5 years of experience in AI-based research in California.,,,,,Prompt ner (500 Internal Server Error),,,,
+Find profiles of Python developers from India with less than 2 years of experience and knowledge of AWS.,"Job Title(Current)
+Experience
+Keyword/Skills(Current OR Past)
+Location(Current)",,,,,,,,
+"Retrieve profiles of sales executives with 40+ years of experience in the retail industry, currently or previously working at Walmart.","Job Title(Current OR Past)
+Experience
+Company(Current OR Past)",,,,"Shorten Prompt: Walmart in the retail industry
+
+Issue: User searched for ""Walmart"" but it showed multiple companies",,,,
+Display profiles of senior managers with 7–10 years of experience leading marketing teams in Southeast Asia.,"Job Title(Current)
+Company(Current OR Past)
+Experience
+Keyword/Skills(Curent OR Past)
+Location(Current OR Past)",,,,,,,,
+Find software engineers in the UK with 0 years of experience who have graduated from Oxford University.,"Job Title(Current)
+Company(Current)
+Experience
+Keyword/Skills(Curent OR Past)
+Location(Current)
+Education",,,,,,,,
+List candidates who are current or past employees at Microsoft with 15–20 years of experience in cloud technologies.,"Company(Current OR Past)
+Experience
+Keyword/Skills(Current OR Past)",,,,,,,,
+Show profiles of CEOs in France with exactly 5 years of experience in the automotive industry.,"Job Title(Current)
+Company(Current OR Past)
+Experience
+Location(Current OR Past)",,,,"Issue: shorten prompt should be improved
+
+Shorten Prompt: Automotive companies in France and their impact on the industry.",,,,
+Retrieve profiles of candidates with 0–2 years of experience in design roles in any Nordic country.,"Job Title(Current)
+Company(Current OR Past)
+Experience
+Location(Current)",,,,,,,,
+Find engineers with 15 plus years of experience who have worked at Tesla and specialize in mechanical systems.,"Job Title(Current)
+Company(Past)
+Experience
+Keyword/Skills(Current OR Past)",,,,,,,,
+Show candidates with a master's degree in computer science and 3 years of experience in DevOps roles in Singapore.,"Company(Current OR Past)
+Experience
+Keyword/Skills(Current OR Past)
+Location(Current AND Past)",,,,"Issue: Location should be Current
+
+",,,,
+Find profiles of candidates with 10+ years of experience in executive leadership roles based in the Benelux region.,"Management Level(Current)
+Experience
+Keyword/Skills(Current OR Past)
+Location(Current)",,,,,,,,
+Display profiles of HR managers in Poland with 0–1 years of experience and a focus on employee engagement.,"Job Title(Current)
+Company(Current)
+Experience
+Keyword/Skills(Curent OR Past)
+Location(Current)",,,,,,,,
+Show candidates in the USA with 8–10 years of experience in cybersecurity roles and have certifications like CISSP.,"Job Title(Current)
+Company(Current OR Past)
+Experience
+Keyword/Skills(Current OR Past)
+Location(Current)",,,,Issue: Certification is not getting applied in education,,,,
+Retrieve profiles of individuals with 0–5 years of experience in blockchain development who live in Eastern Europe.,"Company(Current)
+Experience
+Keyword/Skills(Current OR Past)
+Location(Current)",,,,"Issue: ""Czech Republic"" failed to map, FS side issue.",,,,
+Find me suitable Chairman of a Norwegian Utility and Power company located on the West Coast of Norway. It is preferred with candidates from the region,"Management Level(Current)
+Company(Current OR Past)
+Location(Current)",,,,Issue: Location mapping issue,,,,
+act as a recruiter. I am looking for a change management director working in the executive search industry in chicago illinois prosci certified with internal communications experience specializing in technology implementation,"Job Title(Current)
+Company(Current)
+Keywords/Skills(Current OR Past)
+Location(Current)",,,,"Issue: Certification is not getting applied in education
+
+Issue: Location mapping issue",,,,
+"Generate a precise list of individuals currently serving as President, CEO, or COO in companies similar to Jawbone within the wearable technology sector. These companies focus on products such as fitness trackers, smartwatches, health monitoring devices, or other wearable electronics but do not necessarily have to manufacture them. The individuals should be based in the United States or Europe and hold an MBA degree. Exclude individuals from companies not focused on wearable technology. Precision is important",,,,,"Issue: Sometimes ""Management level"" ""C suites and presidents"" is applied, but president should be a job title so in case is user enters the hiring query it results in similar titles too.",,,,
+"Chief Marketing Officer, CMO, Salesforce, Atlassian",,,,,,,,,
+"Generate a list of high-growth SaaS companies generating over $100M in ARR""",,,,,,,,,
+"Please provide HR executives locate in the midwestern united states who have at least 15-years professional experience and have recruiting, talent acquisition or management in their background but who also possess HR generalist experience. They should be at a Senior Director level or above at a company exceeding $2 Billion in revenue",,,,,,,,,
+"CFOs or VPs of Finance at companies with 50-500 locations, experienced in scaling multi-unit franchise models, with a focus on FP&A over accounting. Preferably, candidates should have a CPA and a strong pedigree, based in the United States",,,,,,,,,
+"Share You said: i need to find a field recruiter ( or should I call it a talent acqusition specialist?) to manage 40 job recs at a time for a multi-utit franchisee of european wax center called wax center partners. Its a team of 1 and hte budget is $75k. Help me figure out what to prompt AI with so I can search Linkedin ChatGPT said: ChatGPT Memory updated To set up your LinkedIn search effectively, here’s a prompt that will help target the right candidates: Role Title: Field Recruiter or Talent Acquisition Specialist Industry: Beauty, Health/Wellness, or Multi-Unit Franchise Operations Skills/Experience: Proven experience handling high-volume recruitment (40+ requisitions at a time) Background in franchise recruiting, ideally in beauty or retail sectors Ability to work independently as a sole recruiter Knowledge of sourcing, screening, and hiring for entry-level to mid-level roles in customer service-focused environments Strong organizational and time management skills to manage multiple open positions effectively Budget: $75,000 annual salary Keywords to include: ""High-volume recruiting,"" ""Talent Acquisition Specialist,"" ""Field Recruiter,"" ""Retail recruiter,"" ""Beauty industry recruiter,"" ""Independent recruiter,"" ""Multi-unit recruiter"" """,,,,,,,,,
+"Software Engineering leader for a mental healthcare startup LLM chatbot company in New York. This person will lead a small team of 3. The title can be head of software engineering, director or VP. This needs to be someone comfortable with a full stack environment including website, app, and AI. They need to have front end experience. The tech stack is Python, Node, Next.js, React, React Native, Postgres, AWS/GCP, Rest APIs. Don't show me consultants, people with less than 7 years of experience, or people that wouldn't be considered top talen",,,,,,,,,
+Find me people for the Head of Product role at Patreon. The person must have expertise in building creator-focused platforms. Ideally based in California or New York.,,,,,,,,,
+Find me people for the Chief Financial Officer role at Instacart. The person must have experience in grocery delivery platforms and operational scaling. Ideally based in California.,,,,,,,,,
+Find me people for the CTO role at Databricks. The person must have deep expertise in big data platforms and cloud computing. Ideally based in California or Washington.,,,,,,,,,
+Find me people for the VP of Product role at Uber. The person must have experience in building AI-powered transportation platforms. Ideally based in California or Texas.,,,,,,,,,
+"CFO with over 5 years experience in industrial distribution companies, located in the Toronto area",,,,,,,,,
+"general managers with full end to end P&L experience of at least 200 million at companies in the mobility, assistive device, and rehab, ostomy care, home health care space in MedTech. Assume you are an expert financial analyst in the MedTech space",,,,,,,,,
+"Identify CEO, CMO, CSO, COO and CTO of a List of companies",,,,,,,,,
+"CEO Online training, Life style courses ireland",,,,,,,,,
+Provide a list of board of directors for fortune 100 companies,,,,,,,,,
+Please find CEO of private equity companies in the US that are less than $600 million in revenue that manufacture chemcials for rubber and tires,,,,,,,,,
+Looking for a Germany based communications director who comes from premium FMCG companies.,,,,,,,,,
+I want to find all the senior executives (c-suite executives and heads of North America and Europe) who are no longer at FTI Consulting and have left the firm within the last 5 years.,,,,,,,,,
+vice president r&d haircare laundry ,,,,,,,,,
+Tell me all CEOs who are also physicians (MD or DO) who lead health care organizations that are backed by private equity        ,,,,,,,,,
+"i am an executive recruiter. my client is a fast growing, private equity backed fund administrator. we have been retained to help them recruit a head of operations to report to the CEO with alternatives experience	",,,,,,,,,
+Find employees based in Chicago named Ethan Davis who graduated from Yale,,,,,,,,,
+Find employees based in New York with a PhD who graduated from Columbia.,,,,,,,,,
+"""commercial excellence"" leaders in Nordin countries, with exposure to digital native businesses (e.g. marketplaces, auctions, eCommerce)",,,,,,,,,
+list of all CHRO (past and present) at newell brands,,,,,,,,,
+"Show profiles of individuals who were previously part of the product development teams at startups like Slack or similar.""",,,,,,,,,
+"""I’m interested in people holding senior engineering roles right now, especially those at Amazon with experience in cloud technologies",,,,,,,,,
+Retrieve profiles for Chief Human Resources Officer (CHRO) and profiles that can be considered for the role of Chief Marketing Officer as well.,,,,,,,,,
+"Find profiles of Account Managers and those engaged in sales or customer success roles.""",,,,,,,,,
+find me nyc based cro's at high growth startups that are between series b and e in funding stage,,,,,,,,,
+Chemists with Patents in Pharmeceuticals,,,,,,,,,
+Former CEO or owner of a psychiatrist chain that offers TMS and Spravato,,,,,,,,,
+"Seek sales executives who demonstrate a thorough understanding of B2B sales processes, CRM tools, lead generation strategies, and negotiation techniques. Candidates should be based in Toronto, Canada, and specifically exclude those with ties to the technology industry.",,,,,,,,,
+"Locate human resources specialists who exhibit expertise in talent acquisition, employee engagement strategies, performance management, and HRIS system functionality. Candidates should be positioned within the dynamic environment of New York City, New York, while consciously avoiding any associations with the hospitality sector.",,,,,,,,,
+"Pursue candidates for the role of mobile application developer who possess a deep-seated expertise in the intricacies of iOS and Android ecosystems, showcasing proficiency in Swift and Kotlin programming languages, coupled with a robust understanding of user interface design principles and app testing methodologies. Candidates should be geographically anchored within the Seattle, Washington metropolitan area, while explicitly excluding individuals with any affiliations to the gaming sector.",,,,,,,,,
+"Find DevOps engineers who are experts in continuous integration, containerization (like Docker, Kubernetes), cloud services (AWS, Azure), and automation tools, based in Toronto, Canada, and not from the financial sector.",,,,,,,,,
+"Search for profiles of individuals named 'John Smith,' 'Jane Doe,' and 'Michael Johnson' who are currently working at Fortune 500 companies like Google, Amazon, Microsoft, Facebook (Meta), Tesla, and Apple. Focus on individuals based in New York City, San Francisco, London, and Berlin, working in the industries of software development, artificial intelligence, cybersecurity, and fintech. These individuals should have at least 10 years of experience, hold senior roles such as CTO, VP of Engineering, or Director of Product, and have a proven track record in startups and large organizations.
+
+Additionally, they should have completed their education at top-tier universities such as Stanford, MIT, Harvard, and Oxford, holding degrees in computer science, data science, or electrical engineering. They must possess skills in Python, Java, machine learning, blockchain, and cloud computing (AWS, Azure, or Google Cloud). These candidates should have more than 30 endorsements for technical skills, at least 20 recommendations, over 1,000 connections, and published articles or research papers in top AI conferences like NeurIPS, CVPR, or ICML.
+
+Furthermore, filter candidates with volunteering experience in non-profit sectors, who have been involved in large-scale machine learning projects, and have held patents in AI, autonomous vehicles, or pharmaceuticals. The profiles should also show involvement in corporate social responsibility initiatives, with experience managing global teams of over 50 employees, and demonstrate fluency in English, German, and Mandarin.
+
+Finally, refine the search by identifying those who have raised over $10 million in venture capital for startups, have experience working remotely, and are interested in relocating to emerging tech hubs like Austin, TX, or Bangalore, India. Limit the results to individuals who have been active on LinkedIn in the past 6 months, are open to new job opportunities, and have job titles or descriptions mentioning 'blockchain,' 'quantum computing,' or 'cloud architecture",,,,,Issue: System identifies the larger prompt as the list of companies which results in applying only company filter.,,,,
+Hospital president working at an integrated delivery network with turnaround experience,,,,,,,,,
+Marketing executives working in company that generates no less than $10 billions,,,,,,,,,
+"Find someone currently at ibm or hpe,excluding those who have worked at oracle",,,,,,,,,
+"We are looking for individuals currently employed as software engineers specializing in architecture, who also aspire to become CEOs. Candidates should have 10 years of experience, prior experience working at Google, and currently be employed at Tesla.",,,,,,,,,
+"We are seeking a CEO for GeoComply. Ideal candidates should have previous experience as a CEO, COO, President, or a similar P&L leader within the B2B SaaS security or identity sector",,,,,,,,,
+Find software architects with at least 15 years of experience who have worked at Google and are currently leading teams at Tesla in the role of Senior Manager,,,,,,,,,
+Director of Finance working at financial services based company which is located in US and have a revenue of greater then 0.1 million dollar. The should have a master degree in Finance realted feild. The person must have the experience of greater than 5 years. He must done his education from US,,,,,,,,,
+"Site Manager and Director working in Petroleum Company, Company must be US based and should be generating revenue more than 1 million dollar. The person domain should be related to the operational functions on the site of extraction.",,,,,,,,,
+Find me a list of healthcare executives with experience in new york and a history of working in the pediatric space.,,,,,,,,,
+Regional Officer for Tax in Canada who was an financial consultant 3 years before in corporate accounting companies,,,,,,,,,
+"executive level people in USA who are managing growth and marketing for Transcranial Magnetic Stimulation clinics or working 
+in marketing firms working with Transcranial Magnetic Stimulation clinics ",,,,,,,,,
+"Chief Information Officer for Integra LifeSciences.$1.5 billion revenue.Headquartered in Princeton,NJ.",,,,,,,,,
+Sales Executives at Startups that have raised between Series A and Series D in the last 2 years.,,,,,,,,,
+I want to find all the senior executives (c-suite executives and heads of North America and Europe) who are no longer at FTI Consulting and have left the firm within the last 5 years,,,,,,,,,
+chief operating officers and/or evp or svp of operations at third-party administrator organizations focused on healthcare,,,,,,,,,
+"executives with ""commercial"" in title. marketplaces, based in Nordic Countries",,,,,,,,,
+"marketplaces with revenue of USD 50m+, executive level role, based in Nordic countries",,,,,,,,,
+"consumer electronics companies with revenue of USD 50m+, leadership roles within hardware, product OR R&D, candidates based in Europe",,,,,,,,,
+"Machine Learning Engineer who has experience in Generative AI or LLM and Conversational AI, based in New York, industry should be related to AI or technology and not from bank or financial, with minimum of 1 year of work experience in their current job",,,,,,,,,
+Former Managing director at Kaufman Hall who now works at another consulting firm or in the healthcare industry,,,,,,,,,
+Can you find a profiles like Andrew Lee at Biogen. https://www.linkedin.com/in/andrew-lee-74a5a0b5/ I want someone who was a director of enterprise strategy at CVS in their previous role and their current role is somewhere else,,,,,,,,,
+CISO and deputy CISO's with financial services experience that are based in the Washington DC / Baltimore region,,,,,,,,,
+"Executive Vice President and General Manager at companies specializing in architectural lighting solutions, commercial illumination systems, and smart building technologies. Expertise in LED lighting, energy-efficient systems, and IoT-enabled lighting controls. Proficient in strategic leadership, operational management, and business development within the construction and real estate sectors. Skilled in driving revenue growth, optimizing supply chain logistics, and enhancing customer experience. Experience in managing large-scale projects, overseeing product innovation, and leading cross-functional teams. Familiar with industry standards, sustainability practices, and regulatory compliance.",,,,,,,,,
+SVP and VP Transportation/Logistics leaders at retailers with annual revenues above $10 Billion. An ideal candidate would have other functional supply chaian experience in addition to transportation,,,,,,,,,
+"generate a precise list of individuals that serve as president, CEO, COO in companies similar to jawbone within the wearable technology sector. These companies focus on products such as fitness trackers, smart watches, health monitoring devices, or other wearable electronics. The individuals should be based in united states, United Kingdom, Ireland, France, Germany, or Italy and hold an MBA degree. Exclude individuals not focused on wearables.",,,,,,,,,
+"""Vice President of Sales from built environment companies in North America (companies similar to ServiceTitan, Lennox, Mitsubishi, Goodman, Rheem, Huber, Everlast Composite Siding, etc.) """,,,,,,,,,
+"Search for Chief Data Officers coming from financial services, telecommunications, healthcare or large scale retail sectors, who are based in Italy or who are of Italian origin/speak native italian.",,,,,,,,,
+Looking for a leader within Cyber Security Consulting Business who have leadership of at least 300 FTEs,,,,,,,,,
+Project Engineer in Construction Field that lives in cities within 30 miles radius of Baytown Texas,,,,,,,,,
+Associate Director Biostatistics or Senior RWE Data Scientist in pharmaceutical background in United States,,,,,,,,,
+"Software Engineer with a Global R&D Food Preparation company, located 30 miles from Springfield, TN, the United States.",,,,,,,,,
+"Please give me a list of candidates who have experience as a Vice President of Finance at a public company. Please only include individuals currently living in Florida. These individuals must have experience in manufacturing companies. Finally, they must have a background as a financial controller",,,,,,,,,

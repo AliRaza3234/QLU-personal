@@ -1,0 +1,82 @@
+[
+  {
+    "query": "Does Meta produce wearable devices?",
+    "answer": "<answer>\nThe context does not explicitly state that Meta produces wearable devices. However, it mentions \"Meta true AR glasses\" as part of a technology discussion, which implies that Meta is involved in the development of wearable technology. Therefore, while it suggests that Meta may produce wearable devices, it does not provide definitive confirmation.\n</answer>"
+  },
+  {
+    "query": "List companies that are involved in wearable technology.",
+    "answer": "<answer>\nThe context does not provide any specific companies that are involved in wearable technology. It mentions \"Top Wearables Companies\" but states that there are \"No Results Found\" for companies in that category. Therefore, no companies can be listed based on the provided information.\n</answer>"
+  },
+  {
+    "query": "Does Apple manufacture wearable gadgets like smartwatches or fitness bands?",
+    "answer": "<answer>\nYes, Apple manufactures wearable gadgets like smartwatches, specifically the Apple Watch, which is described as \"the most popular smartwatch in the world\" in the context. The context does not mention fitness bands, so it is unclear if Apple manufactures those as well.\n</answer>"
+  },
+  {
+    "query": "Is Samsung a leader in the wearable device market?",
+    "answer": "<answer>\nThe context provided does not contain any information regarding Samsung's position in the wearable device market. Therefore, I cannot determine if Samsung is a leader in that market based on the given context.\n</answer>"
+  },
+  {
+    "query": "Identify companies producing wearable healthcare devices.",
+    "answer": "<answer>\nThe context does not explicitly identify specific companies producing wearable healthcare devices. However, it mentions that ESCATEC has partnered with numerous major OEM brands across various sectors, including \"Medical, Healthcare & Life-sciences,\" which may encompass companies involved in wearable healthcare devices. Unfortunately, no specific names of companies are provided in the context.\n</answer>"
+  },
+  {
+    "query": "Give me companies with revenue greater than 100 million USD.",
+    "answer": "<answer>\nThere are 9,972 organizations in the United States with revenue greater than $100 million, specifically in the estimated revenue range of $100 million to $500 million.\n</answer>"
+  },
+  {
+    "query": "List all companies with annual revenue exceeding $1 billion.",
+    "answer": "<answer>\nThe context does not provide a specific list of companies with annual revenue exceeding $1 billion. However, it states that there are a total of 9,934 organizations categorized as having more than $1 billion in revenue. The estimated revenue range for these organizations is between $1 billion to $10 billion. For further details or specific company names, additional information would be required beyond what is provided in the context.\n</answer>"
+  },
+  {
+    "query": "Verify whether Tesla's revenue is greater than $500 million.",
+    "answer": "<answer>\nThe provided context does not contain any specific information regarding Tesla's revenue figures, including whether it is greater than $500 million. Therefore, I cannot verify Tesla's revenue based on the given context.\n</answer>"
+  },
+  {
+    "query": "Do startups with revenue over $10 million exist in the fintech sector?",
+    "answer": "<answer>\nThe context provided does not contain any information regarding the existence of startups with revenue over $10 million in the fintech sector. Therefore, I cannot answer the question based on the given context.\n</answer>"
+  },
+  {
+    "query": "Check whether Amazon's revenue surpasses $100 billion.",
+    "answer": "<answer>\nThe context does not provide specific information regarding Amazon's revenue surpassing $100 billion. It mentions a \"$100 billion AI bet\" but does not clarify whether Amazon's overall revenue exceeds that amount. Therefore, it cannot be determined from the provided context whether Amazon's revenue surpasses $100 billion.\n</answer>"
+  },
+  {
+    "query": "Does IBM belong to the technology industry?",
+    "answer": "<answer>\nYes, IBM belongs to the technology industry. It is described as a multinational technology company known for its hardware and software products, including computers, servers, storage systems, and networking equipment. Additionally, IBM provides consulting, technology, and business services such as cloud computing, data analytics, and artificial intelligence (AI).\n</answer>"
+  },
+  {
+    "query": "Verify if ExxonMobil operates in the oil and gas industry.",
+    "answer": "<answer>\nYes, ExxonMobil operates in the oil and gas industry. The context explicitly states that ExxonMobil is categorized under the \"Energy\" sector and the \"Oil, Gas & Consumable Fuels\" industry.\n</answer>"
+  },
+  {
+    "query": "Is Google classified under the advertising and media sector?",
+    "answer": "<answer>\nThe context does not explicitly classify Google under the advertising and media sector. However, it mentions that \"Google\u2019s main source of revenue comes from advertising,\" which implies a strong connection to the advertising sector. Therefore, while it is not directly stated that Google is classified under the advertising and media sector, the information suggests that it operates significantly within that domain due to its revenue model. \n</answer>"
+  },
+  {
+    "query": "Identify whether companies like Pfizer belong to the pharmaceutical industry.",
+    "answer": "<answer>\nYes, companies like Pfizer belong to the pharmaceutical industry. Pfizer is described as a \"global biopharmaceutical company\" that develops and manufactures drug treatments to promote health and prevent disease, indicating its role within the pharmaceutical sector.\n</answer>"
+  },
+  {
+    "query": "Check if SpaceX is part of the aerospace and defense industry.",
+    "answer": "<answer>\nThe context indicates that SpaceX operates in the \"Space\" industry and the \"Telecommunications\" industry. It does not explicitly mention the \"aerospace and defense\" industry. Therefore, based on the provided information, it cannot be confirmed that SpaceX is part of the aerospace and defense industry.\n</answer>"
+  },
+  {
+    "query": "Does Microsoft operate in the cloud computing sector?",
+    "answer": "<answer>\nYes, Microsoft operates in the cloud computing sector, as indicated by references to \"powerful AI and Cloud solutions\" and the promotion of the \"Microsoft Cloud\" throughout the context. The context discusses how AI and the Microsoft Cloud can help businesses meet challenges, suggesting that Microsoft is actively involved in cloud computing services.\n</answer>"
+  },
+  {
+    "query": "Which companies are involved in the green energy industry?",
+    "answer": "<answer>\nThe context does not specify the names of specific companies involved in the green energy industry in India. It mentions that over 15 Indian renewable energy stocks have surged over 100% in the past year, indicating significant growth in the sector, but does not provide a list of these companies. The article aims to explore leading green energy stocks and the top 10 renewable energy companies in India, but those details are not included in the provided context.\n</answer>"
+  },
+  {
+    "query": "Verify if Facebook is categorized under social media platforms.",
+    "answer": "<answer>\nThe context does not explicitly categorize Facebook as a social media platform. However, it does refer to Facebook as a \"social media giant\" in the context of how it decides which ads to show users. Therefore, while the context implies that Facebook is a social media platform, it does not provide a definitive categorization under that term.\n</answer>"
+  },
+  {
+    "query": "Who are the competitors of Nvidia in the GPU market?",
+    "answer": "<answer>\nThe context provided does not contain any information regarding the competitors of Nvidia in the GPU market. Therefore, I cannot answer the question based on the given context.\n</answer>"
+  },
+  {
+    "query": "List companies that dominate the e-commerce industry.",
+    "answer": "<answer>\nThe companies that dominate the e-commerce industry, based on market capitalization, are:\n\n1. **Amazon** - Market Cap: $2.289 trillion\n2. **Alibaba** - Market Cap: $195.36 billion\n3. **Pinduoduo** - Market Cap: $136.27 billion\n4. **Shopify** - Market Cap: $131.17 billion\n5. **Meituan** - Market Cap: $112.19 billion\n6. **MercadoLibre** - Market Cap: $88.90 billion\n7. **Sea (Garena)** - Market Cap: $63.43 billion\n\nThese companies are ranked by their market capitalization, indicating their significant presence in the e-commerce sector.\n</answer>"
+  }
+]
