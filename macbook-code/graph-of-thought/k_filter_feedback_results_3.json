@@ -1,0 +1,448 @@
+[
+  {
+    "query": "Find me a Chief Marketing Officer with a strong track record in scaling AI-driven SaaS platforms. Preferably based in the U.S.",
+    "feedback": "",
+    "filter_values": null,
+    "learnings": "- The company filter can only generate well-known companies\n                            - When finding profiles that identify people with strong track record in any field, the min company tenure should be 3\n                            - The search engine treats individual keywords independently and may not understand relationships between terms (e.g., \"scaling AI platforms\" vs just \"AI\" and \"platforms\")\n                            - Action verbs (like \"scaling\") may need to be emphasized more explicitly in profile_keywords to ensure relevant experience\n                            - Job titles are interpreted literally, so including broader titles (like VP when looking for C-level) will bring in unwanted profiles\n                            - The search engine doesn't automatically prioritize the most important aspects of a query - all keywords appear to have similar weight\n                            - When looking for specific experience (like \"scaling\"), it's better to be explicit in profile_keywords rather than relying on company_keywords alone\n                            - Broader search terms lead to more profiles but with lower precision - narrower terms yield fewer but more relevant results\n                            ",
+    "result": {
+      "query_context": {
+        "original_query": "Find me a Chief Marketing Officer with a strong track record in scaling AI-driven SaaS platforms. Preferably based in the U.S.",
+        "timestamp": "2025-03-03T10:43:51.704046",
+        "query_id": "query_1263552615401363675",
+        "feedback": "",
+        "learnings": "- The company filter can only generate well-known companies\n                            - When finding profiles that identify people with strong track record in any field, the min company tenure should be 3\n                            - The search engine treats individual keywords independently and may not understand relationships between terms (e.g., \"scaling AI platforms\" vs just \"AI\" and \"platforms\")\n                            - Action verbs (like \"scaling\") may need to be emphasized more explicitly in profile_keywords to ensure relevant experience\n                            - Job titles are interpreted literally, so including broader titles (like VP when looking for C-level) will bring in unwanted profiles\n                            - The search engine doesn't automatically prioritize the most important aspects of a query - all keywords appear to have similar weight\n                            - When looking for specific experience (like \"scaling\"), it's better to be explicit in profile_keywords rather than relying on company_keywords alone\n                            - Broader search terms lead to more profiles but with lower precision - narrower terms yield fewer but more relevant results\n                            ",
+        "filter_values": null
+      },
+      "analysis": {
+        "main_intent": "Identify a Chief Marketing Officer with experience in scaling AI-driven SaaS platforms, preferably located in the U.S.",
+        "feedback_analysis": "No direct feedback provided, so focus on ensuring atomic breakdown and applying system learnings effectively.",
+        "filter_analysis": "No filter constraints indicated; however, considerations for company tenure and location (U.S.) are relevant.",
+        "learnings_analysis": "Emphasize the importance of specific keywords like 'scaling' and 'AI-driven SaaS' in profile searches.",
+        "thinking": "To break down the query atomically, I focused on each distinct requirement: job title, experience, and location.",
+        "analysis_notes": [
+          "Job title specificity is crucial due to literal interpretation by the system.",
+          "Experience in scaling AI-driven SaaS platforms needs precise keyword focus.",
+          "Location is a separate atomic requirement with a preference indicated."
+        ],
+        "potential_challenges": [
+          "Ensuring precise capture of 'scaling' experience in AI-driven SaaS platforms.",
+          "Balancing specificity with system limitations in keyword interpretation."
+        ],
+        "sub_problems": [
+          {
+            "category": "job_title",
+            "description": "Identify candidates with the exact job title of Chief Marketing Officer.",
+            "dependencies": [],
+            "priority": 1,
+            "context_reference": {
+              "query_segment": "Find me a Chief Marketing Officer"
+            },
+            "query_segment": "Chief Marketing Officer",
+            "relevant_feedback": "N/A",
+            "relevant_filters": {},
+            "relevant_learnings": [
+              "Job titles are interpreted literally, so including broader titles will bring in unwanted profiles."
+            ]
+          },
+          {
+            "category": "experience",
+            "description": "Ensure candidates have a strong track record in scaling AI-driven SaaS platforms.",
+            "dependencies": [],
+            "priority": 1,
+            "context_reference": {
+              "query_segment": "strong track record in scaling AI-driven SaaS platforms"
+            },
+            "query_segment": "scaling AI-driven SaaS platforms",
+            "relevant_feedback": "N/A",
+            "relevant_filters": {},
+            "relevant_learnings": [
+              "When finding profiles that identify people with strong track record in any field, the min company tenure should be 3.",
+              "Action verbs (like 'scaling') may need to be emphasized more explicitly in profile_keywords to ensure relevant experience.",
+              "The search engine treats individual keywords independently and may not understand relationships between terms."
+            ]
+          },
+          {
+            "category": "location",
+            "description": "Prefer candidates based in the U.S.",
+            "dependencies": [],
+            "priority": 2,
+            "context_reference": {
+              "query_segment": "Preferably based in the U.S."
+            },
+            "query_segment": "U.S.",
+            "relevant_feedback": "N/A",
+            "relevant_filters": {
+              "location": "U.S."
+            },
+            "relevant_learnings": []
+          }
+        ],
+        "confidence_score": 0.9
+      },
+      "solutions": [
+        {
+          "sub_problem_analysis": {
+            "original_context": "Find me a Chief Marketing Officer with a strong track record in scaling AI-driven SaaS platforms. Preferably based in the U.S.",
+            "thought_process": "The task is to filter profiles specifically for the job title 'Chief Marketing Officer'. The challenge is to ensure that profiles with broader or similar titles that do not exactly match 'Chief Marketing Officer' are excluded, as per the system learning that job titles are interpreted literally.",
+            "interpreted_requirement": "Identify candidates with the exact job title 'Chief Marketing Officer'.",
+            "relevant_filters": {
+              "identified_filters": [
+                "JOB_TITLE"
+              ],
+              "rationale": "The focus is on filtering candidates by their job title, specifically targeting those who hold the position of Chief Marketing Officer."
+            },
+            "relevant_learnings": {
+              "applicable_learnings": [
+                "Job titles are interpreted literally, so including broader titles will bring in unwanted profiles."
+              ],
+              "learning_insights": "Ensure the filter is set to match only the exact job title 'Chief Marketing Officer' to avoid including profiles with broader or similar titles."
+            },
+            "filter_integration": "The filter will specifically target the 'JOB_TITLE' category, with a precise value of 'Chief Marketing Officer'.",
+            "feedback_integration": "There is no specific feedback provided for this sub-problem, so focus is on precision and adherence to system learnings.",
+            "learning_integration": "The learning emphasizes the importance of exact title matching, which is directly applied by ensuring only 'Chief Marketing Officer' is used in the filter.",
+            "proposed_solutions": [
+              {
+                "thinking": "Align the filter exactly with the job title to ensure only relevant candidates are selected.",
+                "filter_actions": {
+                  "JOB_TITLE": [
+                    "Chief Marketing Officer"
+                  ]
+                },
+                "feedback_addressed": "N/A",
+                "learning_applied": "Ensures literal interpretation by setting the job title to the exact phrase 'Chief Marketing Officer'.",
+                "implementation_notes": "This solution is straightforward and directly aligns with the requirement.",
+                "approach": "Literal matching of job titles prevents inclusion of unwanted profiles.",
+                "score": 9,
+                "pros": [
+                  "High precision",
+                  "Directly matches requirement",
+                  "Simple implementation"
+                ],
+                "cons": [
+                  "Potentially excludes candidates with similar but non-identical titles"
+                ],
+                "filter_compatibility": "Compatible with other filters targeting specific roles; no conflicts expected."
+              },
+              {
+                "thinking": "Use a strict filter to include only the exact job title, avoiding broader terms.",
+                "filter_actions": {
+                  "JOB_TITLE": [
+                    "Chief Marketing Officer"
+                  ]
+                },
+                "feedback_addressed": "N/A",
+                "learning_applied": "Adopts a strict adherence to the exact title, avoiding broader terms.",
+                "implementation_notes": "Maintains focus on exact job title specification.",
+                "approach": "Specificity in job title ensures targeted results.",
+                "score": 8,
+                "pros": [
+                  "Precise targeting",
+                  "Reduces noise from similar but different roles"
+                ],
+                "cons": [
+                  "May miss candidates who have slightly different titles but similar responsibilities"
+                ],
+                "filter_compatibility": "Works well with other specific filters, ensuring consistency in candidate selection."
+              },
+              {
+                "thinking": "Focus on the exact title to ensure no deviation from the specified role.",
+                "filter_actions": {
+                  "JOB_TITLE": [
+                    "Chief Marketing Officer"
+                  ]
+                },
+                "feedback_addressed": "N/A",
+                "learning_applied": "Directly follows the insight of literal interpretation; exact match required.",
+                "implementation_notes": "Focused strictly on the role as described.",
+                "approach": "Exact match reduces chances of error in selection.",
+                "score": 9,
+                "pros": [
+                  "Exact match ensures relevance",
+                  "Simple to implement"
+                ],
+                "cons": [
+                  "Excludes slight variations that may still be relevant"
+                ],
+                "filter_compatibility": "Highly compatible, no expected conflicts with other filters."
+              }
+            ],
+            "selected_solution": {
+              "thinking_for_selection": "The first solution is chosen for its high precision and direct application of system learning insights.",
+              "filter_values": {
+                "JOB_TITLE": [
+                  "Chief Marketing Officer"
+                ]
+              },
+              "confidence": 9.5,
+              "reasoning": "This solution precisely matches the requirement, ensuring that only candidates with the exact title are considered, thus maximizing relevance.",
+              "validation_notes": [
+                "Ensures literal interpretation of the job title",
+                "Directly aligns with the query's requirement"
+              ],
+              "feedback_influence": "No specific feedback to integrate, focus remains on precision.",
+              "filter_influence": "The necessity of exact job title matching guided the use of a specific filter value.",
+              "learning_influence": "Insights on literal job title interpretation directly shaped the solution, ensuring no broader titles are included."
+            }
+          }
+        },
+        {
+          "sub_problem_analysis": {
+            "original_context": "Find me a Chief Marketing Officer with a strong track record in scaling AI-driven SaaS platforms. Preferably based in the U.S.",
+            "thought_process": "Focus on identifying candidates with proven experience in scaling AI-driven SaaS platforms. This involves ensuring relevant experience by using appropriate filters to reflect a strong track record in this specific area.",
+            "interpreted_requirement": "The requirement is to filter candidates who have a proven history of scaling AI-driven SaaS platforms, ensuring that they have relevant experience and a strong track record in this field.",
+            "relevant_filters": {
+              "identified_filters": [
+                "SKILL/KEYWORDS",
+                "COMPANY_TENURE"
+              ],
+              "rationale": "SKILL/KEYWORDS filter will capture specific expertise in AI-driven SaaS platforms, while COMPANY_TENURE ensures they have a track record by mandating a minimum duration at companies where this experience could be gained."
+            },
+            "relevant_learnings": {
+              "applicable_learnings": [
+                "When finding profiles that identify people with strong track record in any field, the min company tenure should be 3.",
+                "Action verbs (like 'scaling') may need to be emphasized more explicitly in profile_keywords to ensure relevant experience.",
+                "The search engine treats individual keywords independently and may not understand relationships between terms."
+              ],
+              "learning_insights": "Use COMPANY_TENURE to ensure a minimum duration that signifies a strong track record. Emphasize keywords like 'scaling' in SKILL/KEYWORDS to highlight relevant experience."
+            },
+            "filter_integration": "Incorporate COMPANY_TENURE to ensure candidates have at least 3 years of experience in relevant roles. Use SKILL/KEYWORDS to emphasize 'scaling AI-driven SaaS platforms'.",
+            "feedback_integration": "No specific feedback provided, so focus on aligning with system learnings.",
+            "learning_integration": "Emphasize action verbs in SKILL/KEYWORDS and ensure COMPANY_TENURE is set to at least 3 years.",
+            "proposed_solutions": [
+              {
+                "thinking": "Emphasize the action of scaling AI-driven SaaS platforms through keywords. Ensure a minimum tenure to reflect a solid track record.",
+                "filter_actions": {
+                  "SKILL/KEYWORDS": "Include 'scaling AI-driven SaaS platforms'",
+                  "COMPANY_TENURE": "3+ years"
+                },
+                "feedback_addressed": "Feedback N/A",
+                "learning_applied": "Learnings about tenure and action verbs applied.",
+                "implementation_notes": "Ensure keywords are explicitly related to scaling AI-driven SaaS platforms.",
+                "approach": "Use SKILL/KEYWORDS and COMPANY_TENURE filters.",
+                "score": 9,
+                "pros": [
+                  "Directly targets candidates with relevant experience.",
+                  "Emphasizes important action verbs.",
+                  "Ensures a strong track record through tenure."
+                ],
+                "cons": [
+                  "May miss candidates with less than 3 years but significant achievements."
+                ],
+                "filter_compatibility": "Aligns well with existing filter structure."
+              },
+              {
+                "thinking": "Focus on experience in AI-driven SaaS platforms, ensuring candidates have worked extensively in this field.",
+                "filter_actions": {
+                  "SKILL/KEYWORDS": "Include 'AI SaaS platforms', 'scaling SaaS'",
+                  "COMPANY_TENURE": "5+ years"
+                },
+                "feedback_addressed": "Feedback N/A",
+                "learning_applied": "Emphasizes strong tenure for solid track record.",
+                "implementation_notes": "Broader keywords but longer tenure requirement.",
+                "approach": "Use SKILL/KEYWORDS and COMPANY_TENURE filters.",
+                "score": 8,
+                "pros": [
+                  "Strong emphasis on tenure for proven track record.",
+                  "Broader keyword coverage."
+                ],
+                "cons": [
+                  "Longer tenure may exclude potentially qualified candidates."
+                ],
+                "filter_compatibility": "Compatible with system requirements."
+              },
+              {
+                "thinking": "Highlight both experience in AI and SaaS separately for comprehensive coverage.",
+                "filter_actions": {
+                  "SKILL/KEYWORDS": "Include 'AI', 'SaaS', 'scaling'",
+                  "COMPANY_TENURE": "3+ years"
+                },
+                "feedback_addressed": "Feedback N/A",
+                "learning_applied": "Combines AI and SaaS with scaling emphasis.",
+                "implementation_notes": "Separates SaaS and AI for broader scope.",
+                "approach": "Use SKILL/KEYWORDS and COMPANY_TENURE filters.",
+                "score": 7,
+                "pros": [
+                  "Covers wider range of relevant expertise.",
+                  "Allows for more diverse candidate pool."
+                ],
+                "cons": [
+                  "May dilute specific focus on AI-driven SaaS platforms."
+                ],
+                "filter_compatibility": "Well-integrated with existing filter logic."
+              }
+            ],
+            "selected_solution": {
+              "thinking_for_selection": "Prioritize a balanced approach that emphasizes direct experience in scaling AI-driven SaaS platforms while ensuring a strong track record through tenure.",
+              "filter_values": {
+                "SKILL/KEYWORDS": "scaling AI-driven SaaS platforms",
+                "COMPANY_TENURE": "3+ years"
+              },
+              "confidence": 9.5,
+              "reasoning": "This configuration directly targets the requirement with specific keywords and an appropriate tenure filter, ensuring candidates have the necessary experience.",
+              "validation_notes": [
+                "Ensures candidates have relevant expertise and track record.",
+                "Aligns well with system learnings."
+              ],
+              "feedback_influence": "With no specific feedback, focused on system learnings for guidance.",
+              "filter_influence": "Existing filter guide supports the use of SKILL/KEYWORDS and COMPANY_TENURE for this requirement.",
+              "learning_influence": "Learnings about emphasizing action verbs and using tenure for track record were crucial in selection."
+            }
+          }
+        },
+        {
+          "sub_problem_analysis": {
+            "original_context": "Find me a Chief Marketing Officer with a strong track record in scaling AI-driven SaaS platforms. Preferably based in the U.S.",
+            "thought_process": "The focus is on identifying candidates who are located in the U.S. The existing filter already specifies 'location: U.S.', so the task involves ensuring this filter is appropriately applied and considering if any refinements or adjustments are necessary based on system learnings.",
+            "interpreted_requirement": "Ensure that candidates are based in the U.S., potentially refining location precision.",
+            "relevant_filters": {
+              "identified_filters": [
+                "LOCATION"
+              ],
+              "rationale": "The 'LOCATION' filter is essential for narrowing down candidates to those based in the U.S., which is a key preference in the query."
+            },
+            "relevant_learnings": {
+              "applicable_learnings": [
+                "Broader search terms lead to more profiles but with lower precision - narrower terms yield fewer but more relevant results."
+              ],
+              "learning_insights": "Narrowing the location filter to specific regions or states within the U.S. might enhance precision if required."
+            },
+            "filter_integration": "The current filter value for location is 'U.S.', which aligns with the requirement. Considerations might include specifying key states or regions if further precision is needed.",
+            "feedback_integration": "No specific feedback was provided for this sub-problem.",
+            "learning_integration": "Given the learning about broader search terms, if precision is an issue, refining the location filter to include specific states or major tech hubs could be beneficial.",
+            "proposed_solutions": [
+              {
+                "thinking": "Maintain the current filter but consider adding major U.S. tech hubs to increase precision if needed.",
+                "filter_actions": {
+                  "LOCATION": "U.S. or major tech hubs like Silicon Valley, New York, Austin"
+                },
+                "feedback_addressed": "N/A",
+                "learning_applied": "Incorporates the idea of narrowing terms for better precision.",
+                "implementation_notes": "This approach targets the U.S. broadly but highlights key areas for tech leadership roles.",
+                "approach": "Broaden with specific hubs",
+                "score": 8,
+                "pros": [
+                  "Covers key areas in the U.S. where tech leadership is prevalent.",
+                  "More precise targeting can yield higher relevance."
+                ],
+                "cons": [
+                  "May exclude qualified candidates from less prominent areas."
+                ],
+                "filter_compatibility": "Compatible with existing location filter."
+              },
+              {
+                "thinking": "Refine the location to focus specifically on urban centers known for tech innovation.",
+                "filter_actions": {
+                  "LOCATION": "San Francisco, Seattle, Boston, New York"
+                },
+                "feedback_addressed": "N/A",
+                "learning_applied": "Narrowing the search to urban centers to increase relevance.",
+                "implementation_notes": "Targets urban centers known for tech innovation, aligning with the likely presence of CMO candidates.",
+                "approach": "Focus on urban centers",
+                "score": 7,
+                "pros": [
+                  "Increases chances of finding highly relevant candidates.",
+                  "Aligns with typical CMO locations."
+                ],
+                "cons": [
+                  "May miss candidates in other growing tech areas."
+                ],
+                "filter_compatibility": "Requires altering the existing broader U.S. filter."
+              },
+              {
+                "thinking": "Keep the location filter strictly as 'U.S.' for maximum inclusivity.",
+                "filter_actions": {
+                  "LOCATION": "U.S."
+                },
+                "feedback_addressed": "N/A",
+                "learning_applied": "Maintains broad coverage to not miss any potential candidates.",
+                "implementation_notes": "Ensures all U.S.-based candidates are considered without narrowing the pool.",
+                "approach": "Broad U.S. coverage",
+                "score": 9,
+                "pros": [
+                  "Maximizes the pool of potential candidates.",
+                  "Simple and straightforward application."
+                ],
+                "cons": [
+                  "May include less relevant profiles outside of major tech areas."
+                ],
+                "filter_compatibility": "Directly uses the existing location filter."
+              }
+            ],
+            "selected_solution": {
+              "thinking_for_selection": "The broad U.S. coverage ensures all potential candidates are considered, aligning with the preference stated in the query.",
+              "filter_values": {
+                "LOCATION": "U.S."
+              },
+              "confidence": 9.0,
+              "reasoning": "This approach aligns directly with the query's preference, ensuring no potential candidates in the U.S. are overlooked.",
+              "validation_notes": [
+                "Ensures maximum candidate inclusion.",
+                "Simple and effective filter application."
+              ],
+              "feedback_influence": "No feedback provided, so maintaining broad coverage is considered safest.",
+              "filter_influence": "Directly utilizes existing filter value for U.S. location.",
+              "learning_influence": "While narrower terms can increase precision, the broad U.S. filter ensures comprehensive coverage."
+            }
+          }
+        }
+      ],
+      "final_result": {
+        "reasoning_and_analysis": "1. **DETAILED ANALYSIS**\n\n   The task involves integrating solutions to identify a Chief Marketing Officer (CMO) with a strong track record in scaling AI-driven SaaS platforms, preferably based in the U.S. The integration requires mapping the solution components to the filter structure, considering explicit and implicit requirements, and addressing any feedback or existing filter values.\n\n   - **Job Title/Business Function**: The explicit requirement is to filter candidates with the exact job title \"Chief Marketing Officer\". The system emphasizes literal interpretation to avoid broader titles.\n   \n   - **Skills**: This involves identifying candidates with experience in scaling AI-driven SaaS platforms. Skills or keywords must reflect this experience explicitly.\n   \n   - **Company Tenure**: Ensure a minimum tenure to establish a strong track record, with 3+ years being a common benchmark for relevant experience.\n   \n   - **Location**: Candidates should be based in the U.S. The existing filter indicates broad U.S. coverage is preferred to ensure inclusivity.\n\n2. **REASONING FOR EACH FILTER**\n\n   - **Job Title/Business Function**: Set to \"Chief Marketing Officer\" to ensure precise matching. This avoids broader titles and directly aligns with the requirement.\n   \n   - **Skills**: Use \"scaling AI-driven SaaS platforms\" as a keyword to highlight specific expertise. This ensures candidates have relevant experience.\n   \n   - **Company Tenure**: Set a minimum of 3 years to ensure candidates have a proven track record in positions relevant to scaling AI-driven SaaS platforms.\n   \n   - **Location**: Use \"U.S.\" to maximize the pool of candidates while fulfilling the geographical preference.\n\n3. **ASSUMPTIONS AND IMPLICATIONS**\n\n   - Assumed that the role requires current experience, hence focus is on \"current\" filters.\n   - Implied that experience in scaling AI-driven SaaS platforms is critical, so skills must be specific.\n   - The broad U.S. location filter assumes no regional preference within the U.S.\n\n4. **VALIDATION CHECKS**\n\n   - Ensure literal match for job titles to avoid inclusion of broader roles.\n   - Verify that skills and company tenure align with the requirement for a strong track record.\n   - Location filter should be broad enough to include all U.S.-based candidates.\n\n5. **FEEDBACK INCORPORATION**\n\n   - No specific feedback was provided, so the focus remains on precision and adherence to system learnings.\n   - Emphasized the importance of exact job title matching and relevant skills in addressing the requirement.\n\n6. **FINAL FILTER JSON**\n\n```json\n{\n    \"job_title/business_function\": {\n        \"current\": [{\"title_name\": \"Chief Marketing Officer\", \"min_staff\": 0, \"max_staff\": 50000000}],\n        \"past\": [],\n        \"both\": [],\n        \"event\": \"CURRENT\"\n    },\n    \"management_level\": {\n        \"current\": [],\n        \"past\": [],\n        \"both\": [],\n        \"event\": \"\"\n    },\n    \"location\": {\n        \"current\": [\"U.S.\"],\n        \"past\": [],\n        \"both\": [],\n        \"event\": \"CURRENT\"\n    },\n    \"company\": {\n        \"current_prompt\": \"\",\n        \"past_prompt\": \"\",\n        \"event\": \"\"\n    },\n    \"education\": [],\n    \"school\": [],\n    \"current_ownership\": [],\n    \"name\": [],\n    \"ethnicity\": [],\n    \"age\": [],\n    \"total_working_years\": {\"min\": null, \"max\": null},\n    \"role_tenure\": {\"min\": null, \"max\": null},\n    \"company_tenure\": {\"min\": 3, \"max\": null},\n    \"skills\": [\"scaling AI-driven SaaS platforms\"]\n}\n```\n\nThis JSON structure integrates the solutions effectively by mapping explicit requirements to the filter values, ensuring logical consistency and comprehensive coverage without redundant or conflicting values.",
+        "filter_structure": {
+          "job_title/business_function": {
+            "current": [
+              {
+                "title_name": "Chief Marketing Officer",
+                "min_staff": 0,
+                "max_staff": 50000000
+              }
+            ],
+            "past": [],
+            "both": [],
+            "event": "CURRENT"
+          },
+          "management_level": {
+            "current": [],
+            "past": [],
+            "both": [],
+            "event": ""
+          },
+          "location": {
+            "current": [
+              "U.S."
+            ],
+            "past": [],
+            "both": [],
+            "event": "CURRENT"
+          },
+          "company": {
+            "current_prompt": "",
+            "past_prompt": "",
+            "event": ""
+          },
+          "education": [],
+          "school": [],
+          "current_ownership": [],
+          "name": [],
+          "ethnicity": [],
+          "age": [],
+          "total_working_years": {
+            "min": null,
+            "max": null
+          },
+          "role_tenure": {
+            "min": null,
+            "max": null
+          },
+          "company_tenure": {
+            "min": 3,
+            "max": null
+          },
+          "skills": [
+            "scaling AI-driven SaaS platforms"
+          ]
+        }
+      }
+    }
+  }
+]

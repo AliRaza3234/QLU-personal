@@ -1,0 +1,522 @@
+<Approach 1>
+<profile_data>
+<about>
+Professional with 25+ years experience in Printed Electronics (wearables, sensors, IoT. etc.) and User Interface products.
+Profile skills: ['Product Development', 'Manufacturing', 'Engineering', 'Lean Manufacturing', 'Continuous Improvement', 'Engineering Management', 'FMEA', 'Six Sigma', 'R&D', 'SPC', 'Quality System', 'Design for Manufacturing', 'Mechanical Engineering', 'Design of Experiments', 'New Business Development', 'Process Engineering', 'Injection Molding', 'Root Cause Analysis', 'Coatings', 'Plastics', 'Product Development', 'Manufacturing', 'Engineering', 'Lean Manufacturing', 'Continuous Improvement', 'Engineering Management', 'FMEA', 'Six Sigma', 'R&D', 'SPC', 'Quality System', 'Design for Manufacturing', 'Mechanical Engineering', 'Design of Experiments', 'New Business Development', 'Process Engineering', 'Injection Molding', 'Root Cause Analysis', 'Coatings', 'Plastics']
+Total Working Experience: 32.55
+
+Profile Location = Butler, Pennsylvania, United States, Greater Pittsburgh Region, North america
+</about>
+<relevant experiences>
+Chief Innovation Officer at Butler Technologies, Inc.
+2022 - Now
+</relevant experiences>
+<companies>
+<Butler Technologies, Inc.>
+Butler Technologies is an engineering and design-driven manufacturer specializing in printing, fabricating, and assembling custom products. While we have decades of experience with familiar products like graphic overlays and membrane switches, we are pushing the industry forward by prioritizing innovation through printed wearable technology like biometric sensors and flexible heaters. Our team of engineers and graphic artists offers the experience of a large national brand while maintaining the care and connection that comes with being a family-owned business.
+We also manufacture membrane switches, silicone rubber touch keypads, graphic overlays, dial and gauge graphics, flex circuits, and other user interface products for Industrial Controls,  Safety Products, Medical Equipment, and Automotive dials & gauges.  
+Industries: ['Membrane Keypads', 'Lighting Design', 'Wearable Technology', 'User Interface Products', 'E-Textiles', 'Printed Heaters', 'Flexible Circuits', 'Graphic Overlays', 'Printed Electronics', 'Biometrics', 'Capacitive Touch', 'Electronic Textiles', 'Engineering Design Services', 'Biosensors', 'Electrical Engineering', 'Rapid Prototype Program', 'Consumer Goods', 'Membrane Switches', 'PTC Heaters', 'Smart Garments', 'Product Design and Development', 'Mechanical Engineering', 'Conductive Ink Technology/Printing']
+Company size: 55
+</Butler Technologies, Inc.>
+</companies>
+
+<education>
+B.S. in Mechanical Engineering from Penn State University
+MBA Certificate Program in 2010 from Indiana University of Pennsylvania
+Project Management Certificate Program in 1999 from Baldwin Wallace University
+</education>
+</profile_data>
+
+<profile_data>
+<about>
+Digital Health Growth Leader
+Profile skills: ['Machine Learning', 'Artificial Intelligence (AI)', 'Consultative Selling', 'New Business Development', 'Healthcare Information Technology', 'Strategic Planning', 'Healthcare', 'Team Building', 'Sales Management', 'Team Leadership', 'Business Development', 'Leadership', 'Selling', 'Cross-functional Team Leadership', 'Direct Sales', 'Proposal Writing', 'Analysis', 'Business Intelligence', 'Executive Management', 'Integration', 'Management', 'Process Improvement', 'Consulting', 'Enterprise Software', 'Sales', 'Program Management', 'Strategy', 'Healthcare Information Technology (HIT)']
+Total Working Experience: 22.24
+
+Profile Location = Melbourne, Florida, United States, Greater Palm Bay-Melbourne-Titusville Area, United States, North america
+</about>
+<relevant experiences>
+Chief Revenue Officer at Babyscripts
+2023 - Now
+Location: Remote
+Skills: Artificial Intelligence (AI)
+</relevant experiences>
+<companies>
+<Babyscripts>
+Babyscripts is a new model for prenatal and postpartum care that is transforming the way expectant mothers use technology to work with their healthcare providers. We’ve spent the last nine years delivering the most-implemented mobile clinical solution for remote monitoring in pregnancy, with the mission to eliminate maternal mortality and improve access to care for all mothers. For more information on our virtual care solution and to request a demo, visit babyscripts.com.
+Industries: ['Hospital & Health Care', 'Obstetrics', 'Prenatal Care', 'Patient Engagement', 'Consumerism', 'Virtual Care', "Women's Health", 'Mobile Health', 'Midwifery', 'Precision Medicine', 'Remote Patient Monitoring', 'Patient Satisfaction']
+Company size: 63
+</Babyscripts>
+</companies>
+
+<education>
+M.S in Business Administration from University of Florida - Warrington College of Business
+B.S. in Business Administration from Alfred University
+None from College of the Holy Cross
+</education>
+</profile_data>
+
+<profile_data>
+<about>
+With over 20 years of experience as a CXO of mid-cap companies, I am a seasoned and versatile leader who excels at operational excellence, growth strategy, P&L management, and team leadership. I have a proven track record of scaling businesses, improving margins, accelerating EBITDA growth, and creating shareholder value in various B2B and B2C sectors, including mining, medical device, fintech, manufacturing, chemicals, and consulting.
+
+As the COO of Hexagon Mining, a division of Hexagon AB, I am responsible for delivering software and hardware solutions that help our mining industry customers manage every aspect of their mining lifecycle. I oversee the day-to-day operations, revenue generation, and overall strategy of the division, with a focus on continuous improvement, innovation, and customer satisfaction. I also lead the integration of acquisitions, the expansion of global and national markets, and the development of new capabilities and services. My mission is to empower our teams and partners to achieve excellence and drive positive outcomes for our stakeholders.
+Profile skills: ['Management', 'Strategy', 'Strategic Planning', 'Leadership', 'Team Leadership', 'Negotiation', 'Business Strategy', 'Cross-functional Team Leadership', 'Management', 'P&L Management', 'Manufacturing', 'Strategy', 'Strategic Planning', 'Business Planning', 'Business Analysis', 'Management Consulting', 'Consulting', 'Continuous Improvement', 'Business Process Improvement', 'Change Management', 'Marketing Strategy', 'Sales Management', 'Operations Management', 'Business Development', 'Project Management', 'Program Management', 'Business Strategy', 'Cross-functional Team Leadership', 'P&L Management', 'Manufacturing', 'Business Planning', 'Business Analysis', 'Management Consulting', 'Consulting', 'Continuous Improvement', 'Business Process Improvement', 'Change Management', 'Marketing Strategy', 'Sales Management', 'Operations Management', 'Business Development', 'Project Management', 'Program Management', 'Finance', 'Product Management', 'Competitive Analysis']
+Total Working Experience: 28.64
+
+Profile Location = Greater Chicago Area, United States, United States
+</about>
+<relevant experiences>
+Chief Operating Officer (COO) at Hexagon Mining
+2023 - Now
+Location: Tucson, Arizona, United States · Hybrid
+Hexagon Mining is a division of Hexagon AB, a publicly traded conglomerate. At Hexagon Mining we provide software and hardware solutions to our mining industry customers to manage every aspect of their mining lifecycle.  Our solutions assist in surveying, block modelling, planning, drill and blast, fleet management, asset health monitoring, pedestrian safety, collision avoidance, ensuring alertness of operators. slope monitoring and design, object detection, automatic propulsion control, remote (TeleOp) control of equipment, guide & assist, and overall asset movement management at mine sites.
+</relevant experiences>
+<companies>
+<Hexagon Mining>
+As energy costs fluctuate, high-grade ores become scarcer, and profit margins tighten, productive mines recognize that technology is essential to their success. Companies must be smarter, safer, and quicker to respond to change. Their future depends on it.
+
+Hexagon recognizes that the competitive edge of its customers depends on empowering an autonomous future by integrating, automating, and optimizing critical workflows. 
+
+This means smart mines that are efficient to operate, maximize safety and minimally impact the environment throughout the life of a mine.
+
+Hexagon is a global leader in sensor, software and autonomous solutions. We are putting data to work to boost efficiency, productivity, and quality across industrial, manufacturing, infrastructure, safety, and mobility applications.
+
+Our technologies are shaping urban and production ecosystems to become increasingly connected and autonomous —ensuring a scalable, sustainable future.
+
+Hexagon’s Mining division solves surface and underground mine challenges with proven technologies for planning, operations and safety.
+
+Hexagon (Nasdaq Stockholm: HEXA B) has approximately 22,000 employees in 50 countries and net sales of 5.1bn USD.
+Industries: ['Mining', 'Mining Technology', 'Information Technology & Services']
+Company size: 896.0
+</Hexagon Mining>
+</companies>
+
+<education>
+MBA in Finance, Accounting & Strategy from The University of Chicago Booth School of Business
+Master of Business Administration - MBA in Finance, Strategy from University of Chicago
+BSBA in New & Small Business Management from Georgetown University
+None from Wheaton Central High School
+</education>
+</profile_data>
+
+<profile_data>
+<about>
+Doug is driven by working for mission driven brands that have a positive impact on the world. He has led marketing, growth, membership, retail, product and business development/revenue for iconic brands like Oura, One Medical, Nest, Levi's, adidas and General Motors EV1. He has done this across diverse businesses including electric vehicles, hardware tech, healthcare, sustainable energy services, membership models and apparel/footwear. From small start-ups, companies acquired/integrated and those scaling to an IPO. In '23 he was selected by Ad Age as Game Changer, in '21 he was selected by Business Insider as one of the top 27 CMO's in the World and in '18 by Forbes as a Top 50 CMO. He has deep experience leading companies growth strategy from early stage to mass adoption. At Oura he leads brand strategy, revenue growth for DTC, membership/global retail/product marketing, B2B marketing, advertising and creative. He led the same function at One Medical which was acquired by Amazon in ‘22 for $3.9B.
+
+At Nest he led marketing from early start-up through Google's $3.2B acquisition onto becoming the leading connected home brand. Prior to joining Nest, Doug was VP of Global Marketing for Levi's and architect of the Go Forth campaign in which he was selected by Advertising Age in '11 as one of the Top 50 Innovative Marketers.
+
+Before Levi's, Doug was the Managing Director of adidas Impossible Is Nothing business at TBWA/Chiat/Day and led marketing for GM's first electric vehicle EV1. Doug is a senior advisor to VC's, multiple Silicon Valley start­ups and is a guest lecturer at Stanford School of Business. He is on the Board of Advisors for iSchool at Syracuse University. 
+
+www.dougsweeny.com
+Profile skills: ['E-commerce', 'Advertising', 'Brand Management', 'Social Media', 'Digital Marketing', 'Start-ups', 'Marketing', 'Business Development', 'Digital Media', 'Marketing Communications', 'Integrated Marketing', 'Strategic Partnerships', 'Brand Architecture', 'Public Relations', 'Brand Development', 'Product Development', 'Creative Direction', 'Mobile Devices', 'Team Building', 'Digital Innovation', 'E-commerce', 'Advertising', 'Brand Management', 'Social Media', 'Digital Marketing', 'Start-ups', 'Marketing', 'Business Development', 'Digital Media', 'Marketing Communications', 'Strategy', 'Integrated Marketing', 'Strategic Partnerships', 'Brand Architecture', 'Public Relations', 'Brand Development', 'Product Development', 'Team Leadership', 'Creative Direction', 'Creative Strategy', 'Strategy', 'Team Leadership', 'Creative Strategy', 'Management']
+Total Working Experience: 32.29
+
+Profile Location = San Francisco Bay Area, United States, United States
+</about>
+<relevant experiences>
+Chief Marketing Officer at ŌURA
+2022 - Now
+Location: San Francisco Bay Area
+Lead Brand, Comms, revenue across DTC, Membership and Global Retail.
+</relevant experiences>
+<companies>
+<ŌURA>
+Oura is an award-winning and fast-growing startup that helps people track all stages of sleep and activity using the Oura Ring and connected app. By providing daily feedback and practical steps to inspire healthy lifestyles, we've helped hundreds of thousands of people improve their sleep, understand their bodies, and transform their health. We’re on a mission to empower every person to own their inner potential, and we’re seeking talented individuals to join us on our journey.
+
+JOIN THE OURA TEAM
+
+Oura is full of skilled experts and we’re known to share a good laugh every now and then. We always strive to learn more and dig deeper into our research and analytics, to stay engaged and creative in everything we do. We respect our partners, privacy and the scientific method.
+
+We are a multi-disciplinary team of over 100 experts in hardware engineering, software development, machine learning, bioscience, sleep, industrial and UX design, production, marketing and customer experience.
+
+Oura Health Ltd.’s HQ and major manufacturing facilities are located in Oulu, Finland. Other locations include Helsinki and San Francisco.
+Industries: ['Health technology', 'Software development', 'Wearable technology', 'Consumer electronics', 'Health, Wellness & Fitness', 'Sleep monitoring']
+Company size: 516.0
+</ŌURA>
+</companies>
+
+<education>
+BS from Syracuse University
+</education>
+</profile_data>
+
+<profile_data>
+<about>
+Profile skills: ['Derivatives', 'Commodity', 'Options', 'Investment Banking', 'Financial Modeling', 'Capital Markets', 'Finance', 'Trading', 'Equities', 'Hedge Funds', 'Fixed Income', 'Derivatives', 'Commodity', 'Options', 'Investment Banking', 'Financial Modeling', 'Capital Markets', 'Finance', 'Trading', 'Equities', 'Hedge Funds', 'Fixed Income']
+Total Working Experience: 23.47
+
+Profile Location = Los Angeles County, California, United States, United States
+</about>
+<relevant experiences>
+Chief Financial Officer at ŌURA
+2023 - Now
+Location: Los Angeles Metropolitan Area · Hybrid
+</relevant experiences>
+<companies>
+<ŌURA>
+Oura is an award-winning and fast-growing startup that helps people track all stages of sleep and activity using the Oura Ring and connected app. By providing daily feedback and practical steps to inspire healthy lifestyles, we've helped hundreds of thousands of people improve their sleep, understand their bodies, and transform their health. We’re on a mission to empower every person to own their inner potential, and we’re seeking talented individuals to join us on our journey.
+
+JOIN THE OURA TEAM
+
+Oura is full of skilled experts and we’re known to share a good laugh every now and then. We always strive to learn more and dig deeper into our research and analytics, to stay engaged and creative in everything we do. We respect our partners, privacy and the scientific method.
+
+We are a multi-disciplinary team of over 100 experts in hardware engineering, software development, machine learning, bioscience, sleep, industrial and UX design, production, marketing and customer experience.
+
+Oura Health Ltd.’s HQ and major manufacturing facilities are located in Oulu, Finland. Other locations include Helsinki and San Francisco.
+Industries: ['Health technology', 'Software development', 'Wearable technology', 'Consumer electronics', 'Health, Wellness & Fitness', 'Sleep monitoring']
+Company size: 516.0
+</ŌURA>
+</companies>
+
+<education>
+MBA in Financial Engineering from The Wharton School
+BA in Mathematics/Economics from Wesleyan University
+None from American School in London
+</education>
+</profile_data>
+
+<profile_data>
+<about>
+Profile skills: ['Credit Cards', 'Risk Management', 'Financial Services', 'Banking', 'Portfolio Management', 'Financial Risk', 'Credit Risk', 'Relationship Management', 'Retail Banking', 'Credit', 'Operational Risk', 'Finance', 'Payments', 'Vendor Management', 'Financial Analysis', 'Payment Systems', 'Debit Cards', 'Enterprise Risk Management', 'Payment Card Processing', 'Business Strategy', 'Strategy', 'Credit Cards', 'Risk Management', 'Financial Services', 'Banking', 'Portfolio Management', 'Financial Risk', 'Credit Risk', 'Relationship Management', 'Retail Banking', 'Credit', 'Operational Risk', 'Finance', 'Payments', 'Vendor Management', 'Financial Analysis', 'Payment Systems', 'Debit Cards', 'Enterprise Risk Management', 'Payment Card Processing', 'Business Strategy']
+Total Working Experience: 20.88
+
+Profile Location = San Francisco, California, United States, San Francisco Bay Area, United States
+</about>
+<relevant experiences>
+Chief Commercial Officer (CCO) at ŌURA
+2023 - Now
+Location: San Francisco Bay Area
+</relevant experiences>
+<companies>
+<ŌURA>
+Oura is an award-winning and fast-growing startup that helps people track all stages of sleep and activity using the Oura Ring and connected app. By providing daily feedback and practical steps to inspire healthy lifestyles, we've helped hundreds of thousands of people improve their sleep, understand their bodies, and transform their health. We’re on a mission to empower every person to own their inner potential, and we’re seeking talented individuals to join us on our journey.
+
+JOIN THE OURA TEAM
+
+Oura is full of skilled experts and we’re known to share a good laugh every now and then. We always strive to learn more and dig deeper into our research and analytics, to stay engaged and creative in everything we do. We respect our partners, privacy and the scientific method.
+
+We are a multi-disciplinary team of over 100 experts in hardware engineering, software development, machine learning, bioscience, sleep, industrial and UX design, production, marketing and customer experience.
+
+Oura Health Ltd.’s HQ and major manufacturing facilities are located in Oulu, Finland. Other locations include Helsinki and San Francisco.
+Industries: ['Health technology', 'Software development', 'Wearable technology', 'Consumer electronics', 'Health, Wellness & Fitness', 'Sleep monitoring']
+Company size: 516.0
+</ŌURA>
+</companies>
+
+<education>
+BA in Economics and Business from Trinity College Dublin
+Executive Certificate  from Stanford University Graduate School of Business
+</education>
+</profile_data>
+
+<profile_data>
+<about>
+Kurt Dykema is the chief technology officer at Twisthink. He advises Twisthink’s development and technology research, which aligns with market trends observed within the IoT marketplace. In 2001 Kurt joined Twisthink, establishing technology development as a core offering to the business.  Over the 21 years he has been at Twisthink, he has helped the team grow in competence and scale.  Early in his career, Kurt was an electronics design engineer at Johnson Controls where he designed and launched the Homelink Trainable Garage Door Opener. Kurt is named on 36 United States patents and holds a bachelor’s degree in engineering from Calvin College and a master’s degree in electrical engineering from the University of Michigan.
+Profile skills: ['Electronics', 'Product Development', 'Embedded Systems', 'Cross-functional Team Leadership', 'Manufacturing', 'Embedded Software', 'Engineering', 'Engineering Management', 'Automotive', 'Leadership', 'Product Design', 'Electrical Engineering', 'Product Management', 'Strategic Planning', 'Start-ups', 'Business Development', 'Strategic Partnerships', 'Matlab', 'Business Strategy', 'New Business Development', 'Mobile Devices', 'C', 'Cloud Computing']
+Total Working Experience: 34.13
+
+Profile Location = Holland, Michigan, United States, Grand Rapids Metropolitan Area, United States, North America
+</about>
+<relevant experiences>
+Chief Technology Officer at Twisthink
+2021 - Now
+Location: Holland, Michigan, United States
+</relevant experiences>
+<companies>
+<Twisthink>
+Twisthink is a digital consulting firm that partners with companies to develop digital strategies and solutionsto create impact. We are an intentionally assembled cross-functional team of strategists, designers + technologists.
+
+To learn more about Twisthink, visit www.twisthink.com.
+Industries: ['Connectivity', 'Embedded Systems', 'System Architecture', 'Firmware Development', 'Wearable Technology', 'Medical and Consumer Electronics', 'Analog Circuit Design', 'Human-Centered Design', 'Vision Systems', 'Industrial Design', 'PCB Layout', 'Machine Learning / AI', 'UI / UX', 'IoT', 'Management Consulting']
+Company size: 55
+</Twisthink>
+</companies>
+
+<education>
+MSEE in Control Systems from University of Michigan
+BSE in Electrical Engineering from Calvin University
+</education>
+</profile_data>
+
+<profile_data>
+<about>
+Experienced fundraising professional with a demonstrated history (18+ years) of working in the nonprofit industry. Skilled in Nonprofit Organizations, Operations, Fiduciary Oversight, Relationship Management, Capital Campaigns, Event Management, Development Operations, Grant Writing, Grants Management & Compliance, Strategic Planning, Volunteer Engagement, Board/Advisory Committee Oversight, Team Building, Communications (both internal and external), and Media Relations. Strong knowledge of Dallas’ nonprofit community and key challenges. I am a social services professional with a Masters of Science focused in Human Relations and Business.
+Profile skills: ['Fundraising', 'Philanthropy', 'Volunteer Management', 'Nonprofits', 'Annual Giving', 'Community Outreach', 'Event Planning', 'Program Development', 'Proposal Writing', 'Grant Writing', 'Strategic Planning', 'Program Management', 'Event Management', 'Public Relations', 'Non-profits', 'Social Services', 'Research', 'Budgets', 'Marketing', 'Editing', 'Media Relations', 'Policy', 'Budgeting', 'Volunteer Recruiting', 'Grants', 'Public Speaking', 'Community Development', 'Board Development', 'Leadership', 'Stewardship', 'Management', 'Leadership Development', 'Team Building', 'Training', 'Organizational Development', 'Staff Development', 'Community Engagement', 'Resource Development', "Raiser's Edge", 'Capital Campaigns', 'Non-profit Fund Development', 'Board Relations', 'Volunteer Training', 'Non-profit Leadership', 'Major Gift Cultivation', 'Major Donor Cultivation', 'Major Gift Solicitations', 'Major Gift Development', 'Board Governance', 'Non-profit Administration']
+Total Working Experience: 19.54
+
+Profile Location = Dallas-Fort Worth Metroplex, United States, North America
+</about>
+<relevant experiences>
+Chief Development Officer (CDO) at Metrocare Services
+2021 - Now
+</relevant experiences>
+<companies>
+<Metrocare Services>
+WHO WE ARE
+Metrocare is changing minds! We are North Texas'​ leading nonprofit dedicated to helping people with mental illness, developmental disabilities, and severe emotional problems live healthier lives.  The primary disorders treated by Metrocare include depression, bi-polar, schizophrenia, anxiety, autism, ADD, and ADHD.  
+
+OUR OPPORTUNITIES
+Metrocare hires psychologists and psychiatrists (bilingual and Spanish-language skills are needed and valued).  We have research programs, and we train a new generation of mental health professionals for work in the public sector.  
+
+OUR SERVICES
+Metrocare serves over 50,000 people annually.  We provide adult mental healthcare services, including medication management, children and adolescent mental healthcare services, mental retardation/developmental disability services for adults and children, early childhood intervention services, primary healthcare services for families, pharmacy services, and social services that include housing services, occupational services, and foster care training and monitoring.
+
+OUR CLINICS
+Our 14 clinics and satellite clinics (including 7 main clinics) include two Centers for Children with Autism. Clinics are in Dallas, Grand Prairie, and Addison.
+Industries: ['Hospital & Health Care', 'depression', 'schizophrenia', 'housing services', 'autism', 'ADD and ADHD', 'foster care training and monitoring.', 'Behavioral and mental health counseling and treatment, adults and children', 'anxiety', 'bi-polar']
+Company size: 617
+</Metrocare Services>
+</companies>
+
+<education>
+Masters of Science in Human Relations and Business from Amberton University
+None from High School for Health Professions
+</education>
+</profile_data>
+
+<profile_data>
+<about>
+Control Engineer and Engineering Manager with broad experience in automotive applications. 
+Profile skills: ['Simulations', 'Algorithms', 'Automotive Engineering', 'R&D', 'Embedded Systems', 'Control Theory', 'Control Systems Design', 'Mathematical Modeling', 'Optimization', 'Automation', 'Vehicles', 'HEV', 'Autonomous Vehicles', 'Matlab', 'Powertrain', 'Automotive Electronics', 'Embedded Systems', 'Matlab', 'Vehicles', 'Simulations', 'Algorithms', 'Automotive Engineering', 'R&D', 'Control Theory', 'Control Systems Design', 'Mathematical Modeling', 'Optimization', 'Automation', 'HEV', 'Autonomous Vehicles', 'Powertrain', 'Automotive Electronics']
+Total Working Experience: 26.47
+
+Profile Location = Sunnyvale, California, United States, San Francisco Bay Area, Sunnyvale, California, United States, North america
+</about>
+<relevant experiences>
+Chief Technology Officer at Pebble
+2022 - Now
+</relevant experiences>
+<companies>
+<Pebble>
+Welcome to Pebble. Lighter living that’s never idle and always, simply magical. We have designed a new way to #RV. True freedom arrives this fall. Stay tuned. #PebbleLife
+Industries: ['Automotive']
+Company size: 43
+</Pebble>
+</companies>
+
+<education>
+Doctor of Philosophy (Ph.D.) in Automatic Control from Lund Institute of Technology
+M.Sc. in Automatic Control from Politehnica University Timisoara
+</education>
+</profile_data>
+
+<profile_data>
+<about>
+Profile skills: ['Process Improvement', 'Management', 'Software Development', 'Governance', 'SDLC', 'IT Strategy', 'Business Intelligence', 'Integration', 'Team Management', 'Architecture', 'Cross-functional Team Leadership', 'Software Project Management', 'Project Management', 'Data Warehousing', 'Leadership', 'Customer Service', 'PMP', 'Outsourcing', 'Information Technology', 'Product Management', 'Software Development', 'SDLC', 'IT Strategy', 'Business Intelligence', 'Integration', 'Architecture', 'Cross-functional Team Leadership', 'Software Project Management', 'Project Management', 'Data Warehousing', 'Customer Service', 'PMP', 'Outsourcing', 'Information Technology', 'Product Management', 'Architectures', 'Requirements Analysis', 'Vendor Management', 'Program Management', 'Agile Methodologies', 'Management', 'Team Management', 'Leadership', 'Strategy', 'Team Leadership']
+Total Working Experience: 29.13
+
+Profile Location = San Diego, California, United States, San Diego Metropolitan Area, North america
+</about>
+<relevant experiences>
+Chief Commercial Officer (CCO, SaaS) at ResMed
+2023 - Now
+
+Chief Commercial Officer (CCO, SaaS) at ResMed
+2023 - Now
+</relevant experiences>
+<companies>
+<ResMed>
+At ResMed (NYSE: RMD, ASX: RMD) we pioneer innovative solutions that treat and keep people out of the hospital, empowering them to live healthier, higher-quality lives. Our cloud-connected medical devices transform care for people with sleep apnea, COPD and other chronic diseases. Our comprehensive out-of-hospital software platforms support the professionals and caregivers who help people stay healthy in the home or care setting of their choice. By enabling better care, we improve quality of life, reduce the impact of chronic disease and lower costs for consumers and healthcare systems in more than 120 countries.
+Industries: ['Out-of-hospital care', 'Respiratory care', 'interoperability', 'ventilation', 'medical technology', 'digital health', 'health IT', 'Medical Device', 'patient engagement', 'COPD', 'SaaS', 'durable medical equipment', 'medical software', 'Sleep apnea', 'CPAP', 'portable oxygen', 'Home medical equipment', 'medical devices', 'Sleep', 'remote monitoring']
+Company size: 6371
+</ResMed>
+</companies>
+
+<education>
+MBA in High Technology from Arizona State University
+BTech in Electronics and Telecommunications Engineering from National Institute of Technology Calicut
+CBSE from New Indian School
+Primary from St. Xavier's College
+</education>
+</profile_data>
+
+<profile_data>
+<about>
+I have been developing and launching transformative technologies across healthcare, robotics, and mobility industries; creating safer and more efficient solutions for over 20 years in product, design, and engineering.  Everything I do is motivated from a place of making the world better with the technology that I make and the teams I get to do that with.
+
+My background is in mechanical and controls engineering.  I spent the first half of my career at NASA where I worked on robots that are still driving on the planet Mars today.  I then went on to work at companies in both the health robotics and self driving car spaces.  I've worked in both day one startups as well as large companies who are trying to create a "first of its kind" product.   
+
+As a product and technology leader, I know that great product roadmaps focus on simplicity and scalability.  A tech product doesn't happen overnight.  It takes a lot of experimentation and quick iterations to find the answer.  I believe leaders need to ask the hard questions and push the team to explore new ideas with quick experiments.  My focus as a leader is to build a great team, help set a clear vision so the team knows what the goals are and then give them the resources they need -- the results are beyond what you can imagine.
+Profile skills: ['Systems Engineering', 'Testing', 'Integration', 'Manufacturing', 'System Design', 'Sensors', 'Spacecraft', 'Engineering Management', 'Aerospace', 'Mechanical Engineering', 'Robotics', 'Simulations', 'Space Systems', 'Finite Element Analysis', 'GD&T', 'Earned Value Management', 'Aerospace Engineering', 'Engineering', 'Composites', 'Systems Design', 'Matlab', 'Solidworks', 'Labview', 'Pro Engineer', 'Unigraphics', 'SolidWorks', 'Systems Engineering', 'Testing', 'Integration', 'Matlab', 'Manufacturing', 'System Design', 'Sensors', 'Spacecraft', 'Engineering Management', 'Solidworks', 'Aerospace', 'Mechanical Engineering', 'Robotics', 'Simulations', 'Space Systems', 'Finite Element Analysis', 'GD&T', 'Labview', 'Pro Engineer', 'Earned Value Management']
+Total Working Experience: 26.13
+
+Profile Location = United States, United States
+</about>
+<relevant experiences>
+CTO WHOOP at WHOOP
+2022 - Now
+Location: Boston, Massachusetts, United States
+</relevant experiences>
+<companies>
+<WHOOP>
+Our mission at WHOOP is to unlock human performance. We believe everyone has an inner potential. A potential to perform at their highest level. We believe this potential can be harnessed by uncovering secrets your body is trying to tell you.
+
+#UnlockYourself with the all-new WHOOP 4.0 –Your personalized digital fitness and health coach.
+
+ABOUT WHOOP 4.0
+No screen. No notifications. Nothing but nonstop data collection. Designed to be worn 24/7, the advanced WHOOP 4.0 is lightweight and minimal so nothing gets in the way of a snatch, swing, or stride.
+
+WHOOP APP
+The WHOOP app tracks so much more than your activity. It calibrates your data over time and recommends what to do with it based on your physiology and goals.
+
+WHOOP BODY
+We set out to create a wearable that’s finally wearable. Introducing WHOOP Body, revolutionary, new technical garments featuring Any-Wear™ technology, designed to free your wrist and give you the freedom to move.
+
+LEARN MORE at whoop.com/membership/body/
+NEED SUPPORT? Visit https://support.whoop.com/
+
+CAREERS at WHOOP
+At WHOOP, the world’s most talented engineers, designers, and thought leaders are helping to unlock human performance.
+SEE OPEN ROLES at https://www.whoop.com/careers/
+
+WHOOP UNITE
+Support the People Who Support You. WHOOP Unite™ is the solution that elevates health and drives results for high-performance organizations.
+FOLLOW our Showcase Page: https://www.linkedin.com/showcase/whoop-unite
+Industries: ['Cultural Change', 'Wearable Technology', 'Healthcare', 'Health Management', 'Human Performance', 'Mental Health', 'Health Programs', 'Resilience', 'Digital Health', 'High Performing Teams', 'Productivity Solutions', 'Wellbeing', 'Sleep Monitoring', 'Corporate Wellness', 'Health, Wellness & Fitness', 'Fitness Technology', 'Health & Wellness', 'Team Performance', 'Optimizing Performance', 'Health Technology', 'Benchmarking Tools']
+Company size: 615.0
+</WHOOP>
+</companies>
+
+<education>
+MS in Control and Dynamics from UCLA
+BS in Mechanical Engineering from Montana State University
+</education>
+</profile_data>
+
+<profile_data>
+<about>
+Achievement driven Finance Professional with over 29+ years of solid track record of driving strategic initiatives in around revenue enhancement, optimizing costs, establish & strengthen process efficiency and driving fiscal & financial governance in the organizations I worked for.
+
+During my professional career cut across E-commerce, Retail, Telecom, FMCG and Manufacturing Industries, I got the opportunity to work with few of the Leading names like Lenskart, Wal-Mart, Airtel, Coca-Cola and McDonald's, with a successful track record of delivering beyond expectations in every role that I was assigned to in this journey.
+
+Strong people orientation and ability to lead, motivate and develop large teams and nurture talent.
+
+Extensive experience in conceptualizing Retail Format Strategy, Driving Corporate Governance, establishing Risk & Control frameworks and managing Start Up Challanges  Fund Rase etc.
+
+Valuable combination of strategic thought process and strong business & financial acumen, with an ability to manage multiple stakeholders, transform start ups to substantial businesses, drive business performance through strong financial analytics.
+Profile skills: ['FMCG', 'Pricing', 'Strategic Planning', 'Management', 'Strategy', 'MIS', 'Retail', 'Business Planning', 'Vendor Management', 'Team Management', 'Forecasting', 'Business Development', 'Business Strategy', 'Operations Management', 'Inventory Management', 'Profit', 'Merchandising', 'Supply Chain Management', 'Budget', 'Sales', 'FMCG', 'Pricing', 'Retail', 'Business Planning', 'Vendor Management', 'Forecasting', 'Business Development', 'Business Strategy', 'Operations Management', 'Inventory Management', 'Merchandising', 'Supply Chain Management', 'Budget', 'Sales', 'Budgets', 'Accounting', 'Competitive Analysis', 'Supply Chain', 'Strategic Financial Planning', 'Finance', 'Strategic Planning', 'Management', 'Strategy', 'Team Management', 'Analysis', 'Leadership', 'MIS']
+Total Working Experience: 30.31
+
+Profile Location = Gurgaon, Haryana, India, India
+</about>
+<relevant experiences>
+Chief Financial Officer at Noise
+2022 - Now
+Location: India
+Partnering with Business to drive profitable and sustainable growth.
+</relevant experiences>
+<companies>
+<Noise>
+India's number 1 smartwatch brand, Noise was founded with the mission to democratise connected lifestyle for Indians. With consumer centricity at its core, Noise has constantly come up with industry-leading and path-breaking innovations in audio and connected tech. With 9 industry-first innovations to our credit, we forge our way into the future with a heightened sense of co-creation and innovation in our products. We lay equal emphasis on our people and today have what we refer to as some of the best minds in the business. What ties us all is our quest for the best and we do it whilst cutting out the external opinions and listening to the noise within.
+Industries: ['Gadget Accessories', 'Consumer Electronics', 'Gadget']
+Company size: 429.0
+</Noise>
+</companies>
+
+<education>
+ICAI in Accounting from Institute of Chartered Accountants of India
+ICWAI in Cost Accounting from Institute of Cost and Work Accountants of India
+None from Delhi University
+Higher Secondary in commerce from Kulachi Hans Raj Model School
+</education>
+</profile_data>
+
+<profile_data>
+<about>
+Seasoned Senior Operator in scaling high growth from 200 - 2000 employees. Experienced across Product, Development, UX, Strategy, Marketing, Operations, and Finance. Built businesses in Consumer web, mobile and enterprise across Travel, Media, Collaboration, FinTech, and Ecommerce, Customer Centric product leader. Public company Board Member, Investor, and advisor. 
+Profile skills: ['SaaS', 'SQL', 'Enterprise Software', 'Flash', 'Salesforce.com', 'Developer Relations', 'Software Development', 'Business Development', 'Product Management', 'Strategic Partnerships', 'Start-ups', 'Business Strategy', 'Mobile Devices', 'E-commerce', 'Social Networking', 'User Experience', 'Advertising', 'Cloud Computing', 'SEO', 'Integration', 'Program Management', 'Product Marketing', 'Demand Generation', 'Go-to-market Strategy', 'Analytics', 'Management', 'Strategy', 'Leadership', 'SaaS', 'Developer Relations', 'Software Development', 'Business Development', 'Product Management', 'Strategic Partnerships', 'SQL', 'Start-ups', 'Business Strategy', 'Mobile Devices', 'E-commerce', 'Management', 'Social Networking', 'Strategy', 'User Experience', 'Enterprise Software', 'Advertising', 'Flash', 'Cloud Computing', 'Leadership']
+Total Working Experience: 24.63
+
+Profile Location = United States, United States
+</about>
+<relevant experiences>
+Chief Executive Officer at ŌURA
+2022 - Now
+Location: San Francisco Bay Area
+ŌURA is the company behind the Oura Ring — the smart ring that delivers personalized health data, insights, and daily guidance. ŌURA believes health is a daily practice and, with personalized insights and guidance, you can control the course of your health to live a more balanced life. The Ring tracks all stages of sleep and recovery and accounts for daily activity to provide practical steps for long-term improvement.
+</relevant experiences>
+<companies>
+<ŌURA>
+Oura is an award-winning and fast-growing startup that helps people track all stages of sleep and activity using the Oura Ring and connected app. By providing daily feedback and practical steps to inspire healthy lifestyles, we've helped hundreds of thousands of people improve their sleep, understand their bodies, and transform their health. We’re on a mission to empower every person to own their inner potential, and we’re seeking talented individuals to join us on our journey.
+
+JOIN THE OURA TEAM
+
+Oura is full of skilled experts and we’re known to share a good laugh every now and then. We always strive to learn more and dig deeper into our research and analytics, to stay engaged and creative in everything we do. We respect our partners, privacy and the scientific method.
+
+We are a multi-disciplinary team of over 100 experts in hardware engineering, software development, machine learning, bioscience, sleep, industrial and UX design, production, marketing and customer experience.
+
+Oura Health Ltd.’s HQ and major manufacturing facilities are located in Oulu, Finland. Other locations include Helsinki and San Francisco.
+Industries: ['Health technology', 'Software development', 'Wearable technology', 'Consumer electronics', 'Health, Wellness & Fitness', 'Sleep monitoring']
+Company size: 516.0
+</ŌURA>
+</companies>
+
+<education>
+BA from Harvard University
+None from The Thacher School
+</education>
+</profile_data>
+
+<profile_data>
+<about>
+FCPA(practising), ACA, MSc in corporate governance 
+Profile skills: ['Income Tax', 'Tax', 'Small Business', 'Bookkeeping', 'Tax Preparation', 'Accounting', 'Marketing', 'Start-ups', 'Business Development', 'Business Strategy', 'Financial Analysis', 'Strategic Financial Planning', 'Sales Management', 'Financial Accounting', 'Entrepreneurship', 'Risk Management', 'Customer Service', 'Strategic Planning', 'Strategy', 'Management', 'Income Tax', 'Tax', 'Small Business', 'Bookkeeping', 'Tax Preparation', 'Accounting', 'Marketing', 'Strategic Planning', 'Start-ups', 'Business Development', 'Business Strategy', 'Strategy', 'Management', 'Financial Analysis', 'Strategic Financial Planning', 'Sales Management', 'Financial Accounting', 'Microsoft Excel', 'Entrepreneurship', 'Risk Management']
+Total Working Experience: 12.12
+
+Profile Location = Hong Kong, Hong Kong SAR
+</about>
+<relevant experiences>
+Chief Financial Officer at Comedi Health Technology Limited
+2021 - Now
+Location: 香港特別行政區
+</relevant experiences>
+<companies>
+<Comedi Health Technology Limited>
+COMEDI Health is a one-stop online platform that provides high-quality medical and healthcare consultation, health monitoring service as well as lifestyle information. We connect users with doctors and medical professionals directly through video calls, and provides access to prescription drugs, doctor’s certificate and referral letters.
+Industries: ['healthcare', 'telemedicine', 'medical', 'telehealth', 'machine learning', 'health tech', 'ai', 'blockchain', 'big data', 'iot', 'Government Administration']
+Company size: 14
+</Comedi Health Technology Limited>
+</companies>
+
+<education>
+Master's degree in Corporate Governance and Directorship from Hong Kong Baptist University
+</education>
+</profile_data>
+
+<profile_data>
+<about>
+• Results oriented, dynamic healthcare sales executive and leader with experience in:
+
+* Enterprise technology solution sales and business development
+* Population health and predictive analytic solutions
+* Healthcare payment integrity and FWA detection
+* Medicare and Commercial risk adjustment and quality solutions
+
+• Proven ability to build qualified pipeline and exceed sales targets demonstrated by consistent track record of success
+
+• Large network of commercial health plan, Medicare Advantage, Managed Medicaid, large employer and healthcare consultants serving F500 benefits market
+ 
+• Organized and innovative sales team leader who is able to motivate clients and lead colleagues through excellent communication and leadership skills
+Profile skills: ['Healthcare', 'Enterprise Software', 'Analytics', 'Managed Care', 'Healthcare Information Technology', 'Sales', 'Data Analysis', 'Business Development', 'Strategic Planning', 'Sales Operations', 'Healthcare Information Technology (HIT)', 'Consulting', 'Business Process Improvement', 'Health Policy', 'consulting', 'Business Intelligence', 'Salesforce.com', 'Leadership', 'Process Improvement', 'Employee Benefits', 'ROI development', 'Pipeline Development', 'Health']
+Total Working Experience: 26.14
+
+Profile Location = Boxford, Massachusetts, Greater Boston, United States, North America
+</about>
+<relevant experiences>
+Chief Revenue Officer (CRO) at Verisys Corporation
+2021 - Now
+</relevant experiences>
+<companies>
+<Verisys Corporation>
+Industries: ['License Verifications', 'CVO', 'Exclusion Monitoring', 'Credentialing', 'Credentials Verification Organization', 'Verifications & Licensing, Sanctions, Exclusions, Debarments', 'Healthcare', 'Credentials Verification Organization (CVO)', 'Health Care Data', 'Health Care Compliance', 'Screening, Verification, Monitoring', 'FACIS, CheckMedic, MedPass, ProviderCheck', 'Prescriptive Monitoring', 'Compliance', 'Background checks', 'Exclusion Debarment Screening', 'National Abuse Registry', 'Information Technology & Services']
+Company size: 350
+</Verisys Corporation>
+</companies>
+
+<education>
+B.S. in Biology from College of the Holy Cross
+None from Stoneham High School
+</education>
+</profile_data>
+</Approach 1>

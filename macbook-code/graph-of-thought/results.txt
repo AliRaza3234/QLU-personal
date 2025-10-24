@@ -1,0 +1,543 @@
+[
+  {
+    "query": "Find VP-level leaders from AI companies in Western Europe with over 30 years of experience and expertise in corporate finance.",
+    "result": {
+      "query_context": {
+        "original_query": "Find VP-level leaders from AI companies in Western Europe with over 30 years of experience and expertise in corporate finance.",
+        "timestamp": "2025-02-26T14:27:30.852599",
+        "query_id": "query_2393975159177948697"
+      },
+      "analysis": {
+        "main_intent": "To identify and recruit VP-level leaders from AI companies in Western Europe with extensive experience and expertise in corporate finance.",
+        "thinking": "The query seeks high-level executive candidates from a specific industry and geographical region with significant experience and a particular skill set. The challenge lies in the specificity of the criteria and ensuring that all elements are met.",
+        "sub_problems": [
+          {
+            "category": "job_title",
+            "description": "Identify candidates with the title 'VP' or equivalent leadership position.",
+            "dependencies": [],
+            "priority": 1,
+            "context_reference": {
+              "query_segment": "VP-level leaders"
+            },
+            "query_segment": "VP-level leaders"
+          },
+          {
+            "category": "industry",
+            "description": "Candidates must currently or previously work in AI companies.",
+            "dependencies": [],
+            "priority": 2,
+            "context_reference": {
+              "query_segment": "from AI companies"
+            },
+            "query_segment": "AI companies"
+          },
+          {
+            "category": "location",
+            "description": "Candidates should be located in or have a primary work history in Western Europe.",
+            "dependencies": [],
+            "priority": 3,
+            "context_reference": {
+              "query_segment": "in Western Europe"
+            },
+            "query_segment": "Western Europe"
+          },
+          {
+            "category": "experience",
+            "description": "Candidates need to have over 30 years of professional experience.",
+            "dependencies": [],
+            "priority": 2,
+            "context_reference": {
+              "query_segment": "with over 30 years of experience"
+            },
+            "query_segment": "over 30 years of experience"
+          },
+          {
+            "category": "expertise",
+            "description": "Candidates must have expertise in corporate finance.",
+            "dependencies": [],
+            "priority": 1,
+            "context_reference": {
+              "query_segment": "expertise in corporate finance"
+            },
+            "query_segment": "expertise in corporate finance"
+          }
+        ],
+        "analysis_notes": [
+          "The core requirement is finding highly experienced leaders with specific industry and geographical criteria.",
+          "All criteria are mandatory: job title, industry, location, experience, and expertise.",
+          "Implicit requirement: The candidates should have verifiable experience and recognition in their field.",
+          "Ambiguity may arise regarding what constitutes 'Western Europe' and 'AI companies.'"
+        ],
+        "potential_challenges": [
+          "Defining 'Western Europe' as it could include or exclude certain countries.",
+          "Clarifying what qualifies as an 'AI company'\u2014does it include companies with AI as a significant department or only those primarily focused on AI?",
+          "Ensuring candidates have both the required years of experience and the specific expertise in corporate finance."
+        ],
+        "confidence_score": 0.9
+      },
+      "solutions": [
+        {
+          "sub_problem_analysis": {
+            "original_context": "Find VP-level leaders from AI companies in Western Europe with over 30 years of experience and expertise in corporate finance.",
+            "interpreted_requirement": "Identify candidates who hold the title 'VP' or have an equivalent leadership position title.",
+            "thought_process": "The main goal is to filter candidates based on their job titles to find those who are in VP or equivalent leadership roles. This involves understanding the nuances of job titles that denote a VP-level position and identifying equivalent titles that represent similar levels of leadership and responsibility.",
+            "proposed_solutions": [
+              {
+                "thinking": "The most straightforward approach is to filter job titles that explicitly mention 'VP'.",
+                "approach": "Use a filter for the job title containing 'VP'.",
+                "score": 8,
+                "pros": [
+                  "Simple to implement",
+                  "Directly targets the requirement"
+                ],
+                "cons": [
+                  "May miss equivalent titles that don't explicitly use 'VP'",
+                  "Does not account for variations in title naming conventions"
+                ],
+                "implementation_notes": "Use a search or filter option in the recruitment database or software to match job titles containing 'VP'."
+              },
+              {
+                "thinking": "Consider equivalent leadership titles that may be used in place of 'VP', such as 'Director', 'Chief', 'Head of', etc.",
+                "approach": "Create a list of equivalent titles like 'Director', 'Chief', 'Head of', 'Executive', 'Senior Vice President', etc., and filter using this expanded list.",
+                "score": 9,
+                "pros": [
+                  "Covers a wider range of leadership titles",
+                  "More comprehensive"
+                ],
+                "cons": [
+                  "Requires maintenance of the equivalent title list",
+                  "May include some titles that are not strictly VP-level"
+                ],
+                "implementation_notes": "Develop and regularly update a comprehensive list of titles that are typically considered to be at the VP level or equivalent in leadership."
+              },
+              {
+                "thinking": "Focus on job descriptions or roles that imply a VP-level position, even if the title does not explicitly state 'VP'.",
+                "approach": "Analyze job descriptions for keywords and responsibilities typically associated with VP-level roles.",
+                "score": 7,
+                "pros": [
+                  "Can capture VP-level responsibilities not reflected in the title",
+                  "Useful for companies with unconventional title structures"
+                ],
+                "cons": [
+                  "Complex to implement",
+                  "Requires natural language processing or manual review"
+                ],
+                "implementation_notes": "Implement NLP techniques or manual review to analyze job descriptions for leadership roles that match VP-level responsibilities."
+              }
+            ],
+            "selected_solution": {
+              "thinking_for_selection": "The second approach provides a balanced and comprehensive method to identify VP-level leaders by considering both 'VP' titles and equivalent leadership titles, which can vary across organizations.",
+              "filter_values": {
+                "job_title": [
+                  "VP",
+                  "Vice President",
+                  "Director",
+                  "Chief",
+                  "Head of",
+                  "Executive",
+                  "Senior Vice President"
+                ]
+              },
+              "confidence": 0.85,
+              "reasoning": "This approach maximizes the likelihood of capturing all relevant candidates by accounting for different naming conventions and equivalent titles across various companies and industries.",
+              "validation_notes": [
+                "Ensure the list of equivalent titles is regularly updated to reflect industry trends and changes.",
+                "Consider validation against known VP-level leaders to refine and adjust the list as necessary."
+              ]
+            }
+          }
+        },
+        {
+          "sub_problem_analysis": {
+            "original_context": "Find VP-level leaders from AI companies in Western Europe with over 30 years of experience and expertise in corporate finance.",
+            "interpreted_requirement": "Identify candidates who currently or previously worked at AI companies.",
+            "thought_process": "The requirement is to filter candidates based on their association with AI companies. This involves determining a suitable way to identify AI companies and ensuring the candidate has had relevant employment with such companies.",
+            "proposed_solutions": [
+              {
+                "thinking": "Use an industry classification filter where AI companies are grouped under a specific industry or sub-industry category.",
+                "approach": "Utilize industry categories such as 'Artificial Intelligence', 'Machine Learning', 'Data Science', or 'Technology' to filter candidates.",
+                "score": 8,
+                "pros": [
+                  "Easy to implement if such categories exist",
+                  "Directly targets the requirement"
+                ],
+                "cons": [
+                  "Might miss companies that are AI focused but classified under broader categories",
+                  "Requires up-to-date industry classification"
+                ],
+                "implementation_notes": "Check availability of specific industry categories in the database being used."
+              },
+              {
+                "thinking": "Use a keyword search within company names or descriptions to identify AI companies.",
+                "approach": "Search for keywords like 'AI', 'Artificial Intelligence', 'ML', 'Machine Learning', 'Deep Learning' in company names or descriptions.",
+                "score": 7,
+                "pros": [
+                  "Can capture a wide range of AI companies",
+                  "Flexible and adaptable"
+                ],
+                "cons": [
+                  "Prone to false positives where companies have AI-related terms but are not primarily AI companies",
+                  "Might miss companies without explicit AI terms"
+                ],
+                "implementation_notes": "Ensure a robust keyword list and consider context to reduce false positives."
+              },
+              {
+                "thinking": "Leverage a curated list of known AI companies for filtering.",
+                "approach": "Use a pre-existing list of companies recognized as AI leaders or participants.",
+                "score": 9,
+                "pros": [
+                  "High precision in identifying AI companies",
+                  "Reduces ambiguity in classification"
+                ],
+                "cons": [
+                  "Requires frequent updates to maintain accuracy",
+                  "May not include emerging AI companies"
+                ],
+                "implementation_notes": "Ensure the list is comprehensive and regularly updated with industry reports."
+              }
+            ],
+            "selected_solution": {
+              "thinking_for_selection": "The curated list approach offers the highest precision and aligns closely with the requirement to specifically identify AI companies. It minimizes ambiguity and ensures candidates are correctly associated with AI firms.",
+              "filter_values": {
+                "approach": "curated_list",
+                "value": "pre-existing list of AI companies"
+              },
+              "confidence": 0.9,
+              "reasoning": "Given the need for accuracy and the potential for misclassification with other methods, a curated list provides a reliable and precise solution. This approach effectively balances the need for specificity with the feasibility of implementation.",
+              "validation_notes": [
+                "Verify the list's comprehensiveness and update frequency.",
+                "Consider cross-referencing with industry reports for new entries."
+              ]
+            }
+          }
+        },
+        {
+          "sub_problem_analysis": {
+            "original_context": "Find VP-level leaders from AI companies in Western Europe with over 30 years of experience and expertise in corporate finance.",
+            "interpreted_requirement": "Identify candidates who are located in or have significant work history in Western Europe.",
+            "thought_process": "The focus is on filtering candidates based on their geographic location, specifically limiting the search to Western Europe. The challenge is to determine which countries constitute Western Europe and to apply a filter that accurately captures this region. Additionally, we need to consider whether candidates have a primary work history in these locations.",
+            "proposed_solutions": [
+              {
+                "thinking": "The simplest approach is to use predefined geographic filters available in recruitment platforms that categorize Western Europe.",
+                "approach": "Use a location filter with preset option 'Western Europe' if available, selecting countries typically recognized as part of Western Europe.",
+                "score": 8,
+                "pros": [
+                  "Quick to implement",
+                  "Relies on standard geographic definitions",
+                  "Easy to adjust if platform updates definitions"
+                ],
+                "cons": [
+                  "Dependent on platform's definition of Western Europe",
+                  "May not capture nuanced work history"
+                ],
+                "implementation_notes": "Ensure the recruitment platform used has an accurate definition of Western Europe and regularly updates based on global standards."
+              },
+              {
+                "thinking": "Manually specify countries considered part of Western Europe to create a custom filter.",
+                "approach": "Define a list of countries such as Germany, France, Netherlands, Belgium, Luxembourg, Switzerland, Austria, and the UK. Use this list to filter candidates based on current location or work history.",
+                "score": 9,
+                "pros": [
+                  "Allows precise control over included countries",
+                  "Flexible to adjust as needed"
+                ],
+                "cons": [
+                  "Requires manual updates if definitions change",
+                  "More complex to implement"
+                ],
+                "implementation_notes": "Keep a list of countries that are typically considered part of Western Europe and update as geopolitical changes occur. Use this list to filter candidate profiles."
+              },
+              {
+                "thinking": "Utilize a combination of current and historical work location filters to find candidates with work history in Western Europe.",
+                "approach": "Set up filters to check both current location and past employment locations for a match with Western European countries.",
+                "score": 7,
+                "pros": [
+                  "Provides comprehensive coverage of candidates with past ties to Western Europe",
+                  "Identifies candidates who may have relocated"
+                ],
+                "cons": [
+                  "More complex to set up",
+                  "Data may not be consistently available across all profiles"
+                ],
+                "implementation_notes": "Ensure data availability for past employment locations across candidate profiles and consider privacy regulations when accessing historical data."
+              }
+            ],
+            "selected_solution": {
+              "thinking_for_selection": "The manual specification of countries allows for the most precise and adaptable approach, ensuring all relevant nations are considered and adjustments can be made as needed.",
+              "filter_values": {
+                "country_list": [
+                  "Germany",
+                  "France",
+                  "Netherlands",
+                  "Belgium",
+                  "Luxembourg",
+                  "Switzerland",
+                  "Austria",
+                  "United Kingdom"
+                ]
+              },
+              "confidence": 0.9,
+              "reasoning": "This approach provides control over the exact definition of Western Europe used in the search, aligning with common geopolitical understandings and allowing for updates. It balances precision and feasibility effectively.",
+              "validation_notes": [
+                "Ensure that the recruitment platform allows for a multi-country filter setup.",
+                "Verify that candidate profiles include location data that aligns with the selected countries."
+              ]
+            }
+          }
+        },
+        {
+          "sub_problem_analysis": {
+            "original_context": "Find VP-level leaders from AI companies in Western Europe with over 30 years of experience and expertise in corporate finance.",
+            "interpreted_requirement": "Identify candidates who have more than 30 years of professional experience.",
+            "thought_process": "The goal is to filter candidates based on their total years of experience, ensuring it's over 30 years. This requires understanding how to apply experience filters effectively in recruitment platforms or databases that allow such searches.",
+            "proposed_solutions": [
+              {
+                "thinking": "Use an experience filter available in recruitment platforms to exclude candidates with 30 or fewer years of experience.",
+                "approach": "Apply a filter that selects candidates with 'more than 30 years of experience'.",
+                "score": 9,
+                "pros": [
+                  "Directly targets the requirement.",
+                  "Simple to implement on platforms with experience filters."
+                ],
+                "cons": [
+                  "Limited to platforms that support such precise experience filtering."
+                ],
+                "implementation_notes": "Ensure the recruitment platform in use has an experience filter option that can specify 'more than 30 years'."
+              },
+              {
+                "thinking": "Create a custom query to calculate and filter candidates based on their career start date.",
+                "approach": "Filter candidates by calculating the difference between the current year and their earliest professional experience year. Only select those where the difference exceeds 30 years.",
+                "score": 7,
+                "pros": [
+                  "Works even if there isn't a direct filter for experience."
+                ],
+                "cons": [
+                  "Requires detailed data on career start dates.",
+                  "More complex implementation."
+                ],
+                "implementation_notes": "This requires access to detailed work history data and a system that allows for custom queries."
+              }
+            ],
+            "selected_solution": {
+              "thinking_for_selection": "The goal is to efficiently filter candidates with the required experience without overly complicating the process.",
+              "filter_values": {
+                "experience": "more than 30 years"
+              },
+              "confidence": 0.9,
+              "reasoning": "The first solution is more straightforward and feasible where the recruitment platform allows for experience filtering by a specific threshold, ensuring accuracy with minimal effort.",
+              "validation_notes": [
+                "Check that the platform supports experience filtering beyond 30 years.",
+                "Validate the accuracy of experience data in the candidate profiles."
+              ]
+            }
+          }
+        },
+        {
+          "sub_problem_analysis": {
+            "original_context": "Find VP-level leaders from AI companies in Western Europe with over 30 years of experience and expertise in corporate finance.",
+            "interpreted_requirement": "Identify candidates who have expertise specifically in the area of corporate finance.",
+            "thought_process": "The main task is to filter candidates based on their expertise in corporate finance. This involves identifying relevant filter categories that can help in isolating candidates with the required expertise. Possible categories include specific job titles, skills, certifications, or project experiences related to corporate finance.",
+            "proposed_solutions": [
+              {
+                "thinking": "Use job titles and roles as a proxy to determine expertise in corporate finance. Focus on titles such as 'Chief Financial Officer', 'Finance Director', or 'Corporate Finance Manager'.",
+                "approach": "Filter candidates based on specific job titles that typically require corporate finance expertise.",
+                "score": 7,
+                "pros": [
+                  "Directly correlates job titles with expertise",
+                  "Easy to implement using existing title-based filters"
+                ],
+                "cons": [
+                  "May miss candidates with relevant experience but different titles",
+                  "Titles can vary significantly across companies"
+                ],
+                "implementation_notes": "Implement a filter for job titles related to corporate finance."
+              },
+              {
+                "thinking": "Identify candidates based on skills and certifications indicative of corporate finance expertise, such as CPA (Certified Public Accountant) or CFA (Chartered Financial Analyst).",
+                "approach": "Filter based on professional certifications related to corporate finance.",
+                "score": 8,
+                "pros": [
+                  "Certifications provide a standardized measure of expertise",
+                  "Covers candidates who may not have traditional titles but have relevant expertise"
+                ],
+                "cons": [
+                  "Not all candidates with expertise may hold these certifications",
+                  "May require additional verification steps"
+                ],
+                "implementation_notes": "Create a filter for professional certifications in corporate finance."
+              },
+              {
+                "thinking": "Use project experience and specific achievements in corporate finance as a filter criterion.",
+                "approach": "Analyze candidate profiles for specific projects or achievements in corporate finance.",
+                "score": 6,
+                "pros": [
+                  "Direct evidence of expertise through practical experience",
+                  "Captures a wide range of candidates"
+                ],
+                "cons": [
+                  "Difficult to standardize and automate",
+                  "Requires in-depth analysis of each candidate's background"
+                ],
+                "implementation_notes": "Implement a manual review process or use AI to extract project-related experience in corporate finance."
+              }
+            ],
+            "selected_solution": {
+              "thinking_for_selection": "Certifications provide a standardized and recognized measure of expertise that can be reliably filtered and are indicative of a deep understanding of corporate finance.",
+              "filter_values": {
+                "certifications": [
+                  "CPA",
+                  "CFA"
+                ]
+              },
+              "confidence": 0.85,
+              "reasoning": "Using certifications as a filter is a balanced approach that ensures candidates have undergone formal training and assessment in corporate finance, which is critical for a senior role.",
+              "validation_notes": [
+                "Ensure candidate profiles are checked for the latest certification status",
+                "Consider adding additional certifications if relevant."
+              ]
+            }
+          }
+        }
+      ],
+      "final_result": {
+        "reasoning_and_analysis": "### DETAILED ANALYSIS\n\nThe task involves integrating various solutions related to identifying VP-level leaders from AI companies in Western Europe with over 30 years of experience and expertise in corporate finance, and converting these into a structured JSON filter format. Each solution component will be dissected to fit into this structure.\n\n1. **Job Title/Business Function:**\n   - **Solution Analysis:** The requirement is to identify VP-level leaders. The selected solution involves using a list of titles such as 'VP', 'Vice President', 'Director', etc.\n   - **Temporal Aspect:** These titles should apply to both current and past positions, as leaders may have held these titles at different times.\n   - **Logical Dependencies:** This filter is critical as it directly identifies the leadership level required.\n\n2. **Company:**\n   - **Solution Analysis:** The focus is on AI companies, best addressed by a curated list of recognized AI companies.\n   - **Temporal Aspect:** Candidates could have worked or currently work at such companies.\n   - **Logical Dependencies:** This filter is essential to ensure candidates have the relevant industry experience.\n\n3. **Location:**\n   - **Solution Analysis:** Candidates should be in or have significant work history in Western Europe. A list of countries is provided.\n   - **Temporal Aspect:** The location applies to both current and past work history.\n   - **Logical Dependencies:** Ensures the geographical requirement is met.\n\n4. **Total Working Years:**\n   - **Solution Analysis:** The requirement is for candidates with over 30 years of professional experience.\n   - **Temporal Aspect:** This is a cumulative measure, not dependent on current or past positions.\n   - **Logical Dependencies:** This filter is crucial to ensure candidates have the necessary experience maturity.\n\n5. **Skills:**\n   - **Solution Analysis:** Expertise in corporate finance is identified through certifications like CPA or CFA.\n   - **Temporal Aspect:** Skills and certifications are current.\n   - **Logical Dependencies:** This provides a measure of expertise specific to the domain of corporate finance.\n\n### REASONING FOR EACH FILTER\n\n1. **Job Title/Business Function:**\n   - **Current & Past:** Include titles like 'VP', 'Vice President', 'Director', 'Chief', 'Head of', 'Executive', 'Senior Vice President'.\n   - **Event:** \"CURRENT OR PAST\" to capture both present and historical leadership roles.\n\n2. **Company:**\n   - **Current & Past Prompt:** Use a curated list of AI companies. This will ensure precision in identifying industry experience.\n   - **Event:** \"CURRENT OR PAST\" to ensure candidates are captured regardless of when they worked at such companies.\n\n3. **Location:**\n   - **Current & Past:** Countries specified as part of Western Europe.\n   - **Event:** \"CURRENT OR PAST\" to ensure geographical relevance across the candidate's career.\n\n4. **Total Working Years:**\n   - **Min:** 30 years.\n   - **Max:** No maximum specified.\n\n5. **Skills:**\n   - **Certifications:** Include 'CPA' and 'CFA' to filter for corporate finance expertise.\n\n### ASSUMPTIONS AND IMPLICATIONS\n\n- **Temporal Consistency:** Assumed that candidates can qualify through their current or past job titles, locations, and company associations.\n- **Industry Classification:** The curated list of AI companies is assumed to be comprehensive and up-to-date.\n- **Certification Relevance:** CPA and CFA are assumed to be adequate proxies for corporate finance expertise.\n\n### VALIDATION CHECKS\n\n- **Check for Completeness:** Ensure all necessary filters are included.\n- **Consistency:** Ensure temporal aspects are consistently applied across filters.\n- **Logical Dependencies:** Validate that filters do not contradict each other.\n\n### FINAL FILTER JSON\n\n```json\n{\n    \"job_title/business_function\": {\n        \"current\": [\n            {\"title_name\": \"VP\", \"min_staff\": 0, \"max_staff\": 50000000},\n            {\"title_name\": \"Vice President\", \"min_staff\": 0, \"max_staff\": 50000000},\n            {\"title_name\": \"Director\", \"min_staff\": 0, \"max_staff\": 50000000},\n            {\"title_name\": \"Chief\", \"min_staff\": 0, \"max_staff\": 50000000},\n            {\"title_name\": \"Head of\", \"min_staff\": 0, \"max_staff\": 50000000},\n            {\"title_name\": \"Executive\", \"min_staff\": 0, \"max_staff\": 50000000},\n            {\"title_name\": \"Senior Vice President\", \"min_staff\": 0, \"max_staff\": 50000000}\n        ],\n        \"past\": [\n            {\"title_name\": \"VP\", \"min_staff\": 0, \"max_staff\": 50000000},\n            {\"title_name\": \"Vice President\", \"min_staff\": 0, \"max_staff\": 50000000},\n            {\"title_name\": \"Director\", \"min_staff\": 0, \"max_staff\": 50000000},\n            {\"title_name\": \"Chief\", \"min_staff\": 0, \"max_staff\": 50000000},\n            {\"title_name\": \"Head of\", \"min_staff\": 0, \"max_staff\": 50000000},\n            {\"title_name\": \"Executive\", \"min_staff\": 0, \"max_staff\": 50000000},\n            {\"title_name\": \"Senior Vice President\", \"min_staff\": 0, \"max_staff\": 50000000}\n        ],\n        \"both\": [],\n        \"event\": \"CURRENT OR PAST\"\n    },\n    \"management_level\": {\n        \"current\": [],\n        \"past\": [],\n        \"both\": [],\n        \"event\": \"\"\n    },\n    \"location\": {\n        \"current\": [\"Germany\", \"France\", \"Netherlands\", \"Belgium\", \"Luxembourg\", \"Switzerland\", \"Austria\", \"United Kingdom\"],\n        \"past\": [\"Germany\", \"France\", \"Netherlands\", \"Belgium\", \"Luxembourg\", \"Switzerland\", \"Austria\", \"United Kingdom\"],\n        \"both\": [],\n        \"event\": \"CURRENT OR PAST\"\n    },\n    \"company\": {\n        \"current_prompt\": \"curated_list of AI companies\",\n        \"past_prompt\": \"curated_list of AI companies\",\n        \"event\": \"CURRENT OR PAST\"\n    },\n    \"education\": [],\n    \"school\": [],\n    \"current_ownership\": [],\n    \"name\": [],\n    \"ethnicity\": [],\n    \"age\": [],\n    \"total_working_years\": {\"min\": 30, \"max\": null},\n    \"role_tenure\": {\"min\": null, \"max\": null},\n    \"company_tenure\": {\"min\": null, \"max\": null},\n    \"skills\": [\"CPA\", \"CFA\"]\n}\n```\n\nThis JSON structure ensures that all relevant filters are applied based on the solutions analyzed, while maintaining alignment with the original query.",
+        "filter_structure": {
+          "job_title/business_function": {
+            "current": [
+              {
+                "title_name": "VP",
+                "min_staff": 0,
+                "max_staff": 50000000
+              },
+              {
+                "title_name": "Vice President",
+                "min_staff": 0,
+                "max_staff": 50000000
+              },
+              {
+                "title_name": "Director",
+                "min_staff": 0,
+                "max_staff": 50000000
+              },
+              {
+                "title_name": "Chief",
+                "min_staff": 0,
+                "max_staff": 50000000
+              },
+              {
+                "title_name": "Head of",
+                "min_staff": 0,
+                "max_staff": 50000000
+              },
+              {
+                "title_name": "Executive",
+                "min_staff": 0,
+                "max_staff": 50000000
+              },
+              {
+                "title_name": "Senior Vice President",
+                "min_staff": 0,
+                "max_staff": 50000000
+              }
+            ],
+            "past": [
+              {
+                "title_name": "VP",
+                "min_staff": 0,
+                "max_staff": 50000000
+              },
+              {
+                "title_name": "Vice President",
+                "min_staff": 0,
+                "max_staff": 50000000
+              },
+              {
+                "title_name": "Director",
+                "min_staff": 0,
+                "max_staff": 50000000
+              },
+              {
+                "title_name": "Chief",
+                "min_staff": 0,
+                "max_staff": 50000000
+              },
+              {
+                "title_name": "Head of",
+                "min_staff": 0,
+                "max_staff": 50000000
+              },
+              {
+                "title_name": "Executive",
+                "min_staff": 0,
+                "max_staff": 50000000
+              },
+              {
+                "title_name": "Senior Vice President",
+                "min_staff": 0,
+                "max_staff": 50000000
+              }
+            ],
+            "both": [],
+            "event": "CURRENT OR PAST"
+          },
+          "management_level": {
+            "current": [],
+            "past": [],
+            "both": [],
+            "event": ""
+          },
+          "location": {
+            "current": [
+              "Germany",
+              "France",
+              "Netherlands",
+              "Belgium",
+              "Luxembourg",
+              "Switzerland",
+              "Austria",
+              "United Kingdom"
+            ],
+            "past": [
+              "Germany",
+              "France",
+              "Netherlands",
+              "Belgium",
+              "Luxembourg",
+              "Switzerland",
+              "Austria",
+              "United Kingdom"
+            ],
+            "both": [],
+            "event": "CURRENT OR PAST"
+          },
+          "company": {
+            "current_prompt": "curated_list of AI companies",
+            "past_prompt": "curated_list of AI companies",
+            "event": "CURRENT OR PAST"
+          },
+          "education": [],
+          "school": [],
+          "current_ownership": [],
+          "name": [],
+          "ethnicity": [],
+          "age": [],
+          "total_working_years": {
+            "min": 30,
+            "max": null
+          },
+          "role_tenure": {
+            "min": null,
+            "max": null
+          },
+          "company_tenure": {
+            "min": null,
+            "max": null
+          },
+          "skills": [
+            "CPA",
+            "CFA"
+          ]
+        }
+      }
+    }
+  }
+]

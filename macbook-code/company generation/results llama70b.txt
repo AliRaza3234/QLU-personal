@@ -1,0 +1,1889 @@
+Actual Query:  Vice President of IT and Technology at logistics and distribution companies based in the United States with a revenue of over $25B and pretend you are a financial analyst and technical. All firms that are target companies for Central Garden & Pet in their search for a CFO of their pet segment business.
+-----------------------------------------------
+Shortened Query:  Logistics and distribution companies
+Results:
+To address the given prompt, "Logistics and distribution companies", I will first identify the key terms which are "Logistics" and "distribution". Since these terms refer to an industry rather than specific company names, I will consider this as a request for a list of companies within that industry. 
+
+Given that the prompt does not mention specific company names but rather asks for companies within a particular sector, this falls under Case 2 of the instructions, which requires generating a list of companies, aiming for 50 companies. 
+
+The logistics and distribution industry encompasses a wide range of companies involved in the movement, storage, and delivery of goods. This includes courier services, freight forwarders, warehouse operators, and more. 
+
+When generating the list, I will ensure to include a variety of well-known companies from around the world that operate within this sector, ensuring that each company is listed only once and with its location as the country where it is primarily based or founded.
+
+<Companies>
+1. DHL~Germany
+2. UPS~United States
+3. FedEx~United States
+4. DB Schenker~Germany
+5. Kuehne + Nagel~Switzerland
+6. Maersk~Denmark
+7. CH Robinson~United States
+8. XPO Logistics~United States
+9. J.B. Hunt~United States
+10. Yusen Logistics~Japan
+11. Geodis~France
+12. Toll Group~Australia
+13. DSV~Denmark
+14. Nippon Express~Japan
+15. Expeditors~United States
+16. C.H. Robinson~United States
+17. Landstar System~United States
+18. ArcBest~United States
+19. Yellow Corporation~United States
+20. Estes Express Lines~United States
+21. Schneider National~United States
+22. Ryder System~United States
+23. Agility Logistics~Kuwait
+24. Hellmann Worldwide Logistics~Germany
+25. Kerry Logistics~Hong Kong
+26. Sinotrans~China
+27. CEVA Logistics~France
+28. Panalpina~Switzerland
+29. Damco~Denmark
+30. APL Logistics~United States
+31. Hitachi Transport System~Japan
+32. Sankyu~Japan
+33. Toyota Tsusho~Japan
+34. Dachser~Germany
+35. Kintetsu World Express~Japan
+36. Logwin~Luxembourg
+37. Militzer & Münch~Germany
+38. Rhenus~Germany
+39. ST Logistics~Singapore
+40. TVS Logistics~India
+41. Wincanton~United Kingdom
+42. Waberer's~Hungary
+43. Girteka Logistics~Lithuania
+44. AsstrA~Switzerland
+45. cargo-partner~Austria
+46. Dimerco~Taiwan
+47. Gebrüder Weiss~Austria
+48. cargo-partner~Austria
+49. Ziegler~Belgium
+50. Deloitte Logistics~United States
+</Companies>
+Actual Query:  Find me marketing leaders in fintech startups focused on customer acquisition in Southeast Asia.
+-----------------------------------------------
+Shortened Query:  Fintech startups focused on customer acquisition in Southeast Asia
+Results:
+To address the given prompt, I will first identify the key components: "Fintech startups," "customer acquisition," and "Southeast Asia." The prompt is asking for companies that fit within these parameters, but it does not specify particular company names. Instead, it describes a category of companies (fintech startups) with a specific focus (customer acquisition) in a particular region (Southeast Asia). This description aligns with Case 2, as it requires generating a list of companies that fit the given criteria, aiming for around 50 companies.
+
+Given the nature of the prompt, I will consider fintech startups that are known to operate in Southeast Asia and have a notable focus on customer acquisition. This will involve looking into various fintech companies across different countries in Southeast Asia, including but not limited to Singapore, Indonesia, Malaysia, and the Philippines.
+
+The list will include a variety of fintech startups, from payment processors and digital wallets to lending platforms and insurance technology providers, all of which are involved in customer acquisition in some capacity.
+
+<Companies>
+1. Grab~Singapore
+2. Go-Van~Indonesia
+3. Fave~Malaysia
+4. Payfazz~Indonesia
+5. Tunaiku~Indonesia
+6. Kredivo~Indonesia
+7. Funding Societies~Singapore
+8. TransferWise~Singapore
+9. Momo~Vietnam
+10. VNPay~Vietnam
+11. Wave Money~Myanmar
+12. Ascend Money~Thailand
+13. True Money~Thailand
+14. Akulaku~Indonesia
+15. Home Credit~Indonesia
+16. Tcash~Indonesia
+17. DANA~Indonesia
+18. OVO~Indonesia
+19. LinkAja~Indonesia
+20. GCash~Philippines
+21. PayMaya~Philippines
+22. Coins.ph~Philippines
+23. Moneymatch~Philippines
+24. First Circle~Philippines
+25. Lendr~Philippines
+26. Funding Circle~Singapore
+27. Validus~Singapore
+28. CoAssets~Singapore
+29. Minterest~Singapore
+30. Smartkarma~Singapore
+31. C88~Indonesia
+32. UangTeman~Indonesia
+33. Danafix~Indonesia
+34. Taralite~Indonesia
+35. FinAccel~Indonesia
+36. Jago~Indonesia
+37. Bank Jago~Indonesia
+38. TMRW~Thailand
+39. SCB Abacus~Thailand
+40. K PLUS~Thailand
+41. KASIKORNBANK~Thailand
+42. CIMB Bank~Malaysia
+43. BigPay~Malaysia
+44. Boost~Malaysia
+45. Razer Fintech~Singapore
+46. Nium~Singapore
+47. Instarem~Singapore
+48. Thunes~Singapore
+49. Xfers~Singapore
+50. Toast~Singapore
+</Companies>
+Actual Query:  I need product managers in e-commerce platforms with experience in scaling marketplaces in the U.S.
+-----------------------------------------------
+Shortened Query:  E-commerce platforms
+Results:
+To address the prompt "E-commerce platforms," I need to identify companies that fall under this category. Since the prompt does not mention specific company names but rather an industry or type of platform, I will consider this as a request for a list of companies within the e-commerce sector. This aligns with Case 2 of the instructions, which involves generating a list of companies, aiming for around 50 companies.
+
+Given the broad nature of e-commerce platforms, the list can include a wide range of companies from different parts of the world that are involved in online retail, digital marketplaces, and other related services. The goal is to provide a diverse list that represents the global e-commerce industry.
+
+<Companies>
+1. Amazon~United States
+2. eBay~United States
+3. Alibaba~China
+4. Shopify~Canada
+5. Etsy~United States
+6. Walmart~United States
+7. Rakuten~Japan
+8. JD.com~China
+9. ASOS~United Kingdom
+10. Flipkart~India
+11. Mercado Libre~Argentina
+12. Otto Group~Germany
+13. Zalando~Germany
+14. Farfetch~United Kingdom
+15. Macy's~United States
+16. Home Depot~United States
+17. Best Buy~United States
+18. Target~United States
+19. Costco~United States
+20. Kroger~United States
+21. Lowe's~United States
+22. Sears~United States
+23. Overstock~United States
+24. Newegg~United States
+25. Wayfair~United States
+26. Groupon~United States
+27. LivingSocial~United States
+28. Facebook Marketplace~United States
+29. Instagram Shopping~United States
+30. Pinterest Shopping~United States
+31. Snapdeal~India
+32. Paytm Mall~India
+33. Lazada~Singapore
+34. Shopee~Singapore
+35. Tokopedia~Indonesia
+36. Blibli~Indonesia
+37. Bukalapak~Indonesia
+38. Zappos~United States
+39. Sephora~France
+40. Ulta Beauty~United States
+41. Nordstrom~United States
+42. Neiman Marcus~United States
+43. Saks Fifth Avenue~United States
+44. Tiffany & Co.~United States
+45. Coach~United States
+46. Michael Kors~United States
+47. Kate Spade~United States
+48. Tory Burch~United States
+49. Net-A-Porter~United Kingdom
+50. Mr Porter~United Kingdom
+</Companies>
+Actual Query:  Identify UX/UI designers who specialize in mobile app design for fintech applications in Europe.
+-----------------------------------------------
+Shortened Query:  Fintech companies
+Results:
+To address the given prompt, "Fintech companies", I will first identify the key terms and context. The term "Fintech" refers to financial technology, which is an industry that combines financial services and technology to provide innovative solutions. Since the prompt asks for "Fintech companies" without specifying particular company names, this falls under Case 2, where the task requires a list of companies.
+
+Given the broad nature of the term "Fintech", which encompasses a wide range of financial services and technologies, generating a list of 50 companies that fit within this category is feasible. These companies can include payment processors, digital banks, cryptocurrency exchanges, and financial software providers, among others.
+
+The goal is to provide a diverse list of Fintech companies from around the world, ensuring that the list includes well-known and lesser-known entities within the industry. The location of these companies can vary globally, but for simplicity and adherence to the instructions, if a company's location is not immediately known, it will be listed as being in the United States.
+
+With this understanding, the next step is to compile the list of Fintech companies.
+
+<Companies>
+1. PayPal~United States
+2. Stripe~United States
+3. Square~United States
+4. Robinhood~United States
+5. Coinbase~United States
+6. Ant Financial~China
+7. Grab~Singapore
+8. N26~Germany
+9. Revolut~United Kingdom
+10. TransferWise~United Kingdom
+11. Adyen~Netherlands
+12. Affirm~United States
+13. Credit Karma~United States
+14. LendingClub~United States
+15. SoFi~United States
+16. Funding Circle~United Kingdom
+17. Klarna~Sweden
+18. Paytm~India
+19. PhonePe~India
+20. M-Pesa~Kenya
+21. Alipay~China
+22. WeChat Pay~China
+23. Google Pay~United States
+24. Apple Pay~United States
+25. Samsung Pay~South Korea
+26. Amazon Pay~United States
+27. Microsoft Pay~United States
+28. Facebook Pay~United States
+29. Venmo~United States
+30. Cash App~United States
+31. Zelle~United States
+32. Wise~United Kingdom
+33. Remitly~United States
+34. Xoom~United States
+35. WorldRemit~United Kingdom
+36. Payoneer~United States
+37. Skrill~United Kingdom
+38. Neteller~United Kingdom
+39. WebMoney~Russia
+40. Yandex.Money~Russia
+41. Qiwi~Russia
+42. PagSeguro~Brazil
+43. StoneCo~Brazil
+44. Mercado Pago~Argentina
+45. SafetyPay~United States
+46. BluePay~United States
+47. PayLeap~United States
+48. Authorize.net~United States
+49. CyberSource~United States
+50. Braintree~United States
+</Companies>
+Actual Query:  I'm looking for CTOs at blockchain companies with expertise in Web3 and DeFi in Singapore.
+-----------------------------------------------
+Shortened Query:  Blockchain companies
+Results:
+To tackle this prompt, I first need to understand the context and the requirements. The prompt is asking for "Blockchain companies", which implies a need for a list of companies that operate in the blockchain sector. This falls under Case 2 of the instructions, as it requires a list of companies similar to those implied by the term "blockchain".
+
+Given the broad nature of the term "blockchain companies", it's clear that the task is to generate a list of companies that are involved in blockchain technology, which could include a wide range of activities such as cryptocurrency, distributed ledger technology, blockchain development platforms, and more.
+
+Since the goal is to achieve a list of 50 companies as per Case 2, I will need to consider various well-known and lesser-known companies across the globe that are involved in the blockchain sector. This will include companies that provide blockchain solutions, cryptocurrency exchanges, companies that use blockchain for supply chain management, and others.
+
+Now, moving on to generating the list of companies:
+
+<Companies>
+1. Coinbase~United States
+2. Binance~China
+3. Ripple~United States
+4. Ethereum~United States
+5. Bitcoin~United States
+6. ConsenSys~United States
+7. Blockstream~Canada
+8. Chainlink~United States
+9. Stellar~United States
+10. Cardano~United States
+11. Huawei~China
+12. IBM~United States
+13. Microsoft~United States
+14. Accenture~Ireland
+15. Deloitte~United States
+16. KPMG~Netherlands
+17. Ernst & Young~United Kingdom
+18. PwC~United Kingdom
+19. R3~United States
+20. Hedera Hashgraph~United States
+21. IOTA~Germany
+22. NEM~Singapore
+23. NEO~China
+24. Ontology~China
+25. Qtum~China
+26. Lisk~Germany
+27. Stratis~United Kingdom
+28. Ark~France
+29. Factom~United States
+30. Maersk~Denmark
+31. Walmart~United States
+32. Unilever~United Kingdom
+33. Nestle~Switzerland
+34. De Beers~South Africa
+35. Visa~United States
+36. Mastercard~United States
+37. PayPal~United States
+38. BitPay~United States
+39. Bitstamp~Luxembourg
+40. Kraken~United States
+41. Gemini~United States
+42. Crypto.com~Hong Kong
+43. Bittrex~United States
+44. Huobi~Singapore
+45. OKEx~Malta
+46. Bitfinex~British Virgin Islands
+47. Abra~United States
+48. Brave~United States
+49. MetaMask~United States
+50. Ledger~France
+</Companies>
+Actual Query:  Find senior data scientists in healthcare AI startups based in Canada.
+-----------------------------------------------
+Shortened Query:  Healthcare AI startups based in Canada
+Results:
+To address the given prompt, "Healthcare AI startups based in Canada", I need to identify companies that fit this specific description. The prompt mentions a specific industry (Healthcare AI) and a location (Canada), which suggests I should look for companies that operate within this niche and are based in Canada.
+
+Given the specificity of the prompt, it seems to fall under Case 4, as it mentions a particular industry and location but does not explicitly ask for a list of similar companies or provide specific company names. Therefore, my task is to generate a list of companies that match the description provided.
+
+Since the prompt is about startups in a specific sector (Healthcare AI) and location (Canada), I will focus on identifying companies that are known to operate in this space. The list will include companies that are directly involved in healthcare AI and are based in Canada.
+
+<Companies>
+1. DeepMind~Canada
+2. BenchSci~Canada
+3. 1QBit~Canada
+4. MedChart~Canada
+5. Dialogue~Canada
+6. Ada~Canada
+7. Notch~Canada
+8. Aifred Health~Canada
+9. MIMs~Canada
+10. Winterlight Labs~Canada
+11. Cohesic~Canada
+12. KA Imaging~Canada
+13. Vantage~Canada
+14. Tactio~Canada
+15. Medeo~Canada
+16. Healthypoints~Canada
+17. Cliniconex~Canada
+18. Careteam~Canada
+19. InputHealth~Canada
+20. SeamlessMD~Canada
+21. PatientOrderSets~Canada
+22. Medaccess~Canada
+23. Pheedloop~Canada
+24. Healthtech~Canada
+25. Novari Health~Canada
+26. QHR Technologies~Canada
+27. Cognizant Canada~Canada
+28. Accenture Canada~Canada
+29. IBM Canada~Canada
+30. GE Healthcare Canada~Canada
+31. Siemens Healthineers Canada~Canada
+32. Philips Canada~Canada
+33. Telus Health~Canada
+34. Rexall Health~Canada
+35. McKesson Canada~Canada
+36. Cardinal Health Canada~Canada
+37. 3M Canada~Canada
+38. BD Canada~Canada
+39. Stryker Canada~Canada
+40. Medtronic Canada~Canada
+41. Roche Canada~Canada
+42. Pfizer Canada~Canada
+43. Merck Canada~Canada
+44. AstraZeneca Canada~Canada
+45. GSK Canada~Canada
+46. Sanofi Canada~Canada
+47. Novartis Canada~Canada
+48. Janssen Canada~Canada
+49. Eli Lilly Canada~Canada
+50. Boehringer Ingelheim Canada~Canada
+</Companies>
+Actual Query:  I need sales directors at SaaS companies focused on B2B enterprise sales in the U.K.
+-----------------------------------------------
+Shortened Query:  SaaS companies focused on B2B enterprise sales in the U.K.
+Results:
+To tackle this prompt, I first need to identify the key components: SaaS companies, B2B enterprise sales, and the location, which is the U.K. The prompt is asking for companies that fit specific criteria, which involves both the industry (SaaS) and the sales focus (B2B enterprise sales) within a particular geographic location (the U.K.). This means I'm dealing with a case that requires generating a list of companies based on specific requirements, which aligns with Case 2, as it involves listing companies that fit certain criteria.
+
+Given the specificity of the criteria (SaaS companies focused on B2B enterprise sales in the U.K.), I will aim to generate a list of companies that match these requirements as closely as possible. Since the prompt does not mention specific company names but rather a set of characteristics, I will not limit myself to known companies but will also consider lesser-known entities that fit the description.
+
+The location specified is the U.K., which simplifies the geographic aspect of the search. However, for companies that I am not certain are based in the U.K., I will default to 'United States' as per the instructions, while keeping in mind the primary focus on the U.K.
+
+Now, to generate the list, I will consider various SaaS companies known to operate in the B2B enterprise sales sector within the U.K., aiming for a diverse range of companies that fit the criteria.
+
+<Companies>
+1. Salesforce~United Kingdom
+2. Sage~United Kingdom
+3. Freshworks~United Kingdom
+4. Zoho~United Kingdom
+5. HubSpot~United Kingdom
+6. Pipedrive~United Kingdom
+7. NewVoiceMedia~United Kingdom
+8. Bullhorn~United Kingdom
+9. Adaptive Insights~United Kingdom
+10. Anaplan~United Kingdom
+11. Workday~United Kingdom
+12. ServiceNow~United Kingdom
+13. Zendesk~United Kingdom
+14. Hootsuite~United Kingdom
+15. Buffer~United Kingdom
+16. Automate.io~United Kingdom
+17. Copper~United Kingdom
+18. Pardot~United Kingdom
+19. Marketo~United Kingdom
+20. SAP~United Kingdom
+21. Microsoft~United Kingdom
+22. Oracle~United Kingdom
+23. IBM~United Kingdom
+24. Infor~United Kingdom
+25. Epicor~United Kingdom
+26. IFS~United Kingdom
+27. Unit4~United Kingdom
+28. FinancialForce~United Kingdom
+29. Conga~United Kingdom
+30. DocuSign~United Kingdom
+31. SignNow~United Kingdom
+32. GetAccept~United Kingdom
+33. PandaDoc~United Kingdom
+34. Proposify~United Kingdom
+35. Qwilr~United Kingdom
+36. BidSketch~United Kingdom
+37. Nusii~United Kingdom
+38. BetterProposals~United Kingdom
+39. Proposify~United Kingdom
+40. ClientHub~United Kingdom
+41. QuoteRoller~United Kingdom
+42. Quotient~United Kingdom
+43. TenderHub~United Kingdom
+44. Upland~United Kingdom
+45. Clarizen~United Kingdom
+46. Mavenlink~United Kingdom
+47. Wrike~United Kingdom
+48. Asana~United Kingdom
+49. Trello~United Kingdom
+50. Notion~United Kingdom
+</Companies>
+Actual Query:  Find CPOs (Chief Product Officers) in cybersecurity startups with experience in building B2C products in the U.S.
+-----------------------------------------------
+Shortened Query:  Cybersecurity startups
+Results:
+To address the given prompt, "Cybersecurity startups," I need to identify companies that fit within the cybersecurity industry and are classified as startups. Since the prompt does not specify any particular company names but rather an industry and a type of company (startups), this falls under Case 2 of the instructions, which requires generating a list of companies similar to what is described, aiming for 50 companies.
+
+Given the broad nature of the term "cybersecurity startups," it's essential to consider a wide range of companies that operate within this sector. Cybersecurity encompasses various areas, including but not limited to, threat detection, incident response, security information and event management (SIEM), penetration testing, and security consulting. Startups in this field are typically innovative, leveraging new technologies like AI, machine learning, and cloud computing to offer advanced security solutions.
+
+When compiling the list, I will ensure to include a diverse range of startups from different geographical locations, focusing on those that have gained recognition for their innovative approaches to cybersecurity. It's also crucial to remember that the location will be specified as the country where the startup is primarily based, and if the location is unknown or the company operates globally, it will be listed as 'United States' by default.
+
+<Companies>
+1. CrowdStrike~United States
+2. Cyberark~Israel
+3. Palo Alto Networks~United States
+4. Check Point~Israel
+5. Cybereason~Israel
+6. SentinelOne~United States
+7. Illumio~United States
+8. Corelight~United States
+9. Tenable~United States
+10. Rapid7~United States
+11. CyberGRX~United States
+12. Axonius~United States
+13. Armis~United States
+14. Claroty~United States
+15. Forescout~United States
+16. Cloudflare~United States
+17. Snyk~United Kingdom
+18. HashiCorp~United States
+19. Auth0~United States
+20. Datadog~United States
+21. Exabeam~United States
+22. Ping Identity~United States
+23. Zscaler~United States
+24. Varonis~United States
+25. KnowBe4~United States
+26. Malwarebytes~United States
+27. Cylance~United States
+28. Digital Shadows~United Kingdom
+29. IntSights~United States
+30. PerimeterX~United States
+31. NSFOCUS~China
+32. WhiteSource~Israel
+33. Wallarm~United States
+34. Guardicore~Israel
+35. Redlock~United States
+36. Twistlock~United States
+37. StackRox~United States
+38. Anchore~United States
+39. Sysdig~United States
+40. Aqua Security~Israel
+41. Contrast Security~United States
+42. ShiftLeft~United States
+43. Veracode~United States
+44. Bugcrowd~United States
+45. HackerOne~United States
+46. Synopsys~United States
+47. CyberMDX~Israel
+48. Medigate~Israel
+49. Orca Security~Israel
+50. Wiz~United States
+</Companies>
+-----------------------------------------------
+Shortened Query:  Companies involved in building B2C products in the U.S.
+Results:
+To address the given prompt, I will first identify the key elements: "Companies", "B2C products", and "U.S.". The prompt is asking for companies involved in building B2C (Business-to-Consumer) products within the United States. This indicates we are looking for companies that create products directly for consumers, which can span a wide range of industries including technology, retail, and more.
+
+Given the nature of the prompt, it falls under Case 2, as it requires a list of companies involved in a specific activity (building B2C products) in a particular location (the U.S.). Since the prompt does not specify particular company names but rather a category of companies, I will aim to list a variety of companies that fit this description, aiming for around 50 companies as per the guidelines.
+
+The thought process involves considering various sectors where B2C products are prevalent, such as e-commerce, software, consumer electronics, and lifestyle products. Companies in these sectors would be directly involved in creating products for consumer use.
+
+<Companies>
+1. Apple~United States
+2. Amazon~United States
+3. Walmart~United States
+4. Microsoft~United States
+5. Google~United States
+6. Facebook~United States
+7. Tesla~United States
+8. Nike~United States
+9. Coca-Cola~United States
+10. McDonald's~United States
+11. Netflix~United States
+12. eBay~United States
+13. Home Depot~United States
+14. Lowe's~United States
+15. Best Buy~United States
+16. Target~United States
+17. Intel~United States
+18. Cisco Systems~United States
+19. Oracle~United States
+20. IBM~United States
+21. Procter & Gamble~United States
+22. Verizon~United States
+23. AT&T~United States
+24. T-Mobile~United States
+25. Sprint~United States
+26. Dell~United States
+27. HP~United States
+28. Lenovo~United States
+29. Domino's Pizza~United States
+30. Starbucks~United States
+31. Uber~United States
+32. Lyft~United States
+33. Airbnb~United States
+34. Twitter~United States
+35. Reddit~United States
+36. Dropbox~United States
+37. Spotify~United States
+38. Spotify~United States
+39. Spotify was a mistake, replacing with:  Snapchat~United States
+40. Instagram~United States
+41. Pinterest~United States
+42. Costco~United States
+43. Kroger~United States
+44. Whole Foods Market~United States
+45. Trader Joe's~United States
+46. Sephora~United States
+47. Ulta Beauty~United States
+48. Macy's~United States
+49. Nordstrom~United States
+50. Gap~United States
+</Companies>
+Actual Query:  Identify head of customer success roles in SaaS-based companies with a focus on AI/ML products in California.
+-----------------------------------------------
+Shortened Query:  SaaS-based companies with a focus on AI/ML products
+Results:
+To address the given prompt, I will first identify the key components: SaaS-based companies and a focus on AI/ML products. This prompt does not mention specific company names but rather a category of companies, which indicates it falls under Case 2, as it requires a list of companies similar to those described.
+
+Given the description of SaaS-based companies with a focus on AI/ML products, I will aim to generate a list of 50 companies that fit this criterion. The location of these companies, if not readily known, will default to 'United States' as per the instructions.
+
+The thought process involves understanding what SaaS (Software as a Service) entails and the integration of Artificial Intelligence (AI) and Machine Learning (ML) into software products. This will guide the generation of companies that provide cloud-based software solutions leveraging AI and ML technologies.
+
+With the understanding that the list should include a variety of companies providing SaaS solutions with AI/ML integration, the generation will consider both well-established companies and newer startups that fit the description.
+
+<Companies>
+1. Salesforce~United States
+2. Microsoft~United States
+3. Google~United States
+4. Amazon~United States
+5. IBM~United States
+6. SAP~Germany
+7. Oracle~United States
+8. Zendesk~United States
+9. Freshworks~United States
+10. HubSpot~United States
+11. Zoho~India
+12. Dropbox~United States
+13. Box~United States
+14. H2O.ai~United States
+15. DataRobot~United States
+16. Domino Data Lab~United States
+17. Databricks~United States
+18. Alteryx~United States
+19. Tableau~United States
+20. Splunk~United States
+21. New Relic~United States
+22. Datadog~United States
+23. Sumo Logic~United States
+24. Cisco~United States
+25. Palantir~United States
+26. SAS Institute~United States
+27. TIBCO~United States
+28. Informatica~United States
+29. Talend~United States
+30. Qlik~United States
+31. Sisense~United States
+32. Looker~United States
+33. Mixpanel~United States
+34. Amplitude~United States
+35. Optimizely~United States
+36. Segment~United States
+37. Twilio~United States
+38. SendGrid~United States
+39. Mailchimp~United States
+40. Iterable~United States
+41. Braze~United States
+42. Airtable~United States
+43. Notion~United States
+44. C3.ai~United States
+45. NVIDIA~United States
+46. Snowflake~United States
+47. Confluent~United States
+48. Domo~United States
+49. ThoughtSpot~United States
+50. Gong~United States
+</Companies>
+Actual Query:  Find growth marketing leaders at edtech platforms targeting emerging markets like India or Brazil.
+-----------------------------------------------
+Shortened Query:  Edtech platforms targeting emerging markets like India or Brazil
+Results:
+To address the given prompt, I need to identify companies that operate in the edtech sector and specifically target emerging markets such as India or Brazil. The prompt does not mention any specific company names but rather a category of companies, which suggests that this task falls under Case 2, as it requires generating a list of companies similar to those described.
+
+Given the nature of the prompt, I will focus on edtech platforms known to operate in or target emerging markets like India and Brazil. The goal is to achieve a list of 50 companies, and since the prompt does not specify any particular company names, I will directly proceed to generate the list based on the criteria provided.
+
+<Companies>
+1. BYJU'S~India
+2. Unacademy~India
+3. Vedantu~India
+4. Coursera~United States
+5. Udemy~United States
+6. Khan Academy~United States
+7. Duolingo~United States
+8. Quizlet~United States
+9. Chegg~United States
+10. Pluralsight~United States
+11. Simplilearn~India
+12. upGrad~India
+13. Eruditus~India
+14. Emeritus~India
+15. Brainly~United States
+16. Quizizz~United States
+17. Kahoot~Norway
+18. Codecademy~United States
+19. DataCamp~Belgium
+20. edX~United States
+21. OpenClassrooms~France
+22. FutureLearn~United Kingdom
+23. Alison~Ireland
+24. Udacity~United States
+25. Skillshare~United States
+26. LinkedIn Learning~United States
+27. IBM Skills Gateway~United States
+28. Google Career Certificates~United States
+29. Microsoft Learn~United States
+30. Amazon re:Start~United States
+31. TCS iON~India
+32. NIIT~India
+33. Aptech~India
+34. Pearson~United Kingdom
+35. McGraw Hill~United States
+36. Blackboard~United States
+37. Canvas~United States
+38. Schoology~United States
+39. BrightBytes~United States
+40. DreamBox Learning~United States
+41. K12~United States
+42. Connections Academy~United States
+43. Fuel Education~United States
+44. Curriculum Associates~United States
+45. Houghton Mifflin Harcourt~United States
+46. Scholastic~United States
+47. Renaissance~United States
+48. ClassDojo~United States
+49. Remind~United States
+50. Classcraft~Canada
+</Companies>
+Actual Query:  I'm looking for CFOs with fundraising experience in climate tech startups based in Europe.
+-----------------------------------------------
+Shortened Query:  Climate tech startups based in Europe.
+Results:
+To address the given prompt, I need to identify climate tech startups that are based in Europe. The prompt does not mention specific company names but rather a category of companies (climate tech startups) and a location (Europe). This indicates that I should generate a list of companies that fit this description.
+
+Since the prompt asks for "climate tech startups based in Europe," it implies that I need to find companies that are involved in climate technology and are startups, meaning they are in the early stages of development. The location specified is Europe, which means I should focus on companies from various European countries.
+
+Given the nature of the prompt, it falls under Case 2, as it requires a list of companies that fit a specific description (climate tech startups in Europe), even though it doesn't explicitly ask for "similar companies" or a list of 50. However, to provide a comprehensive response, I will aim to list as many relevant companies as possible, targeting the 50-company mark if feasible.
+
+The process involves researching and identifying startups in Europe that are focused on climate technology. This includes companies working on renewable energy, sustainable technologies, carbon reduction, and other climate-related innovations.
+
+<Companies>
+1. Northvolt~Sweden
+2. Climeworks~Switzerland
+3. Ecovative~United Kingdom
+4. Carbon Engineering~United Kingdom
+5. Orbital Marine Power~United Kingdom
+6. CorPower Ocean~Sweden
+7. Minesto~Sweden
+8. Eigen Technologies~United Kingdom
+9. Plan A~Germany
+10. Tomorrow~Germany
+11. Greenbyte~Sweden
+12. Ductor~Finland
+13. Fortum~Finland
+14. VisBlue~Denmark
+15. Aquila Capital~Germany
+16. Enel Green Power~Italy
+17. BayWa r.e.~Germany
+18. Snam~Italy
+19. TotalEnergies~France
+20. Engie~France
+21. Iberdrola~Spain
+22. Acciona~Spain
+23. Vestas~Denmark
+24. Ørsted~Denmark
+25. E.ON~Germany
+26. RWE~Germany
+27. Eneco~Netherlands
+28. Vattenfall~Sweden
+29. MOL Group~Hungary
+30. PKN Orlen~Poland
+31. SSE~United Kingdom
+32. Drax Group~United Kingdom
+33. Centrica~United Kingdom
+34. EDF Energy~United Kingdom
+35. Bulb~United Kingdom
+36. Octopus Energy~United Kingdom
+37. Kiwi Power~United Kingdom
+38. Limejump~United Kingdom
+39. Open Energi~United Kingdom
+40. Piclo~United Kingdom
+41. Zap-Map~United Kingdom
+42. Ubitricity~Germany
+43. Has.to.be~Germany
+44. eMotorWerks~United Kingdom
+45. evway~Italy
+46. BeCharge~Italy
+47. Driivz~United Kingdom
+48. NewMotion~Netherlands
+49. EV-Box~Netherlands
+50. ChargePoint~United Kingdom
+</Companies>
+Actual Query:  Identify VPs of Engineering in telemedicine startups in the Asia-Pacific region.
+-----------------------------------------------
+Shortened Query:  Telemedicine startups in the Asia-Pacific region
+Results:
+To address the given prompt, "Telemedicine startups in the Asia-Pacific region," we first need to understand what is being asked. The prompt specifies a particular industry (telemedicine) and a geographical location (Asia-Pacific region), indicating we are looking for companies that operate within this specific sector and area.
+
+Given the nature of the prompt, it falls under Case 2, as it requires a list of companies (in this case, startups) that fit certain criteria (telemedicine startups in the Asia-Pacific region). Since the prompt does not mention specific company names but rather a category of companies, we aim to generate a list of 50 companies that match the criteria. However, due to the specificity of the location and the industry, generating exactly 50 might be challenging, but we will aim to provide as comprehensive a list as possible.
+
+For the Asia-Pacific region, we consider countries such as China, Japan, India, Australia, and others, looking for startups that provide telemedicine services. These services can include virtual consultations, remote monitoring, and digital health records, among others.
+
+Given the broad nature of the prompt and the goal to list companies without repeating any, the focus will be on providing a diverse list of telemedicine startups across the Asia-Pacific region.
+
+<Companies>
+1. Ping An Good Doctor~China
+2. Medigo~India
+3. Doctor Anywhere~Singapore
+4. Halodoc~Indonesia
+5. Medibank~Australia
+6. Teladoc~Japan
+7. Practo~India
+8. HealthEngine~Australia
+9. Medlife~India
+10. WeDoctor~China
+11. MioCare~Malaysia
+12. MedConsult~Thailand
+13. CareClix~Philippines
+14. Medgate~China
+15. Doctoralia~India
+16. Health2Sync~Taiwan
+17. Medtalk~South Korea
+18. Medcare~United Arab Emirates
+19. Healthscape~Australia
+20. Medisafe~Israel
+21. DocDoc~Singapore
+22. Medtronic~Japan
+23. MIMS~Malaysia
+24. MedinT~China
+25. HealthConnect~Australia
+26. MedicalMine~India
+27. MedHelp~South Korea
+28. Docquity~Singapore
+29. Medline~Japan
+30. HealthTrip~India
+31. Medibio~Australia
+32. Medopad~China
+33. HealthifyMe~India
+34. Medisys~Malaysia
+35. MedTech~Taiwan
+36. Medytox~South Korea
+37. HealthX~Australia
+38. MedAchieve~China
+39. MedM~India
+40. Healthgen~Singapore
+41. Medinova~Indonesia
+42. Medisun~China
+43. HealthKart~India
+44. MedFirst~Japan
+45. Medix~South Korea
+46. HealthOne~Australia
+47. MedServ~Malaysia
+48. Medico~Taiwan
+49. HealthPlus~India
+50. Medilink~China
+</Companies>
+Actual Query:  I need blockchain developers who have worked on decentralized finance (DeFi) projects in Africa.
+-----------------------------------------------
+Shortened Query:  DeFi projects
+Results:
+To address the given prompt, "DeFi projects", I need to consider what DeFi represents and the context it implies. DeFi stands for Decentralized Finance, which refers to a set of financial services and systems that operate on blockchain technology, typically using smart contracts. Given this context, the prompt is asking for companies or projects involved in the DeFi space.
+
+Since the prompt does not mention specific company names but rather refers to a category or industry (DeFi projects), it falls under Case 2 of the instructions, which requires generating a list of companies similar to those implied by the prompt. The goal is to achieve a list of around 50 companies, focusing on those involved in DeFi projects.
+
+Considering the broad nature of DeFi, which encompasses lending, borrowing, trading, and other financial services on the blockchain, the list will include a variety of projects and companies that contribute to this ecosystem. This will include platforms for decentralized exchanges (DEXs), lending protocols, stablecoin issuers, and other financial services that operate in a decentralized manner.
+
+Given the rapid evolution and growth of the DeFi sector, the list will aim to include both well-established players and newer entrants that are making significant contributions to the space.
+
+<Companies>
+1. Uniswap~United States
+2. Aave~United Kingdom
+3. MakerDAO~United States
+4. Compound~United States
+5. SushiSwap~United States
+6. Curve~United States
+7. Yearn.finance~United States
+8. Chainlink~United States
+9. Polygon~India
+10. Avalanche~United States
+11. Solana~United States
+12. Terra~South Korea
+13. Cosmos~United States
+14. Polkadot~Switzerland
+15. Ethereum~United States
+16. Binance Smart Chain~Cayman Islands
+17. Huobi~Seychelles
+18. OKEx~Malta
+19. dYdX~United States
+20. Compound Treasury~United States
+21. Instadapp~India
+22. Rarible~United States
+23. SuperRare~United States
+24. OpenSea~United States
+25. Lido~United States
+26. Balancer~United States
+27. Bancor~United States
+28. Kyber Network~Singapore
+29. 1inch~United States
+30. CryptoCom~Hong Kong
+31. BlockFi~United States
+32. Nexo~United Kingdom
+33. Celsius~United States
+34. Abra~United States
+35. Dharma~United States
+36. Fulcrum~United States
+37. bZx~United States
+38. Ren~Australia
+39. Gnosis~Germany
+40. mStable~Australia
+41. Fei Protocol~United States
+42. Alchemix~United States
+43. BadgerDAO~United States
+44. Harvest.finance~United States
+45. Pickle Finance~United States
+46. Saffron~United States
+47. UMA~United States
+48. HedgeTrade~United States
+49. Linear Finance~Singapore
+50. Perpetual Protocol~United States
+</Companies>
+Actual Query:  Find machine learning engineers working on computer vision in autonomous vehicle companies in the U.S.
+-----------------------------------------------
+Shortened Query:  Autonomous vehicle companies in the U.S.
+Results:
+To address the given prompt, I need to identify companies that are involved in the development and production of autonomous vehicles and are based in the United States. The prompt specifically mentions "Autonomous vehicle companies in the U.S.," which indicates that I should focus on companies that operate within the autonomous vehicle industry and are located in the United States.
+
+Given that the prompt does not mention specific company names but rather an industry, I will follow the guidelines for Case 2, which requires generating a list of companies that fit the specified criteria, aiming for around 50 companies. However, since the prompt is specific to the U.S. and the autonomous vehicle industry, I will prioritize companies that are well-known for their involvement in autonomous vehicle technology.
+
+The list will include companies from various sectors that contribute to the development of autonomous vehicles, such as technology firms, automotive manufacturers, and startups specializing in autonomous driving systems.
+
+<Companies>
+1. Waymo~United States
+2. Tesla~United States
+3. Cruise~United States
+4. Argo AI~United States
+5. Nuro~United States
+6. Zoox~United States
+7. General Motors~United States
+8. Ford~United States
+9. Volkswagen Group of America~United States
+10. NVIDIA~United States
+11. Intel~United States
+12. Qualcomm~United States
+13. Lyft~United States
+14. Uber~United States
+15. Apple~United States
+16. Microsoft~United States
+17. Amazon~United States
+18. Baidu USA~United States
+19. Pony.ai~United States
+20. TuSimple~United States
+21. Aurora~United States
+22. Motional~United States
+23. Kodiak Robotics~United States
+24. Gatik~United States
+25. Plus~United States
+26. Embark Trucks~United States
+27. Ike~United States
+28. Daimler Trucks North America~United States
+29. Volvo Group~United States
+30. Toyota Research Institute~United States
+31. Honda Research Institute~United States
+32. Hyundai Motor America~United States
+33. Fiat Chrysler Automobiles~United States
+34. BMW of North America~United States
+35. Mercedes-Benz USA~United States
+36. Audi of America~United States
+37. Porsche Cars North America~United States
+38. NAVYA~United States
+39. Local Motors~United States
+40. May Mobility~United States
+41. Optimus Ride~United States
+42. Perrone Robotics~United States
+43. Renovo~United States
+44. Ridecell~United States
+45. SF Motors~United States
+46. Torc Robotics~United States
+47. Transdev~United States
+48. Udelv~United States
+49. Vecna Robotics~United States
+50. Voyage~United States
+</Companies>
+Actual Query:  Identify HR leaders in SaaS companies who have experience scaling remote teams in Europe.
+-----------------------------------------------
+Shortened Query:  SaaS companies
+Results:
+To address the given prompt, "SaaS companies," I need to identify it as a request for a list of companies that fall under the Software as a Service (SaaS) category. This prompt does not mention specific company names but rather a type or industry of companies, which aligns with Case 2 of the instructions. Case 2 requires generating a list of up to 50 companies when the task involves listing companies or similar companies.
+
+Given the broad nature of SaaS companies, which can range from customer relationship management tools to productivity software, the list can include a wide variety of companies. The goal is to provide a diverse list of SaaS companies without repeating any company names.
+
+The location for companies that are not widely recognized or do not have a clear international presence will default to 'United States' as per the instructions.
+
+With this understanding, the next step is to generate the list of SaaS companies.
+
+<Companies>
+1. Salesforce~United States
+2. Zoom~United States
+3. Dropbox~United States
+4. Slack~United States
+5. HubSpot~United States
+6. Shopify~Canada
+7. Atlassian~Australia
+8. Microsoft~United States
+9. Google~United States
+10. Amazon Web Services~United States
+11. Freshworks~India
+12. Zoho~India
+13. DocuSign~United States
+14. New Relic~United States
+15. Twilio~United States
+16. Okta~United States
+17. Splunk~United States
+18. Tableau~United States
+19. Airtable~United States
+20. Notion~United States
+21. Trello~United States
+22. Asana~United States
+23. Monday.com~Israel
+24. Wix~Israel
+25. Squarespace~United States
+26. Hootsuite~Canada
+27. Buffer~United States
+28. Sprout Social~United States
+29. Mailchimp~United States
+30. Constant Contact~United States
+31. Zendesk~United States
+32. Freshdesk~India
+33. Intercom~United States
+34. Drift~United States
+35. Calendly~United States
+36. ZoomInfo~United States
+37. LinkedIn~United States
+38. GitHub~United States
+39. Bitbucket~United States
+40. Autodesk~United States
+41. Adobe~United States
+42. Workday~United States
+43. Oracle~United States
+44. SAP~Germany
+45. IBM~United States
+46. Cisco~United States
+47. Palo Alto Networks~United States
+48. Snowflake~United States
+49. Datadog~United States
+50. Cloudflare~United States
+</Companies>
+Actual Query:  Find operations managers at logistics startups using AI for route optimization in Southeast Asia.
+-----------------------------------------------
+Shortened Query:  Logistics startups using AI for route optimization in Southeast Asia
+Results:
+To address the given prompt, "Logistics startups using AI for route optimization in Southeast Asia," we first identify the key components: logistics startups, AI for route optimization, and the geographical focus on Southeast Asia. The prompt does not specify particular company names but rather a category of companies (logistics startups) with a specific technology focus (AI for route optimization) in a defined region (Southeast Asia). This means we are dealing with Case 2, as the task requires a list of companies similar to those described, even though no specific companies are mentioned.
+
+Given the specificity of the technology (AI for route optimization) and the geographical region (Southeast Asia), we aim to generate a list of 50 companies that fit this description. However, due to the nature of the prompt and the limitations on generating real-time data, the list will include known logistics startups that utilize AI for route optimization, with a focus on those operating in or originating from Southeast Asia. For companies that are not explicitly known to operate in Southeast Asia but fit the logistics and AI criteria, we will include them as well, assuming their potential expansion or relevance to the region.
+
+The thought process involves recognizing the importance of AI in logistics for optimizing routes, which is a critical aspect of supply chain management. Startups in this area are likely to be innovative, using machine learning algorithms to predict traffic patterns, optimize delivery routes, and reduce costs. Southeast Asia, with its diverse economies and growing e-commerce sector, presents a fertile ground for such startups to flourish.
+
+Given these considerations, we proceed to generate the list of companies.
+
+<Companies>
+1. Go-Van~Indonesia
+2. Ninja Van~Singapore
+3. J&T Express~Indonesia
+4. Grab~Singapore
+5. Lalamove~Hong Kong
+6. Transportify~Philippines
+7. Deliveree~Thailand
+8. Kerry Express~Thailand
+9. GOGOVAN~Hong Kong
+10. TheLorry~Malaysia
+11. EasyParcel~Malaysia
+12. Shipper~Indonesia
+13. Logisfy~Singapore
+14. Inteluck~Indonesia
+15. ANZU~Vietnam
+16. Sendo~Vietnam
+17. Giao Hang Nhanh~Vietnam
+18. JNE~Indonesia
+19. Tiki~Indonesia
+20. Lazada~Singapore
+21. Shopee~Singapore
+22. Tokopedia~Indonesia
+23. Bukalapak~Indonesia
+24. Blibli~Indonesia
+25. JD.ID~Indonesia
+26. HappyFresh~Indonesia
+27. Kargo~Indonesia
+28. Waresix~Indonesia
+29. Andalin~Indonesia
+30. KoinWorks~Indonesia
+31. Ritase~Indonesia
+32. SiCepat~Indonesia
+33. IdExpress~Indonesia
+34. AnterAja~Indonesia
+35. Paxel~Indonesia
+36. ALTA~Indonesia
+37. KlikDaily~Indonesia
+38. SayurBox~Indonesia
+39. Astro~Malaysia
+40. Zeek~Singapore
+41. Haulio~Singapore
+42. Porter~India
+43. Shadowfax~India
+44. Delhivery~India
+45. Ecom Express~India
+46. Xpressbees~India
+47. Jumbotail~India
+48. GrabMart~Singapore
+49. HappyFresh~Malaysia
+50. Socar~Malaysia
+</Companies>
+Actual Query:  I'm looking for business development leaders in AI/ML SaaS companies that focus on healthcare in Canada.
+-----------------------------------------------
+Shortened Query:  AI/ML SaaS companies that focus on healthcare in Canada
+Results:
+To address the given prompt, I will first identify the key components: AI/ML SaaS companies, focus on healthcare, and location in Canada. The prompt combines specific industry requirements (AI/ML SaaS and healthcare) with a geographical location (Canada). This indicates that the task falls under Case 4, as it involves generating companies based on specific criteria that aren't just company names or broad lists of similar companies.
+
+Given the specificity of the criteria (AI/ML SaaS companies focusing on healthcare in Canada), I will aim to generate a list of companies that meet these requirements. Since the prompt does not mention specific company names but rather a category of companies, I will not limit the list to only those that are explicitly mentioned. Instead, I will provide a range of companies that fit the description, aiming for a comprehensive list.
+
+The location specified is Canada, which helps narrow down the search. However, for any companies that might not be explicitly known to be from Canada or if their location cannot be confirmed, I will default to 'United States' as per the instructions.
+
+Now, considering the need to generate a list of AI/ML SaaS companies that focus on healthcare in Canada, and keeping in mind the requirement to provide the most commonly used names for companies without adding suffixes like LLC, Ltd, Inc, etc., and to use country names for locations, I will proceed to generate the list.
+
+<Companies>
+1. Medtech~Canada
+2. Dialogue~Canada
+3. CloudMD~Canada
+4. Telus Health~Canada
+5. PointClickCare~Canada
+6. QHR Technologies~Canada
+7. Cognizant~United States
+8. Accenture~United States
+9. IBM~United States
+10. Microsoft~United States
+11. GE Healthcare~United States
+12. Siemens Healthineers~United States
+13. Philips Healthcare~United States
+14. Athenahealth~United States
+15. Allscripts~United States
+16. McKesson~United States
+17. Change Healthcare~United States
+18. Optum~United States
+19. Orion Health~Canada
+20. VitalHub~Canada
+21. SMILE CDR~Canada
+22. HealthTech~Canada
+23. Novari Health~Canada
+24. MedAccess~Canada
+25. PatientOrderSets~Canada
+26. Think Research~Canada
+27. Plexia~Canada
+28. Medchart~Canada
+29. HealthQR~Canada
+30. AlayaCare~Canada
+31. Cliniconex~Canada
+32. InputHealth~Canada
+33. SeamlessMD~Canada
+34. Cohealth~Canada
+35. Curv Health~Canada
+36. Healthie~United States
+37. Kareo~United States
+38. NextGen Healthcare~United States
+39. eClinicalWorks~United States
+40. athenahealth~United States
+41. Cerner~United States
+42. Epic Systems~United States
+43. Meditech~United States
+44. Conifer Health~United States
+45. Experian Health~United States
+46. HealthEdge~United States
+47. TriZetto~United States
+48. ZeOmega~United States
+49. MatrixCare~United States
+50. Definitive Healthcare~United States
+</Companies>
+Actual Query:  Identify CTOs with experience in developing AR/VR platforms for retail companies in Europe.
+-----------------------------------------------
+Shortened Query:  Retail companies in Europe involved in AR/VR platforms.
+Results:
+To address the given prompt, I need to identify retail companies in Europe that are involved in AR/VR platforms. The prompt specifically mentions the industry (retail) and the technology (AR/VR) but does not limit itself to specific company names. It also provides a geographic location (Europe). 
+
+Given that the prompt asks for companies within a specific industry and location, and involves a particular technology, this falls under Case 2, as it requires a list of companies similar to those implied by the context (retail companies in Europe involved in AR/VR). However, since it does not explicitly mention "companies like" but rather sets a criteria, it's more about generating a list based on the criteria provided.
+
+The task is to generate a list of companies that fit the description provided. Since the prompt does not specify a limited number of companies but rather sets a criteria (retail companies in Europe involved in AR/VR platforms), I will aim to provide a comprehensive list up to 50 companies if possible, focusing on the most relevant ones first.
+
+<Companies>
+1. IKEA~Sweden
+2. H&M~Sweden
+3. Zara~Spain
+4. ASOS~United Kingdom
+5. Decathlon~France
+6. Carrefour~France
+7. Tesco~United Kingdom
+8. Sainsbury's~United Kingdom
+9. Marks & Spencer~United Kingdom
+10. Next~United Kingdom
+11. John Lewis & Partners~United Kingdom
+12. AO World~United Kingdom
+13. Dixons Carphone~United Kingdom
+14. MediaMarkt~Germany
+15. Saturn~Germany
+16. El Corte Inglés~Spain
+17. Inditex~Spain
+18. Kiabi~France
+19. C&A~Germany
+20. Peek & Cloppenburg~Germany
+21. Galeries Lafayette~France
+22. Le Bon Marché~France
+23. Harrods~United Kingdom
+24. Selfridges~United Kingdom
+25. Debenhams~United Kingdom
+26. House of Fraser~United Kingdom
+27. Otto Group~Germany
+28. Douglas~Germany
+29. Fossil~United Kingdom
+30. Superdry~United Kingdom
+31. Mango~Spain
+32. Esprit~Germany
+33. s.Oliver~Germany
+34. Tom Tailor~Germany
+35. Bonprix~Germany
+36. Zalando~Germany
+37. Yoox Net-A-Porter~Italy
+38. Farfetch~United Kingdom
+39. Mytheresa~Germany
+40. About You~Germany
+41. Vestiaire Collective~France
+42. Veepee~France
+43. La Redoute~France
+44. Spartoo~France
+45. Made.com~United Kingdom
+46. Wayfair~United Kingdom
+47. Westwing~Germany
+48. Home24~Germany
+49. Conforama~France
+50. But~France
+</Companies>
+Actual Query:  Find CEOs with experience in growing SaaS startups from Series A to IPO in the U.S.
+-----------------------------------------------
+Shortened Query:  SaaS startups
+Results:
+To address the given prompt, "SaaS startups," I need to consider what this phrase implies. SaaS stands for Software as a Service, which is a software distribution model where a third-party provider hosts applications, making them accessible to customers over the internet. Startups, in this context, refer to newly founded or early-stage companies that are typically small and financed by their founders, venture capitalists, or angel investors.
+
+Given the nature of the prompt, it does not specify particular company names but rather a category or industry. This leads me to categorize the task under Case 2, as it requires generating a list of companies similar to those implied by the prompt, which are SaaS startups.
+
+Since the task is to list SaaS startups without specifying particular names, I will aim to generate a list of 50 companies that fit this description. However, due to the vast number of SaaS startups globally and the dynamic nature of the startup ecosystem, providing an exhaustive list of exactly 50 might be challenging. Nonetheless, I will provide a list of SaaS startups, keeping in mind the diversity and breadth of the SaaS industry.
+
+<Companies>
+1. Zoom~United States
+2. Salesforce~United States
+3. Dropbox~United States
+4. Slack~United States
+5. HubSpot~United States
+6. Atlassian~Australia
+7. Freshworks~India
+8. Zendesk~United States
+9. Hootsuite~Canada
+10. Mailchimp~United States
+11. Calendly~United States
+12. Notion~United States
+13. Airtable~United States
+14. ClickFunnels~United States
+15. Stripe~United States
+16. GitHub~United States
+17. Trello~United States
+18. Asana~United States
+19. Evernote~United States
+20. DocuSign~United States
+21. Box~United States
+22. New Relic~United States
+23. Twilio~United States
+24. SendGrid~United States
+25. Optimizely~United States
+26. Mixpanel~United States
+27. Intercom~United States
+28. Zapier~United States
+29. Buffer~United States
+30. Wistia~United States
+31. Hotjar~Malta
+32. Ahrefs~Singapore
+33. SEMrush~United States
+34. Moz~United States
+35. FreshBooks~Canada
+36. Xero~New Zealand
+37. Wave~Canada
+38. Zoho~India
+39. monday.com~Israel
+40. Groove~United States
+41. HelpScout~United States
+42. Copper~United States
+43. Pipedrive~Estonia
+44. Close~United States
+45. Yesware~United States
+46. Streak~United States
+47. Proposify~Canada
+48. PandaDoc~United States
+49. SignNow~United States
+50. Coda~United States
+</Companies>
+Actual Query:  I need heads of sales in financial services companies focusing on AI/ML solutions in New York.
+-----------------------------------------------
+Shortened Query:  Financial services companies focusing on AI/ML solutions
+Results:
+To address the given prompt, I will first identify the key elements: "Financial services companies" and "focusing on AI/ML solutions". This prompt does not mention specific company names but rather a category of companies within the financial services sector that utilize AI/ML solutions. Therefore, this falls under Case 2, as it requires a list of companies similar to those described.
+
+Given the requirement, I will aim to generate a list of 50 companies that fit the description of financial services companies focusing on AI/ML solutions. Since the prompt does not specify any particular location, I will consider companies from around the world but default to 'United States' for companies where the location is not certain.
+
+The thought process involves recognizing that financial services companies encompass a broad range of businesses, including banks, investment firms, insurance companies, and fintech startups, among others. The focus on AI/ML solutions indicates that these companies are likely to be involved in areas such as predictive analytics, automated trading, risk management, customer service chatbots, and personalized financial recommendations.
+
+With this understanding, the next step is to compile a list of companies that fit this description.
+
+<Companies>
+1. Goldman Sachs~United States
+2. JPMorgan Chase~United States
+3. Citigroup~United States
+4. Morgan Stanley~United States
+5. Bank of America~United States
+6. Wells Fargo~United States
+7. UBS~Switzerland
+8. Deutsche Bank~Germany
+9. Credit Suisse~Switzerland
+10. Barclays~United Kingdom
+11. HSBC~United Kingdom
+12. BNP Paribas~France
+13. Santander~Spain
+14. Royal Bank of Scotland~United Kingdom
+15. TD Bank~Canada
+16. RBC Capital Markets~Canada
+17. Scotiabank~Canada
+18. Bank of Montreal~Canada
+19. Toronto-Dominion Bank~Canada
+20. Canadian Imperial Bank of Commerce~Canada
+21. National Bank of Canada~Canada
+22. Desjardins~Canada
+23. Vanguard~United States
+24. BlackRock~United States
+25. State Street~United States
+26. Fidelity Investments~United States
+27. Charles Schwab~United States
+28. E*TRADE~United States
+29. Ally Financial~United States
+30. Discover Financial Services~United States
+31. Capital One~United States
+32. US Bancorp~United States
+33. PNC Financial Services~United States
+34. Fifth Third Bank~United States
+35. KeyBank~United States
+36. Regions Financial~United States
+37. M&T Bank~United States
+38. SunTrust Banks~United States
+39. BB&T~United States
+40. Citizens Financial Group~United States
+41. Huntington Bancshares~United States
+42. Ally~United States
+43. Discover~United States
+44. PayPal~United States
+45. Stripe~United States
+46. Square~United States
+47. Robinhood~United States
+48. Revolut~United Kingdom
+49. N26~Germany
+50. Klarna~Sweden
+</Companies>
+Actual Query:  Find people for the COO role at deep tech AI companies based in Japan.
+-----------------------------------------------
+Shortened Query:  Deep tech AI companies based in Japan
+Results:
+To address the given prompt, I need to identify deep tech AI companies that are based in Japan. The term "deep tech" refers to companies that focus on cutting-edge, innovative technologies, often requiring significant scientific and engineering expertise. AI (Artificial Intelligence) is a key area of deep tech, involving the development of intelligent systems that can perform tasks that typically require human intelligence.
+
+Given the specificity of the prompt, which mentions both a technology area (deep tech AI) and a location (Japan), I will focus on generating a list of companies that fit this description. Since the prompt does not mention specific company names but rather a category of companies, I will aim to list a variety of deep tech AI companies based in Japan.
+
+Considering the instructions provided, this task falls under Case 2, as it requires listing companies that fit a specific description, even though it doesn't explicitly ask for "similar companies" or a list of companies. The goal is to achieve a comprehensive list, aiming for around 50 companies if possible, while ensuring that each listed company is a distinct entity and not a repeat.
+
+Given the nature of the task and the specific request for deep tech AI companies in Japan, the list will include companies known for their work in artificial intelligence and related deep tech areas, such as machine learning, natural language processing, computer vision, and robotics, among others.
+
+<Companies>
+1. Preferred Networks~Japan
+2. DeNA~Japan
+3. Gree~Japan
+4. Mixi~Japan
+5. CyberAgent~Japan
+6. Mercari~Japan
+7. Zozo~Japan
+8. Rakuten~Japan
+9. Line Corporation~Japan
+10. SoftBank~Japan
+11. Sony~Japan
+12. Toshiba~Japan
+13. Hitachi~Japan
+14. Fujitsu~Japan
+15. NEC~Japan
+16. OMRON~Japan
+17. Fanuc~Japan
+18. Yamaha~Japan
+19. Honda~Japan
+20. Toyota~Japan
+21. Panasonic~Japan
+22. Mitsubishi Electric~Japan
+23. Alps Alpine~Japan
+24. Kyocera~Japan
+25. NTT Data~Japan
+26. KDDI~Japan
+27. NTT Communications~Japan
+28. Internet Initiative Japan~Japan
+29. IIJ~Japan
+30. Yahoo Japan~Japan
+31. Recruit Holdings~Japan
+32. Japan Net Bank~Japan
+33. SBI Holdings~Japan
+34. Monex Group~Japan
+35. Nomura Holdings~Japan
+36. Mitsubishi UFJ Financial Group~Japan
+37. Sumitomo Mitsui Financial Group~Japan
+38. Mizuho Financial Group~Japan
+39. AEON~Japan
+40. Seven & i Holdings~Japan
+41. Aeon Mall~Japan
+42. Japan Tobacco~Japan
+43. Astellas Pharma~Japan
+44. Takeda Pharmaceutical~Japan
+45. Eisai~Japan
+46. Daiichi Sankyo~Japan
+47. Shiseido~Japan
+48. Kao~Japan
+49. Unicharm~Japan
+50. Nippon Telegraph and Telephone~Japan
+</Companies>
+Actual Query:  Identify marketing heads at wellness tech startups with experience in D2C channels in California.
+-----------------------------------------------
+Shortened Query:  Wellness tech startups
+Results:
+To address the given prompt, "Wellness tech startups," I need to identify companies that fit within the wellness and technology startup sectors. Since the prompt does not specify particular company names but rather a category, this falls under Case 2 of the instructions, which requires generating a list of companies similar to the ones implied by the prompt. The goal is to achieve a list of 50 companies, focusing on startups that combine wellness and technology.
+
+Given the broad nature of "wellness tech startups," the list will encompass a variety of companies involved in health and wellness technologies, including but not limited to fitness, mental health, nutrition, and healthcare technology. It's essential to consider startups from around the globe, although the location might default to 'United States' for companies where the specific location is not well-known or easily identifiable.
+
+The list will include both well-established startups and newer entrants in the wellness tech space, ensuring a diverse range of companies that are making significant contributions to or are notable in the wellness and technology startup sector.
+
+<Companies>
+1. Fitbit~United States
+2. Headspace~United States
+3. Calm~United States
+4. Peloton~United States
+5. Strava~United States
+6. MyFitnessPal~United States
+7. Nike Training Club~United States
+8. Aaptiv~United States
+9. ClassPass~United States
+10. MindBody~United States
+11. Zenefits~United States
+12. 23andMe~United States
+13. Habit~United States
+14. Thrive Global~United States
+15. Talkspace~United States
+16. BetterHelp~United States
+17. Noom~United States
+18. Weight Watchers~United States
+19. Meditate~Australia
+20. Babylon Health~United Kingdom
+21. Oura Health~Finland
+22. Clue~Germany
+23. Happify~United States
+24. Omada Health~United States
+25. Livongo~United States
+26. Teladoc~United States
+27. American Well~United States
+28. Doctor on Demand~United States
+29. Lemonaid Health~United States
+30. Forward~United States
+31. One Medical~United States
+32. Oscar Health~United States
+33. Bright Health~United States
+34. Devoted Health~United States
+35. Clover Health~United States
+36. Virta Health~United States
+37. Lyra Health~United States
+38. Modern Health~United States
+39. Cerebral~United States
+40. Truepill~United States
+41. Hinge Health~United States
+42. Kaia Health~United States
+43. Sano Genetics~United Kingdom
+44. Ada Health~Germany
+45. Kry~Sweden
+46. Push Doctor~United Kingdom
+47. Medicspot~United Kingdom
+48. Healthily~United Kingdom
+49. Medopad~United Kingdom
+50. DarioHealth~United States
+</Companies>
+Actual Query:  I'm looking for chief legal officers in cybersecurity firms in Israel.
+-----------------------------------------------
+Shortened Query:  Cybersecurity firms in Israel
+Results:
+To address the given prompt, "Cybersecurity firms in Israel", I need to identify companies that specialize in cybersecurity and are based in Israel. This prompt falls under Case 2, as it requires a list of companies that fit a specific criterion (cybersecurity firms in Israel), but it does not mention specific company names. The task is to generate a list of such companies.
+
+Given the specificity of the location (Israel) and the industry (cybersecurity), I will focus on companies that are known to operate within this domain and are based in Israel. The goal is to achieve a list of 50 companies, as per the guidelines for Case 2.
+
+Since the prompt does not mention any specific company names but rather asks for companies within a particular sector and location, I will consider various cybersecurity firms that are known to be based in Israel.
+
+Here is the list of companies:
+
+<Companies>
+1. Check Point~Israel
+2. CyberArk~Israel
+3. FST Biometrics~Israel
+4. Illusive Networks~Israel
+5. Indegy~Israel
+6. Intezer~Israel
+7. IronSource~Israel
+8. Kaspersky Israel~Israel
+9. Namogoo~Israel
+10. Radware~Israel
+11. SentinelOne~Israel
+12. Symantec Israel~Israel
+13. Threat Intelligence~Israel
+14. Wix~Israel
+15. Argus Cyber Security~Israel
+16. BioCatch~Israel
+17. Cato Networks~Israel
+18. Claroty~Israel
+19. CyberX~Israel
+20. Deep Instinct~Israel
+21. Enigmatos~Israel
+22. Ernst & Young Israel~Israel
+23. Guardicore~Israel
+24. Intelligo~Israel
+25. KELA~Israel
+26. Minerva Labs~Israel
+27. NanoLock Security~Israel
+28. Nyotron~Israel
+29. Portnox~Israel
+30. SecuredTouch~Israel
+31. Sepio Systems~Israel
+32. Seraphic Security~Israel
+33. Sixgill~Israel
+34. Skybox Security~Israel
+35. TopSpin Security~Israel
+36. Votiro~Israel
+37. WhiteSource~Israel
+38. XM Cyber~Israel
+39. Zimperium~Israel
+40. Aqua Security~Israel
+41. Cylus~Israel
+42. Identiq~Israel
+43. PureSec~Israel
+44. SafeBreach~Israel
+45. Sasa Software~Israel
+46. SecBI~Israel
+47. ShieldIOT~Israel
+48. Telit~Israel
+49. Upstream Security~Israel
+50. Valimail~Israel
+</Companies>
+Actual Query:  Find engineering leaders at mobility-as-a-service (MaaS) companies in Europe.
+-----------------------------------------------
+Shortened Query:  Mobility-as-a-Service (MaaS) companies in Europe
+Results:
+To address the given prompt, "Mobility-as-a-Service (MaaS) companies in Europe," we first identify that it specifies a particular industry or service type (MaaS) and a geographical location (Europe). This means we are not just dealing with a simple company name or a generic request for companies without an industry specification. The prompt explicitly asks for companies operating within a specific sector (Mobility-as-a-Service) and within a particular region (Europe), which guides us towards generating a list of companies that fit this description.
+
+Given the nature of the prompt, it aligns with Case 2 of the instructions, as it requires a list of companies that provide a specific service (MaaS) in a particular location (Europe). Since the prompt does not mention specific company names but rather asks for companies within an industry, we aim to generate a list of up to 50 companies that are known to operate in the MaaS sector in Europe. However, due to the vast and evolving nature of the MaaS industry, and considering the constraints of this task, we will provide a list of companies that are recognized for their contributions to Mobility-as-a-Service in Europe.
+
+The thought process involves recognizing the key elements of the prompt: the industry (MaaS) and the geographical focus (Europe). With this in mind, we proceed to generate a list of companies that are known to provide Mobility-as-a-Service solutions in Europe.
+
+<Companies>
+1. Moovit~Israel
+2. Citymapper~United Kingdom
+3. Transit~Canada
+4. Trafi~Germany
+5. SkedGo~Australia
+6. Routematch~United States
+7. TripGo~Australia
+8. Rome2rio~Australia
+9. Mobimeo~Germany
+10. door2door~Germany
+11. Via~United States
+12. FlixBus~Germany
+13. BlaBlaCar~France
+14. Gett~Israel
+15. FREE NOW~Germany
+16. mytaxi~Germany
+17. Kapten~France
+18. Bolt~Estonia
+19. Cabify~Spain
+20. Yandex.Taxi~Russia
+21. Didi Chuxing~China
+22. TIER Mobility~Germany
+23. Voi Technology~Sweden
+24. Lime~United States
+25. Bird~United States
+26. Wind~Germany
+27. Hive~United States
+28. MaaS Global~Finland
+29. Smoove~France
+30. Nextbike~Germany
+31. Donkey Republic~Denmark
+32. Swapfiets~Netherlands
+33. Coup~Germany
+34. emmy~Germany
+35. CleverShuttle~Germany
+36. Kyyti~Finland
+37. Shotl~Spain
+38. Optibus~Israel
+39. Padam~France
+40. Wondo~Spain
+41. Urbi~Italy
+42. Cityscoot~France
+43. COUP~Germany
+44. Taxify~Estonia
+45. Careem~United Arab Emirates
+46. Ola~India
+47. Grab~Singapore
+48. EasyMile~France
+49. Navya~France
+50. AutoX~United States
+</Companies>
+Actual Query:  Identify experts in digital transformation for energy sector SaaS platforms in the Nordics.
+-----------------------------------------------
+Shortened Query:  Digital transformation for energy sector SaaS platforms in the Nordics.
+Results:
+To address the given prompt, I need to consider the context of digital transformation for the energy sector, SaaS platforms, and the geographical focus on the Nordics. The prompt does not mention specific company names but rather a sector and a technology (SaaS) within a specific region (the Nordics). This indicates that the task falls under Case 4, as it involves generating companies based on a description that isn't a direct company name but can lead to identifying relevant companies.
+
+Given the focus on digital transformation for the energy sector and SaaS platforms in the Nordics, I will consider companies that operate within these parameters. This includes companies that provide software as a service (SaaS) solutions to the energy sector and are based in or operate significantly within the Nordic countries (Denmark, Finland, Iceland, Norway, and Sweden).
+
+The process involves identifying key players in the energy sector that have adopted or provide digital transformation solutions via SaaS platforms. Since the prompt is specific to the Nordics, the location for these companies will primarily be countries within this region.
+
+<Companies>
+1. Visma~Norway
+2. TietoEVRY~Finland
+3. Siemens Gamesa~Denmark
+4. DNV~Norway
+5. Fortum~Finland
+6. Vattenfall~Sweden
+7. Equinor~Norway
+8. Ørsted~Denmark
+9. Norsk Hydro~Norway
+10. St1~Finland
+11. Kongsberg Gruppen~Norway
+12. Enoro~Norway
+13. Powel~Norway
+14. Cognite~Norway
+15. REstore~Norway
+16. Greenbyte~Sweden
+17. Eigen Technologies~United States
+18. Infor~United States
+19. SAP~Germany
+20. Microsoft~United States
+21. IBM~United States
+22. Oracle~United States
+23. Accenture~Ireland
+24. Capgemini~France
+25. Wipro~India
+26. Infosys~India
+27. TCS~India
+28. HCL Technologies~India
+29. Tech Mahindra~India
+30. Ericsson~Sweden
+31. Nokia~Finland
+32. ABB~Switzerland
+33. Schneider Electric~France
+34. GE Digital~United States
+35. Siemens~Germany
+36. Landis+Gyr~Switzerland
+37. Kamstrup~Denmark
+38. IFS~Sweden
+39. Pöyry~Finland
+40. Afry~Sweden
+41. COWI~Denmark
+42. Ramboll~Denmark
+43. Sweco~Sweden
+44. EVRY~Norway
+45. Netcompany~Denmark
+46. CGI~Canada
+47. Fujitsu~Japan
+48. DXC Technology~United States
+49. Atos~France
+50. EY~United Kingdom
+</Companies>
+Actual Query:  I need people for the VP of Operations role in B2B SaaS companies based in Singapore.
+-----------------------------------------------
+Shortened Query:  B2B SaaS companies
+Results:
+To address the given prompt, "B2B SaaS companies," I need to identify companies that operate in the Business-to-Business (B2B) sector and offer Software as a Service (SaaS). This prompt falls under Case 2, as it requires a list of companies similar to those in the B2B SaaS sector.
+
+Given the broad nature of the prompt, I will aim to generate a list of 50 companies that fit the B2B SaaS description. This will include well-known companies in the industry as well as lesser-known ones, ensuring a diverse range of businesses.
+
+When generating the list, I will consider companies from around the world but will default to "United States" for any company whose location I am unsure of. I will also ensure that each company name is listed as it is commonly known, without additions like "LLC" or "Inc."
+
+Here is the list of companies:
+
+<Companies>
+1. Salesforce~United States
+2. Slack~United States
+3. Zoom~United States
+4. Dropbox~United States
+5. Atlassian~Australia
+6. HubSpot~United States
+7. Zendesk~United States
+8. Freshworks~India
+9. monday.com~Israel
+10. Notion~United States
+11. Airtable~United States
+12. Calendly~United States
+13. DocuSign~United States
+14. GitHub~United States
+15. Microsoft~United States
+16. Google Cloud~United States
+17. Amazon Web Services~United States
+18. Oracle~United States
+19. SAP~Germany
+20. IBM~United States
+21. Cisco~United States
+22. Palo Alto Networks~United States
+23. Okta~United States
+24. Twilio~United States
+25. SendGrid~United States
+26. New Relic~United States
+27. Datadog~United States
+28. Snowflake~United States
+29. HashiCorp~United States
+30. AWS~United States
+31. Stripe~United States
+32. Square~United States
+33. PayPal~United States
+34. Intuit~United States
+35. Xero~New Zealand
+36. Zoho~India
+37. FreshBooks~Canada
+38. Asana~United States
+39. Trello~United States
+40. Wrike~United States
+41. Smartsheet~United States
+42. Box~United States
+43. Hootsuite~Canada
+44. Buffer~United States
+45. Sprout Social~United States
+46. Mailchimp~United States
+47. Constant Contact~United States
+48. Marketo~United States
+49. Pardot~United States
+50. Klaviyo~United States
+</Companies>
+Actual Query:  Find product marketing managers in medtech startups in the U.S.
+-----------------------------------------------
+Shortened Query:  Medtech startups
+Results:
+To address the given prompt, "Medtech startups", I will first identify the key terms and their implications. The term "Medtech" refers to medical technology, which encompasses a wide range of healthcare technologies used to diagnose, monitor, and treat diseases. Startups in this field are typically new companies that are in the early stages of development and are focused on innovative medical technologies.
+
+Given that the prompt does not specify particular company names but rather a category of companies (Medtech startups), this falls under Case 2 of the instructions, which requires generating a list of companies similar to those implied by the prompt. Since the prompt is about startups in the Medtech industry, I will aim to list 50 companies that fit this description, keeping in mind the requirement for commonly used names and country locations.
+
+The process involves researching known Medtech startups and compiling a list that represents a diverse range of companies within this sector. It's important to note that the location will be specified as the country where each company is primarily based, and if the location is not readily known, it will default to 'United States'.
+
+With the understanding that Medtech startups are innovative and often newly established, the list will include a variety of companies that have made significant strides in medical technology, from diagnostic tools and medical devices to healthcare software and telemedicine platforms.
+
+<Companies>
+1. Abbott Laboratories~United States
+2. Medtronic~United States
+3. Boston Scientific~United States
+4. Stryker~United States
+5. Becton Dickinson~United States
+6. Illumina~United States
+7. Edwards Lifesciences~United States
+8. ResMed~United States
+9. Dexcom~United States
+10. Insulet~United States
+11. Masimo~United States
+12. Penumbra~United States
+13. Globus Medical~United States
+14. Inari Medical~United States
+15. Inspire Medical Systems~United States
+16. Shockwave Medical~United States
+17. Outset Medical~United States
+18. NuVasive~United States
+19. Zimmer Biomet~United States
+20. Intuitive Surgical~United States
+21. Varian Medical Systems~United States
+22. Hologic~United States
+23. Thermo Fisher Scientific~United States
+24. PerkinElmer~United States
+25. Bio-Rad Laboratories~United States
+26. Qiagen~United States
+27. Alcon~United States
+28. Bausch Health~United States
+29. Cardinal Health~United States
+30. McKesson~United States
+31. AmerisourceBergen~United States
+32. Owens & Minor~United States
+33. Henry Schein~United States
+34. Patterson Companies~United States
+35. Dentsply Sirona~United States
+36. Align Technology~United States
+37. Envista Holdings~United States
+38. SmileDirectClub~United States
+39. 23andMe~United States
+40. Invitae~United States
+41. Guardant Health~United States
+42. Foundation Medicine~United States
+43. Myriad Genetics~United States
+44. Exact Sciences~United States
+45. Teladoc Health~United States
+46. American Well~United States
+47. Livongo~United States
+48. Omada Health~United States
+49. Fitbit~United States
+50. Athenahealth~United States
+</Companies>
+Actual Query:  Identify heads of corporate strategy at AI-driven SaaS companies focused on fintech in Europe.
+-----------------------------------------------
+Shortened Query:  AI-driven SaaS companies focused on fintech in Europe
+Results:
+To tackle this prompt, I first need to break it down into its key components: AI-driven, SaaS, fintech, and Europe. The prompt is asking for companies that are focused on fintech, utilize AI, offer their services as software (SaaS), and are based in Europe. 
+
+Given this, the task falls under Case 2 because it requires a list of companies that fit specific criteria (AI-driven SaaS companies in fintech in Europe), which implies generating a list of similar companies. 
+
+Since the prompt specifies a particular industry (fintech) and technology (AI-driven SaaS) within a geographic region (Europe), I will aim to list companies that match these criteria, aiming for 50 companies as per the guidelines for Case 2.
+
+Here's the list of companies:
+
+<Companies>
+1. N26~Germany
+2. Revolut~United Kingdom
+3. Klarna~Sweden
+4. Stripe~Ireland
+5. Adyen~Netherlands
+6. SumUp~United Kingdom
+7. iZettle~Sweden
+8. Funding Circle~United Kingdom
+9. Zopa~United Kingdom
+10. Starling Bank~United Kingdom
+11. Monzo~United Kingdom
+12. Tandem~United Kingdom
+13. Atom Bank~United Kingdom
+14. OakNorth~United Kingdom
+15. Pockit~United Kingdom
+16. Holvi~Finland
+17. Kantox~United Kingdom
+18. Currencyfair~Ireland
+19. TransferWise~United Kingdom
+20. WorldFirst~United Kingdom
+21. Azimo~United Kingdom
+22. Payoneer~United Kingdom
+23. GoCardless~United Kingdom
+24. Dwolla~United States
+25. Coinbase~United States
+26. Bitstamp~Luxembourg
+27. Wirecard~Germany
+28. Ingenico~France
+29. Verifone~United States
+30. PayPal~United States
+31. Braintree~United States
+32. Skrill~United Kingdom
+33. Neteller~United Kingdom
+34. Paysafe~United Kingdom
+35. SafeCharge~United Kingdom
+36. Trustly~Sweden
+37. Bankable~United Kingdom
+38. Soldo~United Kingdom
+39. Tide~United Kingdom
+40. Anna~United Kingdom
+41. Coconut~United Kingdom
+42. Curve~United Kingdom
+43. Dozens~United Kingdom
+44. Loot~United Kingdom
+45. Monese~United Kingdom
+46. Pockit~United Kingdom
+47. Revolut~United Kingdom
+48. Starling Bank~United Kingdom
+49. UAccount~United Kingdom
+50. Yapily~United Kingdom
+</Companies>
+Actual Query:  I'm looking for CROs (Chief Revenue Officers) at climate tech startups based in Australia.
+-----------------------------------------------
+Shortened Query:  Climate tech startups based in Australia
+Results:
+To address the given prompt, "Climate tech startups based in Australia", I need to identify companies that fit this description. The prompt specifies a location (Australia) and an industry (climate tech), which suggests that I should focus on generating a list of companies that operate within this space.
+
+Given that the prompt does not mention specific company names but rather a category of companies (climate tech startups), I will aim to generate a list of companies that fit this description. Since the prompt is asking for companies based on a specific industry and location, I will consider this as a case that requires generating a list of companies similar to those described.
+
+The key here is to identify startups that are involved in climate technology and are based in Australia. Climate tech encompasses a wide range of areas, including renewable energy, sustainable infrastructure, carbon capture, and more. My task is to provide a list of companies that are actively involved in these areas and are headquartered in Australia.
+
+<Companies>
+1. Atlassian~Australia
+2. Brighte~Australia
+3. Redback Technologies~Australia
+4. Power Ledger~Australia
+5. GreenSync~Australia
+6. Carbon Neutral~Australia
+7. ClimateWorks Australia~Australia
+8. Australian Renewable Energy Agency~Australia
+9. Energy Vault~Australia
+10. Relectrify~Australia
+11. Reposit Power~Australia
+12. SolarShare~Australia
+13. Zeco~Australia
+14. Amber Electric~Australia
+15. Evergen~Australia
+16. H2Store~Australia
+17. Lavo~Australia
+18. MGA Thermal~Australia
+19. Nourish~Australia
+20. Planet Ark Power~Australia
+21. Samsara Eco~Australia
+22. Seabed~Australia
+23. Southern Green Gas~Australia
+24. Sunovate~Australia
+25. SwitchDin~Australia
+26. Tesdra~Australia
+27. Tritium~Australia
+28. Verdia~Australia
+29. Wattwatchers~Australia
+30. Zen Energy~Australia
+31. 5B~Australia
+32. Allume Energy~Australia
+33. Aurora Energy~Australia
+34. Blue NRG~Australia
+35. Calibre~Australia
+36. CWP Renewables~Australia
+37. Energi~Australia
+38. Enova Energy~Australia
+39. Epuron~Australia
+40. Flow Power~Australia
+41. Genex Power~Australia
+42. Greenbox~Australia
+43. Infigen Energy~Australia
+44. Meridian Energy~Australia
+45. Mojo Power~Australia
+46. Natural Solar~Australia
+47. New Energy Solar~Australia
+48. Nexa~Australia
+49. Octopus Energy~Australia
+50. Pulse Energy~Australia
+</Companies>
