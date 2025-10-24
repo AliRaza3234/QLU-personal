@@ -23,6 +23,7 @@ from app.utils.search.aisearch.company.generation.prompts import (
     GENERATION_SYSTEM_PROMPT,
     OE_DETECTOR_SYSTEM_PROMPT,
     L_DETECTOR_SYSTEM_PROMPT,
+    L_DETECTOR_SYSTEM_PROMPT_2,
     PARAPHRASING_PROMPT,
     GENERATION_SYSTEM_PROMPT_NON_REASONING,
 )
@@ -282,6 +283,75 @@ async def detect_country_state_city(current_prompt, past_prompt):
             else:
                 print(
                     f"All {retries} retry attempts failed for detect_country_state_city: {str(e)}"
+                )
+                raise
+
+
+async def detect_location_for_mapping(current_prompt, past_prompt):
+    """
+    Detects location information for company mapping using GPT-OSS-120B with reasoning.
+    Uses L_DETECTOR_SYSTEM_PROMPT_2 which always infers country even if not explicitly mentioned.
+
+    Args:
+        current_prompt (str): The current search prompt
+        past_prompt (str): The previous search prompt
+
+    Returns:
+        dict: Location data in format {"location": [{"country": "", "state": "", "city": ""}]}
+    """
+    retries = 3
+    prompt = current_prompt if len(current_prompt) > len(past_prompt) else past_prompt
+
+    for attempt in range(retries + 1):
+        try:
+            response = await invoke(
+                messages=[
+                    {"role": "system", "content": L_DETECTOR_SYSTEM_PROMPT_2},
+                    {"role": "user", "content": prompt},
+                ],
+                temperature=0,
+                top_p=1,
+                model="groq/openai/gpt-oss-120b",
+                reasoning_effort="medium",
+                fallbacks=["groq/openai/gpt-oss-20b"],
+            )
+
+            # Extract content from response (handles both direct string and choices format)
+            if hasattr(response, "choices"):
+                response_content = response.choices[0].message.content
+            else:
+                response_content = response
+
+            try:
+                response_json = json.loads(
+                    response_content[
+                        response_content.find("{") : response_content.rfind("}") + 1
+                    ]
+                )
+            except Exception:
+                try:
+                    response_json = json.loads(extract_json(response_content))
+                except Exception:
+                    response_json = ast.literal_eval(
+                        response_content[
+                            response_content[: response_content.rfind("{")].rfind(
+                                "{"
+                            ) : response_content.rfind("}")
+                            + 1
+                        ]
+                    )
+            return response_json
+
+        except Exception as e:
+            if attempt < retries:
+                wait_time = 2**attempt
+                print(
+                    f"Attempt {attempt + 1} failed for detect_location_for_mapping: {str(e)}. Retrying in {wait_time}s..."
+                )
+                await asyncio.sleep(wait_time)
+            else:
+                print(
+                    f"All {retries} retry attempts failed for detect_location_for_mapping: {str(e)}"
                 )
                 raise
 

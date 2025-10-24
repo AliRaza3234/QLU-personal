@@ -590,7 +590,7 @@ def create_company_recurrence_hashmap(documents):
     return recurrence_hashmap
 
 
-async def get_company_details(company_name, recurrence_hashmap, client):
+async def get_company_details(company_name, recurrence_hashmap, client, locations=None):
     tokens = company_name.split()
     num_tokens = len(tokens)
 
@@ -658,52 +658,184 @@ async def get_company_details(company_name, recurrence_hashmap, client):
             },
         ]
 
-    main_search = client.search(
+    base_must_clauses = []
+
+    if recurrence_hashmap:
+        base_must_clauses.append(
+            {
+                "bool": {
+                    "should": [
+                        {
+                            "match": {
+                                "li_universalname": {
+                                    "query": key,
+                                    "boost": recurrence_hashmap[key],
+                                }
+                            }
+                        }
+                        for key in recurrence_hashmap
+                    ],
+                    "minimum_should_match": 1,
+                }
+            }
+        )
+
+    base_must_clauses.append(
+        {
+            "bool": {
+                "should": second_bool_should,
+                "minimum_should_match": min_should_match,
+            }
+        }
+    )
+
+    location_clauses = []
+    if locations and isinstance(locations, dict):
+        locations_list = locations.get("location", [])
+
+        for loc in locations_list:
+            location_should_clauses = []
+
+            headquarter_sub_clauses = []
+            if loc.get("country"):
+                headquarter_sub_clauses.append(
+                    {
+                        "match_phrase": {
+                            "li_headquarter.country.keyword": {"query": loc["country"]}
+                        }
+                    }
+                )
+            if loc.get("state"):
+                headquarter_sub_clauses.append(
+                    {
+                        "match_phrase": {
+                            "li_headquarter.geographicArea.keyword": {
+                                "query": loc["state"]
+                            }
+                        }
+                    }
+                )
+            if loc.get("city"):
+                headquarter_sub_clauses.append(
+                    {
+                        "match_phrase": {
+                            "li_headquarter.city.keyword": {"query": loc["city"]}
+                        }
+                    }
+                )
+
+            if headquarter_sub_clauses:
+                location_should_clauses.append(
+                    {
+                        "nested": {
+                            "path": "li_headquarter",
+                            "query": {
+                                "bool": {
+                                    "should": headquarter_sub_clauses,
+                                    "minimum_should_match": 1,
+                                }
+                            },
+                        }
+                    }
+                )
+
+            confirmed_sub_clauses = []
+            if loc.get("country"):
+                confirmed_sub_clauses.append(
+                    {
+                        "match_phrase": {
+                            "li_confirmedlocations.country": {"query": loc["country"]}
+                        }
+                    }
+                )
+            if loc.get("state"):
+                confirmed_sub_clauses.append(
+                    {
+                        "match_phrase": {
+                            "li_confirmedlocations.geographicArea": {
+                                "query": loc["state"]
+                            }
+                        }
+                    }
+                )
+            if loc.get("city"):
+                confirmed_sub_clauses.append(
+                    {
+                        "match_phrase": {
+                            "li_confirmedlocations.city": {"query": loc["city"]}
+                        }
+                    }
+                )
+
+            if confirmed_sub_clauses:
+                location_should_clauses.append(
+                    {
+                        "nested": {
+                            "path": "li_confirmedlocations",
+                            "query": {
+                                "bool": {
+                                    "should": confirmed_sub_clauses,
+                                    "minimum_should_match": 1,
+                                }
+                            },
+                        }
+                    }
+                )
+
+            if location_should_clauses:
+                location_clauses.append(
+                    {
+                        "bool": {
+                            "should": location_should_clauses,
+                            "minimum_should_match": 1,
+                        }
+                    }
+                )
+
+    must_clauses_with_location = base_must_clauses.copy()
+    if location_clauses:
+        if len(location_clauses) == 1:
+            must_clauses_with_location.append(location_clauses[0])
+        else:
+            must_clauses_with_location.append(
+                {"bool": {"should": location_clauses, "minimum_should_match": 1}}
+            )
+
+    search_body_template = {
+        "_source": [
+            "li_universalname",
+            "li_name",
+            "li_industries",
+            "li_specialties",
+            "li_size",
+            "li_urn",
+        ],
+        "size": 3,
+    }
+
+    searches_to_run = []
+
+    if location_clauses:
+        search_with_location = client.search(
+            index="company",
+            body={
+                **search_body_template,
+                "query": {"bool": {"must": must_clauses_with_location}},
+            },
+        )
+        searches_to_run.append(search_with_location)
+
+    search_without_location = client.search(
         index="company",
         body={
-            "_source": [
-                "li_universalname",
-                "li_name",
-                "li_industries",
-                "li_specialties",
-                "li_size",
-                "li_urn",
-            ],
-            "size": 5,
-            "query": {
-                "bool": {
-                    "must": [
-                        {
-                            "bool": {
-                                "should": [
-                                    {
-                                        "match": {
-                                            "li_universalname": {
-                                                "query": key,
-                                                "boost": recurrence_hashmap[key],
-                                            }
-                                        }
-                                    }
-                                    for key in recurrence_hashmap
-                                ],
-                                "minimum_should_match": 1,
-                            }
-                        },
-                        {
-                            "bool": {
-                                "should": second_bool_should,
-                                "minimum_should_match": min_should_match,
-                            }
-                        },
-                    ]
-                }
-            },
+            **search_body_template,
+            "query": {"bool": {"must": base_must_clauses}},
         },
     )
+    searches_to_run.append(search_without_location)
 
     if num_tokens >= 2:
         acronym = "".join([token[0].upper() for token in tokens])
-
         acronym_search = client.search(
             index="company",
             body={
@@ -725,28 +857,23 @@ async def get_company_details(company_name, recurrence_hashmap, client):
                 },
             },
         )
+        searches_to_run.append(acronym_search)
 
-        main_companies, acronym_companies = await asyncio.gather(
-            main_search, acronym_search
-        )
+    search_results = await asyncio.gather(*searches_to_run)
 
-        combined_hits = (
-            main_companies["hits"]["hits"] + acronym_companies["hits"]["hits"]
-        )
+    combined_hits = []
+    for result in search_results:
+        combined_hits.extend(result["hits"]["hits"])
 
-        seen_urns = set()
-        unique_hits = []
-        for hit in combined_hits:
-            urn = hit["_source"].get("li_urn")
-            if urn not in seen_urns:
-                seen_urns.add(urn)
-                unique_hits.append(hit)
+    seen_urns = set()
+    unique_hits = []
+    for hit in combined_hits:
+        urn = hit["_source"].get("li_urn")
+        if urn not in seen_urns:
+            seen_urns.add(urn)
+            unique_hits.append(hit)
 
-        companies = {
-            "hits": {"hits": unique_hits, "total": {"value": len(unique_hits)}}
-        }
-    else:
-        companies = await main_search
+    companies = {"hits": {"hits": unique_hits, "total": {"value": len(unique_hits)}}}
 
     return companies
 
@@ -855,9 +982,9 @@ The potential companies are:
 """,
                 },
             ],
-            model="groq/meta-llama/llama-4-maverick-17b-128e-instruct",
+            model="groq/openai/gpt-oss-20b",
             temperature=0,
-            fallbacks=["openai/gpt-4.1-mini"],
+            fallbacks=["groq/llama-3.3-70b-versatile", "openai/gpt-4.1-mini"],
         )
         match = re.search(r"<answer>(.*?)</answer>", response)
         answer = match.group(1) if match else None
@@ -944,6 +1071,7 @@ async def map_company(
     mysql_pool,
     redis_client,
     count_threshold=3,
+    locations=None,
 ):
     try:
         if not relevant_industries:
@@ -953,45 +1081,45 @@ async def map_company(
 
         environment = os.getenv("ENVIRONMENT")
 
-        cache_value_keys = [
-            f"{environment}-{company_name}-{industry}-value"
-            for industry in valid_industries
-        ]
-        cache_count_keys = [
-            f"{environment}-{company_name}-{industry}-count"
-            for industry in valid_industries
-        ]
+        # cache_value_keys = [
+        #     f"{environment}-{company_name}-{industry}-value"
+        #     for industry in valid_industries
+        # ]
+        # cache_count_keys = [
+        #     f"{environment}-{company_name}-{industry}-count"
+        #     for industry in valid_industries
+        # ]
 
-        pipeline = redis_client.pipeline()
+        # pipeline = redis_client.pipeline()
 
-        for key in cache_count_keys:
-            pipeline.get(key)
-        for key in cache_value_keys:
-            pipeline.get(key)
+        # for key in cache_count_keys:
+        #     pipeline.get(key)
+        # for key in cache_value_keys:
+        #     pipeline.get(key)
 
-        results = await pipeline.execute()
+        # results = await pipeline.execute()
 
-        counts = results[: len(cache_count_keys)]
-        cached_values = results[len(cache_count_keys) :]
+        # counts = results[: len(cache_count_keys)]
+        # cached_values = results[len(cache_count_keys) :]
 
-        counts = [int(c) if c is not None else 0 for c in counts]
+        # counts = [int(c) if c is not None else 0 for c in counts]
 
-        if all(c >= count_threshold for c in counts) and all(
-            val is not None for val in cached_values
-        ):
-            try:
-                val = cached_values[0]
-                es_id, source_json = val.split("~", 1)
-                source = json.loads(source_json)
-                return es_id, source
-            except Exception as e:
-                print("cache parse error", e)
-                pass
+        # if all(c >= count_threshold for c in counts) and all(
+        #     val is not None for val in cached_values
+        # ):
+        #     try:
+        #         val = cached_values[0]
+        #         es_id, source_json = val.split("~", 1)
+        #         source = json.loads(source_json)
+        #         return es_id, source
+        #     except Exception as e:
+        #         print("cache parse error", e)
+        #         pass
 
         matching_documents = await get_matching_documents(company_name, mysql_pool)
         recurrence_hashmap = create_company_recurrence_hashmap(matching_documents)
         potential_companies = await get_company_details(
-            company_name, recurrence_hashmap, elasticsearch_client
+            company_name, recurrence_hashmap, elasticsearch_client, locations
         )
         potential_companies_data = preprocess_company_details(potential_companies)
 
@@ -999,19 +1127,19 @@ async def map_company(
             user_query, valid_industries, company_name, potential_companies_data
         )
 
-        if correct_company == "NONE" or correct_company is None:
-            asyncio.create_task(
-                background_company_mapping_ingestion(
-                    company_name,
-                    user_query,
-                    valid_industries,
-                    cache_value_keys,
-                    cache_count_keys,
-                    elasticsearch_client,
-                    redis_client,
-                )
-            )
-            return None, None
+        # if correct_company == "NONE" or correct_company is None:
+        #     asyncio.create_task(
+        #         background_company_mapping_ingestion(
+        #             company_name,
+        #             user_query,
+        #             valid_industries,
+        #             cache_value_keys,
+        #             cache_count_keys,
+        #             elasticsearch_client,
+        #             redis_client,
+        #         )
+        #     )
+        #     return None, None
 
         hits_container = potential_companies.get("hits", {})
         actual_hits = hits_container.get("hits", [])
@@ -1022,12 +1150,12 @@ async def map_company(
             if universal_name == correct_company:
                 es_id = hit.get("_id")
 
-                pipeline = redis_client.pipeline()
-                for val_key, count_key in zip(cache_value_keys, cache_count_keys):
-                    pipeline.set(val_key, f"{es_id}~{json.dumps(source)}")
-                    pipeline.incr(count_key)
+                # pipeline = redis_client.pipeline()
+                # for val_key, count_key in zip(cache_value_keys, cache_count_keys):
+                #     pipeline.set(val_key, f"{es_id}~{json.dumps(source)}")
+                #     pipeline.incr(count_key)
 
-                asyncio.create_task(pipeline.execute())
+                # asyncio.create_task(pipeline.execute())
 
                 return es_id, source
 

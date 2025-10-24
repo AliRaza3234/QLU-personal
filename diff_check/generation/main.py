@@ -10,6 +10,7 @@ from app.utils.search.aisearch.company.generation.agents import (
     company_industries,
     detect_ownership_and_employee_count,
     detect_country_state_city,
+    detect_location_for_mapping,
 )
 from app.utils.search.aisearch.company.generation.industry import (
     get_companies_by_industry,
@@ -102,6 +103,11 @@ async def initialize_tasks(
                 detect_country_state_city, current_prompt, past_prompt, timeout=30
             )
         ),
+        "LOCATION_MAPPING": asyncio.create_task(
+            run_with_timeout_retry(
+                detect_location_for_mapping, current_prompt, past_prompt, timeout=30
+            )
+        ),
         "KEYWORDS": asyncio.create_task(
             run_with_timeout_retry(
                 extract_industry_keywords, current_prompt, past_prompt, timeout=15
@@ -180,7 +186,6 @@ async def generate(
             nonlocal lower_range, upper_range, ownership_data
             async for response in process_stream(
                 current_prompt,
-                userquery,
                 es_client,
                 context,
                 "CURRENT",
@@ -241,7 +246,7 @@ async def generate(
         if check == "missing" or check == "famous":
             active_consumers.add(asyncio.create_task(consume_stream(True, True)))
 
-        active_consumers.add(asyncio.create_task(consume_stream(False, False)))
+        # active_consumers.add(asyncio.create_task(consume_stream(False, False)))
 
         queue_getter = asyncio.create_task(queue.get())
 
@@ -329,7 +334,6 @@ async def generate(
         if len(current_universalnames) + industry_filter_company_count == 0:
             async for response in process_stream(
                 current_prompt,
-                userquery,
                 es_client,
                 context,
                 "CURRENT",
@@ -355,7 +359,6 @@ async def generate(
             nonlocal lower_range, upper_range, ownership_data
             async for response in process_stream(
                 past_prompt,
-                userquery,
                 es_client,
                 context,
                 "PAST",
@@ -416,7 +419,7 @@ async def generate(
         if check == "missing" or check == "famous":
             active_consumers.add(asyncio.create_task(consume_stream(True, True)))
 
-        active_consumers.add(asyncio.create_task(consume_stream(False, False)))
+        # active_consumers.add(asyncio.create_task(consume_stream(False, False)))
 
         queue_getter = asyncio.create_task(queue.get())
 
@@ -504,7 +507,6 @@ async def generate(
         if len(past_universalnames) + industry_filter_company_count == 0:
             async for response in process_stream(
                 past_prompt,
-                userquery,
                 es_client,
                 context,
                 "PAST",

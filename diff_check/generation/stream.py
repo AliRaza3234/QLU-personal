@@ -8,11 +8,14 @@ from app.utils.search.aisearch.company.generation.elastic import (
 )
 from app.utils.search.aisearch.company.generation.agents import (
     company_exclusion_agent,
-    generate_companies,
     generate_companies_websearch,
     generate_obscure_companies,
     generate_more_companies,
     paraphrasing_agent,
+)
+from app.utils.search.aisearch.company.generation.models import (
+    generate_companies,
+    generate_companies_by_cognito,
 )
 
 
@@ -37,6 +40,7 @@ async def process_companies(
     state: RequestContext,
     exclusion_flag=False,
     industries=None,
+    score=1,
     esIds=[],
     output_type="CURRENT",
     mysql_pool=None,
@@ -51,19 +55,24 @@ async def process_companies(
 
     Args:
         company_name (str): The company name to process
-        userprompt (str): The user's prompt
+        company_prompt (str): The company prompt
         client: The Elasticsearch client
         state (RequestContext): Request context for managing state
         exclusion_flag (bool, optional): Whether to check for exclusion, defaults to False
         industries (list, optional): List of industries to filter by, defaults to None
+        score (int, optional): Relevance score, defaults to 1
         esIds (list, optional): List of Elasticsearch IDs to exclude, defaults to empty list
         output_type (str, optional): The type of output, defaults to "CURRENT"
         mysql_pool: MySQL connection pool
         redis_client: Redis client
+        product_filter (bool, optional): Whether to apply product filtering, defaults to False
 
     Returns:
         str: A JSON string containing the company data or None if not found
     """
+
+    if 17 <= score <= 20:
+        score = score - 16
 
     company_name = company_name.strip()
     if not company_name:
@@ -71,6 +80,28 @@ async def process_companies(
 
     if not await state.add_company(company_name):
         return
+
+    locations = None
+    try:
+        location_task = await state.get_task("LOCATION_MAPPING")
+        if location_task:
+            raw_locations = await asyncio.wait_for(
+                check_task_completion(state, "LOCATION_MAPPING"), timeout=30.0
+            )
+            if isinstance(raw_locations, dict) and "location" in raw_locations:
+                locations = raw_locations
+            elif raw_locations:
+                print(
+                    f"Warning: LOCATION_MAPPING task returned unexpected format: {type(raw_locations)}"
+                )
+    except asyncio.TimeoutError:
+        print(
+            "Warning: LOCATION_MAPPING task timed out, continuing without location filtering"
+        )
+    except KeyError:
+        pass
+    except Exception as e:
+        print(f"Warning: Failed to retrieve LOCATION_MAPPING data: {e}")
 
     if exclusion_flag:
         name_exclusion = await asyncio.gather(
@@ -83,6 +114,7 @@ async def process_companies(
                     client,
                     mysql_pool,
                     redis_client,
+                    locations=locations,
                 ),
             ]
         )
@@ -98,6 +130,7 @@ async def process_companies(
                 client,
                 mysql_pool,
                 redis_client,
+                locations=locations,
             )
         except Exception as e:
             traceback.print_exc()
@@ -112,6 +145,7 @@ async def process_companies(
                 "list": company_name,
                 "excluded": exclusion,
                 "type": output_type,
+                "score": score,
             }
             if product_filter:
                 data["es_source"] = source
@@ -122,7 +156,6 @@ async def process_companies(
 
 async def process_stream(
     prompt,
-    userquery,
     es_client,
     context=None,
     output_type="CURRENT",
@@ -143,7 +176,6 @@ async def process_stream(
 
     Args:
         prompt (str): The system prompt
-        userquery (str): The user's query
         es_client: The Elasticsearch client
         context (list, optional): List of existing companies, defaults to None
         output_type (str, optional): The type of output, defaults to "CURRENT"
@@ -410,15 +442,16 @@ async def process_stream(
                             continue
 
                         company = line
+                        score = 1
+
                         if "~" in line:
                             parts = line.split("~")
                             if len(parts) >= 2:
                                 company = parts[0].strip()
                                 score_str = parts[1].strip()
                                 try:
-                                    if int(score_str) < 17:
-                                        line = ""
-                                        continue
+                                    parsed_score = int(score_str)
+                                    score = parsed_score
                                 except (ValueError, TypeError):
                                     line = ""
                                     continue
@@ -449,6 +482,7 @@ async def process_stream(
                                     state,
                                     exclusion_flag,
                                     industries,
+                                    score=score,
                                     output_type=output_type,
                                     mysql_pool=mysql_pool,
                                     redis_client=redis_client,
@@ -466,8 +500,31 @@ async def process_stream(
             if fame not in ["missing", "famous"]:
                 try:
                     industries = await check_task_completion(state, "INDUSTRIES")
+
+                    locations = None
+                    try:
+                        location_task = await state.get_task("LOCATION_MAPPING")
+                        if location_task:
+                            raw_locations = await asyncio.wait_for(
+                                check_task_completion(state, "LOCATION_MAPPING"),
+                                timeout=30.0,
+                            )
+                            if (
+                                isinstance(raw_locations, dict)
+                                and "location" in raw_locations
+                            ):
+                                locations = raw_locations
+                    except (asyncio.TimeoutError, KeyError):
+                        pass
+
                     _, es_data = await map_company(
-                        fame, prompt, industries, es_client, mysql_pool, redis_client
+                        fame,
+                        prompt,
+                        industries,
+                        es_client,
+                        mysql_pool,
+                        redis_client,
+                        locations=locations,
                     )
 
                     if es_data:
@@ -479,12 +536,12 @@ async def process_stream(
                         raise Exception()
                 except:
                     async for result in process_generator(
-                        generate_companies(prompt, reasoning=reasoning)
+                        generate_companies_by_cognito(prompt, reasoning=reasoning)
                     ):
                         yield result
             else:
                 async for result in process_generator(
-                    generate_companies(prompt, reasoning=reasoning)
+                    generate_companies_by_cognito(prompt, reasoning=reasoning)
                 ):
                     yield result
 

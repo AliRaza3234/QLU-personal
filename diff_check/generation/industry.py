@@ -319,6 +319,7 @@ async def get_companies_by_industry(
                 "list": source["name"],
                 "excluded": False,
                 "type": "",
+                "score": 1,
             }
             for source in sources
         ]
