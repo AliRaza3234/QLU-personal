@@ -1,0 +1,16 @@
+**/__pycache__/
+**/.pytest_cache/
+**.ipynb
+**.csv
+**.json
+**.pem
+.env
+.vscode
+github_key
+known_hosts
+**.whl
+
+#<============ Virtual Environments ============>
+virtual
+.venv/
+requirements.txt

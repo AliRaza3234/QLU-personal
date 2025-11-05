@@ -1,0 +1,9 @@
+__pycache__/
+.venv/
+.vscode/
+.env
+.git_key
+.git_key.pub
+.venv-staging/
+virtual
+.env.ai.test.cases

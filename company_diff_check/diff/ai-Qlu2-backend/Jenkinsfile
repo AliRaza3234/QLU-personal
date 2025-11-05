@@ -1,0 +1,328 @@
+pipeline {
+    agent any
+
+    environment {
+        PROJECT_ID = 'ghori-aya'
+        ARTIFACT_REGISTRY_LOCATION = 'us-central1'
+
+        CLOUD_RUN_SERVICE_NAME_DEV        = 'qlu2-ai-backend-development'
+        CLOUD_RUN_SERVICE_NAME_STAGING    = 'qlu2-ai-backend-staging'
+        CLOUD_RUN_SERVICE_NAME_PRODUCTION = 'qlu2-ai-backend'
+
+        IMAGE_NAME_STAGING   = 'us-central1-docker.pkg.dev/ghori-aya/qlu2-ai/api-staging'
+        IMAGE_NAME_DEV       = 'us-central1-docker.pkg.dev/ghori-aya/qlu2-ai/api-development'
+        IMAGE_NAME_PROD      = 'us-central1-docker.pkg.dev/ghori-aya/qlu2-ai/api'
+
+        BRANCH_STAGING = 'staging'
+        BRANCH_PROD    = 'master'
+        BRANCH_DEV     = 'development' 
+    }
+
+    stages {
+    // ──────────────────────────────────────────────────────────────────────────
+    // PRODUCTION
+    // ──────────────────────────────────────────────────────────────────────────
+    stage('Production') {
+        when { branch 'master' }
+        steps {
+                
+            script {
+                try {
+                    notifyBuild('STARTED')
+                    git branch: 'master', url: 'git@github.com-qlu-ai:dnnaeinc/ai-Qlu2-backend.git'
+                } 
+                catch (e) {
+                    throw e
+                }
+            }
+
+            script {
+                try {
+                    sh 'cp ../../known_hosts .'
+                    sh 'cp ../../github_key .'
+
+                    // ── 1️⃣  Build TEST image & run suite ───────────────────
+                    
+                    sh """
+                        DOCKER_BUILDKIT=1 docker build \
+                        --target test \
+                        --build-arg branch=${BRANCH_PROD} \
+                        --secret id=known_hosts,src=known_hosts \
+                        --secret id=ssh_key,src=github_key \
+                        -t ${IMAGE_NAME_PROD}:test-${env.BUILD_NUMBER} .
+                    """
+
+                    sh 'cp ../../.env.ai.test.cases .'
+                    // sh """
+                    //     docker run --rm \
+                    //     --env-file .env.ai.test.cases \
+                    //     ${IMAGE_NAME_PROD}:test-${env.BUILD_NUMBER} \
+                    //     -n auto --dist=loadscope ./tests/
+                    // """
+                    sh 'rm .env.ai.test.cases'
+                }
+                catch (e) {
+                    currentBuild.result = 'FAILED'
+                    notifyBuild(currentBuild.result)
+                    throw e
+                }
+            }
+            script {
+                try {
+                        // ── 2️⃣  Build RUNTIME image for deploy ────────────────
+                        sh """
+                            DOCKER_BUILDKIT=1 docker build \
+                            --target runtime \
+                            --build-arg branch=${BRANCH_PROD} \
+                            --secret id=known_hosts,src=known_hosts \
+                            --secret id=ssh_key,src=github_key \
+                            -t ${IMAGE_NAME_PROD}:${env.BUILD_NUMBER} .
+                        """
+
+                        // keep just two previous runtime images locally
+                        sh "docker rmi ${IMAGE_NAME_PROD}:${env.BUILD_NUMBER.toInteger() - 2} || true"
+                    }
+                catch (e) {
+                    currentBuild.result = 'FAILED'
+                    notifyBuild(currentBuild.result)
+                    throw e
+                }
+            }    
+
+            script {
+            try {
+                    // ── push & deploy ───────────────────────────────────────
+                    sh 'gcloud auth print-access-token | docker login -u oauth2accesstoken --password-stdin https://us-central1-docker.pkg.dev'
+                    sh "docker push ${IMAGE_NAME_PROD}:${env.BUILD_NUMBER}"
+
+                    withCredentials([string(credentialsId: 'gcp-service-account-key', variable: 'GOOGLE_APPLICATION_CREDENTIALS')]) {
+                 //       sh """
+                 //           gcloud run deploy ${CLOUD_RUN_SERVICE_NAME_PRODUCTION} \
+                 //           --image ${IMAGE_NAME_PROD}:${env.BUILD_NUMBER} \
+                 //           --region ${ARTIFACT_REGISTRY_LOCATION} \
+                 //           --platform managed
+                 //       """
+                    }
+                    notifyBuild('SUCCESSFUL')
+                }
+                catch (e) {
+                    currentBuild.result = 'FAILED'
+                    notifyBuild(currentBuild.result)
+                    throw e
+                }
+
+            }
+
+        }
+    }
+
+    // ──────────────────────────────────────────────────────────────────────────
+    // STAGING
+    // ──────────────────────────────────────────────────────────────────────────
+        stage('Staging') {
+        when { branch 'staging' }
+        steps {
+                
+            script {
+                try {
+                    notifyBuild('STARTED')
+                    git branch: 'staging', url: 'git@github.com-qlu-ai:dnnaeinc/ai-Qlu2-backend.git'
+                } catch (e) {
+                    throw e
+                }
+            }
+
+            script {
+                try {
+                        sh 'cp ../../known_hosts .'
+                        sh 'cp ../../github_key .'
+
+                        // ── 1️⃣  Build TEST image & run suite ───────────────────
+                        
+                        sh """
+                            DOCKER_BUILDKIT=1 docker build \
+                            --target test \
+                            --build-arg branch=${BRANCH_STAGING} \
+                            --secret id=known_hosts,src=known_hosts \
+                            --secret id=ssh_key,src=github_key \
+                            -t ${IMAGE_NAME_STAGING}:test-${env.BUILD_NUMBER} .
+                        """
+
+                        sh 'cp ../../.env.ai.test.cases.staging .'
+                        // sh """
+                        //     docker run --rm \
+                        //     --env-file .env.ai.test.cases.staging \
+                        //     ${IMAGE_NAME_STAGING}:test-${env.BUILD_NUMBER} \
+                        //     -n auto --dist=loadscope ./tests/
+                        // """
+                        sh 'rm .env.ai.test.cases.staging'
+                }
+                catch (e) {
+                    currentBuild.result = 'FAILED'
+                    notifyBuild(currentBuild.result)
+                    throw e
+                }
+            }
+            script {
+                try {
+                        // ── 2️⃣  Build RUNTIME image for deploy ────────────────
+                        sh """
+                            DOCKER_BUILDKIT=1 docker build \
+                            --target runtime \
+                            --build-arg branch=${BRANCH_STAGING} \
+                            --secret id=known_hosts,src=known_hosts \
+                            --secret id=ssh_key,src=github_key \
+                            -t ${IMAGE_NAME_STAGING}:${env.BUILD_NUMBER} .
+                        """
+
+                        // keep just two previous runtime images locally
+                        sh "docker rmi ${IMAGE_NAME_STAGING}:${env.BUILD_NUMBER.toInteger() - 2} || true"
+                    }
+                    catch (e) {
+                        currentBuild.result = 'FAILED'
+                        notifyBuild(currentBuild.result)
+                        throw e
+                    }
+                }    
+
+            script {
+                try {
+                        // ── push & deploy ───────────────────────────────────────
+                        sh 'gcloud auth print-access-token | docker login -u oauth2accesstoken --password-stdin https://us-central1-docker.pkg.dev'
+                        sh "docker push ${IMAGE_NAME_STAGING}:${env.BUILD_NUMBER}"
+
+                        withCredentials([string(credentialsId: 'gcp-service-account-key', variable: 'GOOGLE_APPLICATION_CREDENTIALS')]) {
+                            sh """
+                                gcloud run deploy ${CLOUD_RUN_SERVICE_NAME_STAGING} \
+                                --image ${IMAGE_NAME_STAGING}:${env.BUILD_NUMBER} \
+                                --region ${ARTIFACT_REGISTRY_LOCATION} \
+                                --platform managed
+                            """
+                        }
+                        notifyBuild('SUCCESSFUL')
+                    }
+                    catch (e) {
+                        currentBuild.result = 'FAILED'
+                        notifyBuild(currentBuild.result)
+                        throw e
+                    }
+
+                }
+
+            }
+        }
+
+
+        // ──────────────────────────────────────────────────────────────────────────
+        // DEVELOPMENT
+        // ──────────────────────────────────────────────────────────────────────────
+        stage('Development') {
+        when { branch 'development' }
+        steps {
+                
+            script {
+                try {
+                    notifyBuild('STARTED')
+                    git branch: 'development', url: 'git@github.com-qlu-ai:dnnaeinc/ai-Qlu2-backend.git'
+                } catch (e) {
+                    throw e
+                }
+            }
+
+            script {
+                try {
+                        sh 'cp ../../known_hosts .'
+                        sh 'cp ../../github_key .'
+
+                        // ── 1️⃣  Build TEST image & run suite ───────────────────
+                        
+                        sh """
+                            DOCKER_BUILDKIT=1 docker build \
+                            --target test \
+                            --build-arg branch=${BRANCH_DEV} \
+                            --secret id=known_hosts,src=known_hosts \
+                            --secret id=ssh_key,src=github_key \
+                            -t ${IMAGE_NAME_DEV}:test-${env.BUILD_NUMBER} .
+                        """
+
+                        sh 'cp ../../.env.ai.test.cases.dev .'
+                        // sh """
+                        //     docker run --rm \
+                        //     --env-file .env.ai.test.cases.dev \
+                        //     ${IMAGE_NAME_DEV}:test-${env.BUILD_NUMBER} \
+                        //     -n auto --dist=loadscope ./tests/
+                        // """
+                        sh 'rm .env.ai.test.cases.dev'
+                    }
+                    catch (e) {
+                        currentBuild.result = 'FAILED'
+                        notifyBuild(currentBuild.result)
+                        throw e
+                    }
+                }
+                script {
+                    try {
+                            // ── 2️⃣  Build RUNTIME image for deploy ────────────────
+                            sh """
+                                DOCKER_BUILDKIT=1 docker build \
+                                --target runtime \
+                                --build-arg branch=${BRANCH_DEV} \
+                                --secret id=known_hosts,src=known_hosts \
+                                --secret id=ssh_key,src=github_key \
+                                -t ${IMAGE_NAME_DEV}:${env.BUILD_NUMBER} .
+                            """
+
+                            // keep just two previous runtime images locally
+                            sh "docker rmi ${IMAGE_NAME_DEV}:${env.BUILD_NUMBER.toInteger() - 2} || true"
+                        }
+                    catch (e) {
+                        currentBuild.result = 'FAILED'
+                        notifyBuild(currentBuild.result)
+                        throw e
+                    }
+                }    
+
+                script {
+                try {
+                        // ── push & deploy ───────────────────────────────────────
+                        sh 'gcloud auth print-access-token | docker login -u oauth2accesstoken --password-stdin https://us-central1-docker.pkg.dev'
+                        sh "docker push ${IMAGE_NAME_DEV}:${env.BUILD_NUMBER}"
+
+                        withCredentials([string(credentialsId: 'gcp-service-account-key', variable: 'GOOGLE_APPLICATION_CREDENTIALS')]) {
+                            sh """
+                                gcloud run deploy ${CLOUD_RUN_SERVICE_NAME_DEV} \
+                                --image ${IMAGE_NAME_DEV}:${env.BUILD_NUMBER} \
+                                --region ${ARTIFACT_REGISTRY_LOCATION} \
+                                --platform managed
+                            """
+                        }
+                        notifyBuild('SUCCESSFUL')
+                    }
+                    catch (e) {
+                        currentBuild.result = 'FAILED'
+                        notifyBuild(currentBuild.result)
+                        throw e
+                    }
+
+                }
+
+            }
+        }
+    }
+}    
+
+// ──────────────────────────────────────────────────────────────────────────────
+// Slack helper (unchanged)
+// ──────────────────────────────────────────────────────────────────────────────
+void notifyBuild(String buildStatus = 'STARTED') {
+    def colorCode = buildStatus == 'SUCCESSFUL' ? '#00ff00' :
+                    buildStatus == 'STARTED'    ? '#ffff00' : '#ff0000'
+    slackSend(
+      channel:     '#ai-team-cicd',
+      color:       colorCode,
+      iconEmoji:   ':factory:',
+      message:     "${buildStatus}: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}] (${env.BUILD_URL})",
+      teamDomain:  'product-uddann',
+      tokenCredentialId: 'ai-jenkins'
+    )
+}

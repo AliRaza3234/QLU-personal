@@ -1,0 +1,22 @@
+name: Slack Notification
+
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  notify-slack:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set Slack Payload
+        id: slack_payload
+        run: |
+          echo "::set-output name=payload::{\"text\":\"A PR has been merged into branch '${{ github.event.pull_request.base.ref }}' by '${{ github.actor }}'. PR opened by '${{ github.event.pull_request.user.login }}'. PR Title: '${{ github.event.pull_request.title }}', Merged at: '${{ github.event.pull_request.merged_at }}', Merged branch: '${{ github.event.pull_request.head.ref }}'\"}"
+
+      - name: Notify Slack on PR Merge
+        uses: slackapi/slack-github-action@v1.23.0
+        with:
+          payload: ${{ steps.slack_payload.outputs.payload }}
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}

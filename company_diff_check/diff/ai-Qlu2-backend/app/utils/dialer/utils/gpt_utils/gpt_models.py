@@ -1,0 +1,5 @@
+GPT_COST_EFFICIENT_MODEL = "openai/gpt-4o-mini"
+GPT_MAIN_MODEL = "openai/gpt-4o-2024-05-13"
+# GPT_MAIN_MODEL = "gpt-4o"
+GPT_BACKUP_MODEL = "openai/gpt-4o-2024-05-13"
+GPT_3_TURBO_MODEL = "openai/gpt-3.5-turbo"
